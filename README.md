@@ -1,6 +1,6 @@
 # Australian NatSec50 chart review
 
-**[Open the chart gallery](https://gusim1.github.io/natsec50-chart-review/)** · **[Activate comments and votes](SUPABASE_SETUP.md)**
+**[Open the chart gallery](https://svdgteam.github.io/natsec50-chart-review/)** · **[Activate comments and votes](SUPABASE_SETUP.md)**
 
 A lightweight review workspace for 36 analyses, 53 chart views and 17 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
 

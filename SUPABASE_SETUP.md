@@ -1,8 +1,8 @@
 # Turn on shared comments and votes — free setup
 
-Gallery: https://gusim1.github.io/natsec50-chart-review/
+Gallery: https://svdgteam.github.io/natsec50-chart-review/
 
-Repository: https://github.com/GUSim1/natsec50-chart-review
+Repository: https://github.com/SVDGteam/natsec50-chart-review
 
 The GitHub Pages gallery works before this setup. Complete the steps below to activate sign-in, comments, votes, preferred CDC views and CSV exports. You do not need to deploy a server or purchase a domain.
 
@@ -56,7 +56,7 @@ In Supabase, open the project's **Connect** dialog, or **Project Settings → AP
 
 Do not use a `service_role` key, `sb_secret_` key, personal access token or database password. Those are privileged secrets; this app only uses the public client key. Access to feedback is enforced by database rules and individual sign-in.
 
-In [this repository's Actions variables](https://github.com/GUSim1/natsec50-chart-review/settings/variables/actions), click **New repository variable** and add:
+In [this repository's Actions variables](https://github.com/SVDGteam/natsec50-chart-review/settings/variables/actions), click **New repository variable** and add:
 
 | Variable name | Value |
 |---|---|
@@ -67,10 +67,10 @@ Use **Variables**, not a committed `.env` file. These are deliberately public va
 
 ## 5. Publish the configured version
 
-1. Open [Actions → Publish chart review](https://github.com/GUSim1/natsec50-chart-review/actions/workflows/pages.yml).
+1. Open [Actions → Publish chart review](https://github.com/SVDGteam/natsec50-chart-review/actions/workflows/pages.yml).
 2. Click **Run workflow**, leave the branch as `main`, and run it.
 3. Wait for both **build** and **deploy** to show green checks.
-4. Open https://gusim1.github.io/natsec50-chart-review/ and refresh. The setup banner should now say **Sign in to see the team's feedback and add your own**.
+4. Open https://svdgteam.github.io/natsec50-chart-review/ and refresh. The setup banner should now say **Sign in to see the team's feedback and add your own**.
 
 Changing variables alone does not update an already published site; run the workflow afterward. Pages publishing should already be configured. If needed, **Repository Settings → Pages → Source → GitHub Actions**.
 
