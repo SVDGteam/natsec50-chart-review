@@ -2,7 +2,7 @@
 
 **[Open the chart gallery](https://svdgteam.github.io/natsec50-chart-review/)** · **[Activate comments and votes](SUPABASE_SETUP.md)**
 
-A lightweight review workspace for 34 analyses, 49 chart views and 15 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
+A lightweight review workspace for 33 analyses, 47 chart views and 14 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
 
 ## Hosting
 
@@ -52,3 +52,5 @@ All Charts follows the sidebar subject order: Government awards, Critical techno
 ## Australian contracting source policy
 
 Use only TenderTrace’s Federal Tenders AUS table and its associated Master Dashboard rollups. AusTender Contracts and its Master rollups are excluded. US contracting retains its separately approved US-source exception. Procurement-method and Defence-branch analyses were withdrawn on 20 October 2026 because the approved table does not contain those fields. Historical drafts and feedback are retained. `data/source-policy.json` prevents these four views from returning in future imports.
+
+The critical-technology capital and federal-awards analyses are consolidated into one comparison. Old private-capital links redirect to the combined chart and matching CDC view. Earlier private-capital votes/comments remain separately available in the Votes and Comments exports; they are not added to the combined vote totals.

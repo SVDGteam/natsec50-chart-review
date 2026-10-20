@@ -18,7 +18,8 @@ def snapshot():
 # Use fresh authoritative live metadata from the bounded account listing.
 token,charts=snapshot()
 policy=json.loads((ROOT/'data/source-policy.json').read_text())
-withdrawn=set(policy['withdrawnChartIds'])
+consolidations=json.loads((ROOT/'data/catalog-consolidations.json').read_text())
+withdrawn=set(policy['withdrawnChartIds'])|set(consolidations['consolidatedChartIds'])
 charts=[c for c in charts if c['id'] not in withdrawn]
 by={c['id']:c for c in charts};pairs={'85B2M':'vYJSR'}
 for m in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/cdc_rollout/manifest.json')):
@@ -56,4 +57,9 @@ for c in charts:
  key,category=FOLDERS[c['folderId']];revision=hashlib.sha256('|'.join(hashes[x] for x in ids).encode()).hexdigest()[:16]
  items.append({'id':c['id'],'label':LABELS.get(c['id'],c['title']),'categoryId':key,'category':category,'revision':revision,'variants':variants,'order':0 if c['id']=='85B2M' else 1})
 items.sort(key=lambda x:(x['order'],x['category'],x['label']));catalog={'title':'Australian NatSec50','capturedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'chartCount':len(charts),'analysisCount':len(items),'pairCount':sum(len(i['variants'])>1 for i in items),'items':items}
+catalog['analysisAliases']=consolidations['analysisAliases']
+for item in catalog['items']:
+ if item['id'] in consolidations['labels']:
+  item['label']=consolidations['labels'][item['id']]
+  item['consolidatedFrom']=[{'id':'i7G14','label':'Critical technologies · private capital','variantIds':['i7G14','TWQL0']}]
 (ROOT/'data/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in catalog.items() if k!='items'}))

@@ -14,6 +14,7 @@ export default function App(){
  useEffect(()=>{load();},[load]);
  useEffect(()=>{const timer=setInterval(()=>{if(document.visibilityState==='visible')refreshState().catch(()=>{});},12000);return()=>clearInterval(timer);},[refreshState]);
  useEffect(()=>{const onHash=()=>setSelected(initialSelection());window.addEventListener('hashchange',onHash);return()=>window.removeEventListener('hashchange',onHash);},[]);
+ useEffect(()=>{const alias=catalog?.analysisAliases?.[selected];if(alias){setSelected(alias.analysisId);setVariants(prev=>({...prev,[alias.analysisId]:alias.variantId}));history.replaceState(null,'','#chart='+alias.analysisId);}},[catalog,selected]);
  function requireReviewer(action){if(!state.reviewer){pending.current=action;setShowReviewer(true);}else action();}
  async function saveReviewer(name){await api('/api/reviewer',{name});await refreshState();setShowReviewer(false);const action=pending.current;pending.current=null;if(action)await action();}
  function choose(id){setSelected(id);history.replaceState(null,'','#chart='+id);setError('');}
@@ -21,7 +22,7 @@ export default function App(){
  function openFromResults(id){setGroup('all');setQuery('');setFilter('all');choose(id);setResults(false);}
  const currentGroup=groups.find(g=>g.id===group);const items=orderItems(catalog?.items||[]);
  const filtered=items.filter(item=>(group==='all'||currentGroup.categories.includes(item.categoryId))&&(!query.trim()||[item.label,item.category,...item.variants.map(v=>v.title+' '+v.takeaway)].join(' ').toLowerCase().includes(query.trim().toLowerCase()))&&(filter==='all'||(filter==='unreviewed'&&!state.mine[item.id]?.vote)||(filter==='included'&&state.mine[item.id]?.vote===1)||(filter==='excluded'&&state.mine[item.id]?.vote===-1)||(filter==='discussed'&&state.stats[item.id]?.comments>0)));
- const item=filtered.find(i=>i.id===selected)||filtered[0];const index=item?filtered.indexOf(item):-1;const variant=item?(item.variants.find(v=>v.id===variants[item.id])||item.variants[0]):null;const reviewed=Object.values(state.mine).filter(r=>r.vote).length;
+ const item=filtered.find(i=>i.id===(catalog?.analysisAliases?.[selected]?.analysisId||selected))||filtered[0];const index=item?filtered.indexOf(item):-1;const variant=item?(item.variants.find(v=>v.id===(catalog?.analysisAliases?.[selected]?.variantId||variants[item.id]))||item.variants[0]):null;const reviewed=Object.values(state.mine).filter(r=>r.vote).length;
  async function review(data){requireReviewer(async()=>{setBusy(true);try{await api('/api/charts/'+item.id+'/review',{...data,revision:item.revision});await refreshState();}catch(e){setError(e.message);}finally{setBusy(false);}});}
  if(loading)return <div className="loading-screen"><strong>SVDG</strong><p>Opening the chart review workspace…</p></div>;
  if(!catalog)return <div className="loading-screen"><h1>Could not open the workspace</h1><p role="alert">{error}</p><button className="button primary" onClick={load}>Try again</button></div>;

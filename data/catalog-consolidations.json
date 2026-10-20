@@ -1,0 +1,9 @@
+{
+  "consolidatedChartIds": ["i7G14", "TWQL0"],
+  "analysisAliases": {
+    "i7G14": {"analysisId": "gTBY5", "variantId": "gTBY5"},
+    "TWQL0": {"analysisId": "gTBY5", "variantId": "P1tcx"}
+  },
+  "labels": {"gTBY5": "Critical technologies · capital & federal awards"},
+  "reason": "Both original analyses already plotted company count, private capital and federal awards. Retain one combined CDC pair, with the original federal-awards review identity. Preserve earlier private-capital votes and comments separately in feedback exports."
+}

@@ -6,6 +6,7 @@ export default function ChartCanvas({item,variant,onVariant,mine,stats,onReview,
  const [enlarged,setEnlarged]=useState(false);
  return <section className="chart-canvas" aria-label={item.label}>
   <div className="canvas-header"><div><h2>{item.label}</h2><span className="canvas-subject">{item.category}</span></div><div className="source-links"><a href={variant.preview} target="_blank" rel="noreferrer">Datawrapper <ExternalLink size={13}/></a><a href={variant.source} target="_blank" rel="noreferrer">Source <ExternalLink size={13}/></a></div></div>
+  {item.consolidatedFrom?.length>0&&<p className="muted">Earlier votes and comments on the separate private-capital chart are retained in the feedback exports.</p>}
   {item.variants.length>1&&<div className="variant-switch" role="group" aria-label="CDC comparison">{item.variants.map(v=><button key={v.id} className={variant.id===v.id?'selected':''} aria-pressed={variant.id===v.id} onClick={()=>onVariant(v.id)}>{v.label}</button>)}</div>}
   <div className="live-chart-controls"><button className="button small" onClick={()=>setEnlarged(true)} aria-label="Enlarge chart"><Maximize2 size={16}/> Enlarge</button></div>
   {!enlarged?<LiveChart key={variant.id} variant={variant} variants={item.variants} onVariant={onVariant}/>:<p className="muted">Chart open in enlarged view.</p>}

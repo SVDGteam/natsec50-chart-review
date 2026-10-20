@@ -1,9 +1,9 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T18:48:03.512254+00:00",
-  "chartCount": 49,
-  "analysisCount": 34,
-  "pairCount": 15,
+  "chartCount": 47,
+  "analysisCount": 33,
+  "pairCount": 14,
   "items": [
     {
       "id": "85B2M",
@@ -285,7 +285,7 @@
     },
     {
       "id": "gTBY5",
-      "label": "Critical technologies · federal awards",
+      "label": "Critical technologies · capital & federal awards",
       "categoryId": "technology",
       "category": "Critical technologies",
       "revision": "a5703df678e7c42f",
@@ -293,14 +293,14 @@
         {
           "id": "gTBY5",
           "label": "Including CDC",
-          "title": "Federal awards favour information technologies",
-          "takeaway": "Including CDC shifts the largest share of federal awards to information and communications. CDC accounts for roughly 70% of the cohort’s total award value, making a single infrastructure provider decisive to the category’s lead.",
+          "title": "Information technologies lead capital and federal awards",
+          "takeaway": "Including CDC puts information and communications first on both financial measures. CDC alone accounts for about 45% of private capital and 70% of federal award value, making a single infrastructure provider decisive to the category’s lead.",
           "descriptor": "Companies, private capital and federal awards by critical technology area",
-          "image": "/charts/gTBY5-8381bdeb5d5616f7.png",
+          "image": "/charts/gTBY5-270b91e31931e7bf.png",
           "editor": "https://app.datawrapper.de/chart/gTBY5/visualize",
           "preview": "https://app.datawrapper.de/preview/gTBY5",
           "source": "https://docs.google.com/spreadsheets/d/1U9fKRyFa_vJGjU_z9ry5WXBDQjvSQ8-8SQtRjF-33IQ/edit",
-          "updatedAt": "2026-10-20T20:25:04.000Z",
+          "updatedAt": "2026-10-20T20:35:42.000Z",
           "width": 1600,
           "height": 486,
           "published": true,
@@ -309,63 +309,32 @@
         {
           "id": "P1tcx",
           "label": "Excluding CDC",
-          "title": "Autonomy leads federal awards",
-          "takeaway": "Autonomy, robotics and sensing combines the broadest company base with almost half of recorded federal awards. Together with information and communications, it forms the main concentration of federal support across the technology areas.",
+          "title": "Autonomy leads capital and federal awards",
+          "takeaway": "Clean energy holds more than a quarter of private capital but less than 6% of federal awards. The contrast with autonomy’s lead across both measures shows how differently private investment and government support are distributed across technology areas.",
           "descriptor": "Companies, private capital and federal awards by critical technology area",
-          "image": "/charts/P1tcx-5c1e3147fb6a0491.png",
+          "image": "/charts/P1tcx-8ac41ea375378c02.png",
           "editor": "https://app.datawrapper.de/chart/P1tcx/visualize",
           "preview": "https://app.datawrapper.de/preview/P1tcx",
           "source": "https://docs.google.com/spreadsheets/d/1orZrETLjGBHWIO3-aezazkHxVwU5Mmj0QYYJQDQ_99w/edit",
-          "updatedAt": "2026-10-20T20:24:58.000Z",
+          "updatedAt": "2026-10-20T20:35:37.000Z",
           "width": 1600,
           "height": 486,
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/P1tcx/"
         }
       ],
-      "order": 1
-    },
-    {
-      "id": "i7G14",
-      "label": "Critical technologies · private capital",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "5519803068c329c2",
-      "variants": [
+      "order": 1,
+      "consolidatedFrom": [
         {
           "id": "i7G14",
-          "label": "Including CDC",
-          "title": "Private capital clusters in information technologies",
-          "takeaway": "Information and communications holds more than half of private capital despite representing a relatively small share of companies. The distribution reflects the scale of its largest businesses rather than the breadth of company participation alone.",
-          "descriptor": "Companies, private capital and federal awards by critical technology area",
-          "image": "/charts/i7G14-90498fdd25e9536b.png",
-          "editor": "https://app.datawrapper.de/chart/i7G14/visualize",
-          "preview": "https://app.datawrapper.de/preview/i7G14",
-          "source": "https://docs.google.com/spreadsheets/d/16m2QJJQtTLpAl70dzw8GaxMsCI1kMBDpKyzYUd0jApk/edit",
-          "updatedAt": "2026-10-20T18:41:19.000Z",
-          "width": 1600,
-          "height": 486,
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/i7G14/"
-        },
-        {
-          "id": "TWQL0",
-          "label": "Excluding CDC",
-          "title": "Autonomy and clean energy lead capital beyond CDC",
-          "takeaway": "Without CDC, autonomy, robotics and sensing becomes the largest concentration of private capital, closely followed by clean energy. Their combined share shows how much of the remaining investment base sits across these two technology areas.",
-          "descriptor": "Companies, private capital and federal awards by critical technology area",
-          "image": "/charts/TWQL0-04bf476be426c5f6.png",
-          "editor": "https://app.datawrapper.de/chart/TWQL0/visualize",
-          "preview": "https://app.datawrapper.de/preview/TWQL0",
-          "source": "https://docs.google.com/spreadsheets/d/11iGWrd-mXymeVTHcYmrYY1RynIbwSccEd7SiGYzJC6o/edit",
-          "updatedAt": "2026-10-20T18:41:22.000Z",
-          "width": 1600,
-          "height": 486,
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/TWQL0/"
+          "revision": "5519803068c329c2",
+          "label": "Critical technologies · private capital",
+          "variantIds": [
+            "i7G14",
+            "TWQL0"
+          ]
         }
-      ],
-      "order": 1
+      ]
     },
     {
       "id": "Riion",
@@ -1131,5 +1100,15 @@
     }
   ],
   "sourceAuditedAt": "2026-10-20T18:31:50.960115+00:00",
-  "editorialRevision": "Three-layer report wording — 20 October 2026"
+  "editorialRevision": "Three-layer report wording — 20 October 2026",
+  "analysisAliases": {
+    "i7G14": {
+      "analysisId": "gTBY5",
+      "variantId": "gTBY5"
+    },
+    "TWQL0": {
+      "analysisId": "gTBY5",
+      "variantId": "P1tcx"
+    }
+  }
 }
