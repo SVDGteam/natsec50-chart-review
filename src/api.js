@@ -16,5 +16,8 @@ export async function exportFeedback(kind){
  const a=document.createElement('a');a.href=url;a.download='natsec50-'+kind+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 export {groups,orderItems} from './chart-library';
-export function initialSelection(){return location.hash.match(/^#chart=([A-Za-z0-9]{5})$/)?.[1] || '85B2M';}
+const LAST_KEY='ns50-last-chart',VARIANT_KEY='ns50-last-variants';
+export function initialSelection(){let saved=null;try{saved=localStorage.getItem(LAST_KEY);}catch{}return location.hash.match(/^#chart=([A-Za-z0-9]{5})$/)?.[1] || (/^[A-Za-z0-9]{5}$/.test(saved||'')?saved:'85B2M');}
+export function rememberView(id,variants){try{localStorage.setItem(LAST_KEY,id);localStorage.setItem(VARIANT_KEY,JSON.stringify(variants||{}));}catch{}}
+export function initialVariants(){try{const v=JSON.parse(localStorage.getItem(VARIANT_KEY)||'{}');return v&&typeof v==='object'?v:{};}catch{return {};}}
 export function formatDate(value){return new Date(value).toLocaleDateString('en-AU',{day:'numeric',month:'short',year:'numeric'});}

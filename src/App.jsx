@@ -1,6 +1,6 @@
 import {useCallback,useEffect,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,ChevronDown,ClipboardList,Search,X,UserRound,RefreshCw} from 'lucide-react';
-import {api,groups,orderItems,initialSelection,formatDate,isHosted,hostingStatus} from './api';
+import {api,groups,orderItems,initialSelection,initialVariants,rememberView,formatDate,isHosted,hostingStatus} from './api';
 import Sidebar from './components/Sidebar';
 import ReviewerDialog from './components/ReviewerDialog';
 import Discussion from './components/Discussion';
@@ -8,13 +8,14 @@ import ChartCanvas from './components/ChartCanvas';
 import Results from './components/Results';
 const emptyState={reviewer:null,stats:{},mine:{}};
 export default function App(){
- const [catalog,setCatalog]=useState(null),[state,setState]=useState(emptyState),[error,setError]=useState(''),[loading,setLoading]=useState(true),[group,setGroup]=useState('all'),[query,setQuery]=useState(''),[filter,setFilter]=useState('all'),[selected,setSelected]=useState(initialSelection),[variants,setVariants]=useState({}),[results,setResults]=useState(false),[showReviewer,setShowReviewer]=useState(false),[busy,setBusy]=useState(false);const pending=useRef(null),searchRef=useRef(null);
+ const [catalog,setCatalog]=useState(null),[state,setState]=useState(emptyState),[error,setError]=useState(''),[loading,setLoading]=useState(true),[group,setGroup]=useState('all'),[query,setQuery]=useState(''),[filter,setFilter]=useState('all'),[selected,setSelected]=useState(initialSelection),[variants,setVariants]=useState(initialVariants),[results,setResults]=useState(false),[showReviewer,setShowReviewer]=useState(false),[busy,setBusy]=useState(false);const pending=useRef(null),searchRef=useRef(null);
  const refreshState=useCallback(async()=>{const s=await api('/api/state');setState(s);return s;},[]);
  const load=useCallback(async()=>{setLoading(true);try{const [c,s]=await Promise.allSettled([api('/api/catalog'),api('/api/state')]);if(c.status==='rejected')throw c.reason;setCatalog(c.value);setState(s.status==='fulfilled'?s.value:emptyState);setError(s.status==='rejected'?'Team feedback is unavailable: '+s.reason.message:'');}catch(e){setError(e.message);}finally{setLoading(false);}},[]);
  useEffect(()=>{load();},[load]);
  useEffect(()=>{const timer=setInterval(()=>{if(document.visibilityState==='visible')refreshState().catch(()=>{});},12000);return()=>clearInterval(timer);},[refreshState]);
  useEffect(()=>{const onHash=()=>setSelected(initialSelection());window.addEventListener('hashchange',onHash);return()=>window.removeEventListener('hashchange',onHash);},[]);
  useEffect(()=>{const alias=catalog?.analysisAliases?.[selected];if(alias){setSelected(alias.analysisId);setVariants(prev=>({...prev,[alias.analysisId]:alias.variantId}));history.replaceState(null,'','#chart='+alias.analysisId);}},[catalog,selected]);
+ useEffect(()=>{const id=catalog?.analysisAliases?.[selected]?.analysisId||selected;rememberView(id,variants);if(location.hash!=='#chart='+id)history.replaceState(null,'','#chart='+id);},[selected,variants,catalog]);
  function requireReviewer(action){if(!state.reviewer){pending.current=action;setShowReviewer(true);}else action();}
  async function saveReviewer(name){await api('/api/reviewer',{name});await refreshState();setShowReviewer(false);const action=pending.current;pending.current=null;if(action)await action();}
  function choose(id){setSelected(id);history.replaceState(null,'','#chart='+id);setError('');}
