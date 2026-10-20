@@ -21,11 +21,11 @@ The interface is already built. Press Control-C in the server terminal to stop i
 - For companion pairs, switch Including/Excluding CDC and record a separate view preference.
 - Comments record the chart revision and the currently viewed CDC variant. Reply in the thread, or edit/remove your own comments. Removing a comment retains replies and hides its text.
 - Open Results to compare votes, comments and variant preferences; export results, votes or comments as CSV.
-- Enlarge a chart and choose Full resolution to read dense or long charts. Scroll inside the image viewer to reach every row.
+- Enlarge a chart to read dense or long charts. Scroll inside the viewer to reach every row. Published charts load live from Datawrapper; unavailable/unpublished charts have a labelled saved draft fallback.
 
 ## What is included
 
-The imported live Datawrapper library currently contains **36 analyses / 53 chart views / 17 CDC pairs**. Chart bodies are complete PNG exports, served locally. The original chart titles, takeaways and descriptors remain code-native and searchable. No Datawrapper login is required to view the local images. Optional Datawrapper/Google Sheets links retain their normal access requirements. Deleted charts are omitted from the imported live library.
+The imported live Datawrapper library currently contains **36 analyses / 53 chart views / 17 CDC pairs**. Published chart bodies load live from Datawrapper. Saved draft fallbacks are complete PNG exports served locally. The original chart titles, takeaways and descriptors remain code-native and searchable. No Datawrapper login is required to view the local images. Optional Datawrapper/Google Sheets links retain their normal access requirements. Deleted charts are omitted from the imported live library.
 
 Nothing is published or changed in Datawrapper by this app or its importer.
 

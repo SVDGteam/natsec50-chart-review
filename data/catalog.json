@@ -24,7 +24,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1YgwER5HFt0ffaH4iKvEynkFgVn3DQ2mmiPA-r-ASlvw/edit",
           "updatedAt": "2026-10-20T12:44:51.000Z",
           "width": 1600,
-          "height": 900
+          "height": 900,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/85B2M/"
         },
         {
           "id": "vYJSR",
@@ -38,7 +40,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo/edit",
           "updatedAt": "2026-10-20T12:44:51.000Z",
           "width": 1600,
-          "height": 900
+          "height": 900,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/vYJSR/"
         }
       ],
       "order": 0
@@ -62,7 +66,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1_VOJY2aq3ZFNhK7X1WZRqE6Ra_TyCqUhCWf9ADfabJg/edit",
           "updatedAt": "2026-10-20T12:52:13.000Z",
           "width": 1600,
-          "height": 686
+          "height": 686,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "YaKjd",
@@ -76,7 +82,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1mgu6sp6-uTfgZHy7362DtJYEeFqjzdOiERF-gEk62L8/edit",
           "updatedAt": "2026-10-20T12:59:05.000Z",
           "width": 1600,
-          "height": 686
+          "height": 686,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -100,7 +108,9 @@
           "source": "https://docs.google.com/spreadsheets/d/11U7Ramo807q6ODpZI0qL58tDLTZMucI5IibNGBfgUCc/edit",
           "updatedAt": "2026-10-19T21:36:12.000Z",
           "width": 1600,
-          "height": 1994
+          "height": 1994,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/Lkxki/"
         }
       ],
       "order": 1
@@ -124,7 +134,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1SsKa7kYuia_Blphm6Sk-GAZvgUqSsI-5vDXS1X9kHLg/edit",
           "updatedAt": "2026-10-19T21:14:56.000Z",
           "width": 1600,
-          "height": 3594
+          "height": 3594,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -148,7 +160,9 @@
           "source": "https://docs.google.com/spreadsheets/d/19JcfQ_0XZTRBw3QSrELdICCxCqbd1KRYYEXKqX0fO_E/edit",
           "updatedAt": "2026-10-19T21:37:42.000Z",
           "width": 1600,
-          "height": 818
+          "height": 818,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -172,7 +186,9 @@
           "source": "https://docs.google.com/spreadsheets/d/16wy14XXY9nGqTgB1-8CueudIi6Un2Hq65r0DlPUZG1M/edit",
           "updatedAt": "2026-10-19T21:14:58.000Z",
           "width": 1600,
-          "height": 1494
+          "height": 1494,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -196,7 +212,9 @@
           "source": "https://docs.google.com/spreadsheets/d/12tk1_9QxJ8CKwL5qw317G8ERImAsgsnrc28DlnfXY2M/edit",
           "updatedAt": "2026-10-19T21:37:18.000Z",
           "width": 1600,
-          "height": 1494
+          "height": 1494,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -220,7 +238,9 @@
           "source": "https://docs.google.com/spreadsheets/d/189eXvOqdU3EttxeIYwpGCb4k50F59ZXVgABURo6rGe4/edit",
           "updatedAt": "2026-10-19T21:14:59.000Z",
           "width": 1600,
-          "height": 818
+          "height": 818,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -244,7 +264,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1cUhe3E87dXtWiX7IYlIhxzg6aQXx7g441e_OJQtW6NQ/edit",
           "updatedAt": "2026-10-20T12:52:16.000Z",
           "width": 1600,
-          "height": 922
+          "height": 922,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "B8Q58",
@@ -258,7 +280,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1OH0wm9WHPBdg8heZjQrXrI1Qo79cr60jTl4DMFna6gc/edit",
           "updatedAt": "2026-10-20T12:52:15.000Z",
           "width": 1600,
-          "height": 922
+          "height": 922,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -282,7 +306,9 @@
           "source": "https://docs.google.com/spreadsheets/d/17PiRGX8TA6DM5U26UxRJ6s7EJXLuUVrYQKvJTw0GmVY/edit",
           "updatedAt": "2026-10-20T12:52:40.000Z",
           "width": 1600,
-          "height": 206
+          "height": 206,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "wBKef",
@@ -296,7 +322,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1tBcKoQQa5jFYY8zIcCkJvxrX0VrbK0TDKBYZ_FJajsw/edit",
           "updatedAt": "2026-10-20T12:52:39.000Z",
           "width": 1600,
-          "height": 206
+          "height": 206,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -320,7 +348,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1f2yd8iniolSVgFLWgAQWJ2RQ4xNBB9E321roCilPTtU/edit",
           "updatedAt": "2026-10-20T12:52:31.000Z",
           "width": 1600,
-          "height": 510
+          "height": 510,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "oq1YG",
@@ -334,7 +364,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1ONO-kjZDJucX3lPkSDxz-7LGgqdNQ0LC4kD9y6MrmxI/edit",
           "updatedAt": "2026-10-20T12:52:30.000Z",
           "width": 1600,
-          "height": 510
+          "height": 510,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -358,7 +390,9 @@
           "source": "https://docs.google.com/spreadsheets/d/14NTbSEkFjWQVix0uzLY-fDShbGkWE65AeN0NSLGYcGA/edit",
           "updatedAt": "2026-10-19T21:15:51.000Z",
           "width": 1600,
-          "height": 374
+          "height": 374,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -382,7 +416,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1U9fKRyFa_vJGjU_z9ry5WXBDQjvSQ8-8SQtRjF-33IQ/edit",
           "updatedAt": "2026-10-20T12:51:58.000Z",
           "width": 1600,
-          "height": 486
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "P1tcx",
@@ -396,7 +432,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1orZrETLjGBHWIO3-aezazkHxVwU5Mmj0QYYJQDQ_99w/edit",
           "updatedAt": "2026-10-20T12:51:57.000Z",
           "width": 1600,
-          "height": 486
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -420,7 +458,9 @@
           "source": "https://docs.google.com/spreadsheets/d/16m2QJJQtTLpAl70dzw8GaxMsCI1kMBDpKyzYUd0jApk/edit",
           "updatedAt": "2026-10-20T12:52:01.000Z",
           "width": 1600,
-          "height": 486
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "TWQL0",
@@ -434,7 +474,9 @@
           "source": "https://docs.google.com/spreadsheets/d/11iGWrd-mXymeVTHcYmrYY1RynIbwSccEd7SiGYzJC6o/edit",
           "updatedAt": "2026-10-20T12:52:00.000Z",
           "width": 1600,
-          "height": 486
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -458,7 +500,9 @@
           "source": "https://docs.google.com/spreadsheets/d/12JWTQJcLHotKeqWgTjY6CjIIOKWtkFQFd43pciRZZ-A/edit",
           "updatedAt": "2026-10-20T12:51:55.000Z",
           "width": 1600,
-          "height": 454
+          "height": 454,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/Riion/"
         },
         {
           "id": "PxOMC",
@@ -472,7 +516,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1PfT1UreAZJkkk3EDIELTDsyIizEIZKgxqG9U-iK-3Xc/edit",
           "updatedAt": "2026-10-20T12:55:37.000Z",
           "width": 1600,
-          "height": 454
+          "height": 454,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -496,7 +542,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1jVe_JGMvOQCqJjFXoDIF10bybbonKzv0GlPdFQzTSc8/edit",
           "updatedAt": "2026-10-20T12:52:04.000Z",
           "width": 1600,
-          "height": 1028
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "iXn8a",
@@ -510,7 +558,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1EfstPNxA9GK9EGBozvp9Mbcnk83dKuK-xSip5FogIFM/edit",
           "updatedAt": "2026-10-20T12:55:37.000Z",
           "width": 1600,
-          "height": 1028
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -534,7 +584,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1QXVJhImXa0RUbgGUN0sDlBthU70dKfJV7F2pLudD9QI/edit",
           "updatedAt": "2026-10-20T12:52:10.000Z",
           "width": 1600,
-          "height": 1028
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "WWR98",
@@ -548,7 +600,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1IgrN1k9cfBuA0JxJcI5QvWmRugUCT_XuiJeblGxnwgk/edit",
           "updatedAt": "2026-10-20T12:52:09.000Z",
           "width": 1600,
-          "height": 1028
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -572,7 +626,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1M0Jzx7X8Tf2lzBA5AWh01gOl6iOT0yBWKoZPjHI4u84/edit",
           "updatedAt": "2026-10-20T12:52:07.000Z",
           "width": 1600,
-          "height": 1028
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "0Hg3c",
@@ -586,7 +642,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1Q9s5GqpPZ5sNz49cHO7Hlcb6bJJkK3X6B6FFJSZtDdE/edit",
           "updatedAt": "2026-10-20T12:52:06.000Z",
           "width": 1600,
-          "height": 1028
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -610,7 +668,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1mEa0DeX2bRThk98QzNRgKQODKRpIkJuT3Y08iwvFynA/edit",
           "updatedAt": "2026-10-20T12:59:03.000Z",
           "width": 1600,
-          "height": 1270
+          "height": 1270,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/OSRam/"
         },
         {
           "id": "xasLp",
@@ -624,7 +684,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1qsbCf629UNPUdbsE4Ae2xDLBDvoKZIbfbeL7SJm2Gjw/edit",
           "updatedAt": "2026-10-20T12:59:04.000Z",
           "width": 1600,
-          "height": 1270
+          "height": 1270,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -648,7 +710,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1M-dVXwPJhiJQMffjeBOneKoToyIO7FiIX3bccGSgKQE/edit",
           "updatedAt": "2026-10-20T12:52:27.000Z",
           "width": 1600,
-          "height": 616
+          "height": 616,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/QKQgp/"
         },
         {
           "id": "KIDgZ",
@@ -662,7 +726,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1CJd3nRBagff_e8FvNY5vreMmgZ6toqpjxeakO9R99XQ/edit",
           "updatedAt": "2026-10-20T12:55:38.000Z",
           "width": 1600,
-          "height": 650
+          "height": 650,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -686,7 +752,9 @@
           "source": "https://docs.google.com/spreadsheets/d/16_3xBttX-Y18lFmYsMeA3s7_9EbvWiYHfUvICmZ4oyg/edit",
           "updatedAt": "2026-10-20T12:52:25.000Z",
           "width": 1600,
-          "height": 1218
+          "height": 1218,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/EJ9oX/"
         },
         {
           "id": "WYdJr",
@@ -700,7 +768,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1iB2zTKRie4aRUzO1mk7bsnLX4NQbSrvVmUxCfUDjpXM/edit",
           "updatedAt": "2026-10-20T12:52:24.000Z",
           "width": 1600,
-          "height": 1218
+          "height": 1218,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -724,7 +794,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1ojXSrI76SI7ArWrv5XmzHwJw4Mu5CIjnkJN0qo8U0Fc/edit",
           "updatedAt": "2026-10-20T12:52:28.000Z",
           "width": 1600,
-          "height": 1036
+          "height": 1036,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "FgKYq",
@@ -738,7 +810,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1RNftY4L5MQO8Aqd2mUf1M9shgiStoasLu6uGTfgP-Rs/edit",
           "updatedAt": "2026-10-20T12:52:27.000Z",
           "width": 1600,
-          "height": 1036
+          "height": 1036,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -762,7 +836,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1NhwTdIJypSzeXUo-hRjTPlGT6kiCg8UhlRhIzZJwNI0/edit",
           "updatedAt": "2026-10-19T21:38:28.000Z",
           "width": 1600,
-          "height": 3078
+          "height": 3078,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -786,7 +862,9 @@
           "source": "https://docs.google.com/spreadsheets/d/18m7-HYFQ5ea_tRAcR_Fr-BXwENY71Trxsp_qX_Vt2OM/edit",
           "updatedAt": "2026-10-19T21:38:48.000Z",
           "width": 1600,
-          "height": 1802
+          "height": 1802,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -810,7 +888,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1i2h9JVVHdaMakX_jtbJ0ULs_1du5NZxRwBU6hHXMdxM/edit",
           "updatedAt": "2026-10-19T21:21:36.000Z",
           "width": 1600,
-          "height": 770
+          "height": 770,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -834,7 +914,9 @@
           "source": "https://docs.google.com/spreadsheets/d/160UV2rZ5dJFoE5pRTigrS4VI-0DPtG-5Q7IPe6aHXRA/edit",
           "updatedAt": "2026-10-19T21:38:11.000Z",
           "width": 1600,
-          "height": 770
+          "height": 770,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -858,7 +940,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1eO4s35phha_WwV3ZwTEAP2_tKidQnsE25OOFC9zuC20/edit",
           "updatedAt": "2026-10-19T21:21:38.000Z",
           "width": 1600,
-          "height": 1242
+          "height": 1242,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -882,7 +966,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1hA1p5zgq9FW7o1MfDFWYnOJbQGT0yFVtkmcAAnyZi6I/edit",
           "updatedAt": "2026-10-20T12:52:37.000Z",
           "width": 1600,
-          "height": 978
+          "height": 978,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "4ScBj",
@@ -896,7 +982,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1IFfnMY_0TO3UYOr6WbW6QQ_Im3V85LQwnUfiuRBIo-Q/edit",
           "updatedAt": "2026-10-20T12:52:36.000Z",
           "width": 1600,
-          "height": 978
+          "height": 978,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -920,7 +1008,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1eYfSfeUR9bT9L762axqLcqRi2PcsODDAlBxfUBMn41g/edit",
           "updatedAt": "2026-10-19T21:15:53.000Z",
           "width": 1600,
-          "height": 226
+          "height": 226,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -944,7 +1034,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1j2vPQ5sIOX1tG6z_F46ECzTbMb8szVZneYDvdS3D6oM/edit",
           "updatedAt": "2026-10-19T21:15:15.000Z",
           "width": 1600,
-          "height": 308
+          "height": 308,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -968,7 +1060,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1NcU-psC8IkyScFM9PoNL_CMh-LRvZkVQg3UGVQQ0Bcs/edit",
           "updatedAt": "2026-10-19T21:41:36.000Z",
           "width": 1600,
-          "height": 382
+          "height": 382,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -992,7 +1086,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1izIi-Ej8xMCeEwEC63VxNlooLKhRkHsOM5UUYBmBhCY/edit",
           "updatedAt": "2026-10-20T12:55:18.000Z",
           "width": 1600,
-          "height": 144
+          "height": 144,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "CsbIH",
@@ -1006,7 +1102,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1qgPG4oqnLnIqtk4rsaman_PC_q6X0Xkw7QKc-RQM7nY/edit",
           "updatedAt": "2026-10-20T12:55:17.000Z",
           "width": 1600,
-          "height": 144
+          "height": 144,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1030,7 +1128,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1n_eMJjtQTjJ5sDAlSKYSKMFFcHNygxeacLStd3FDNA0/edit",
           "updatedAt": "2026-10-20T12:54:18.000Z",
           "width": 1600,
-          "height": 7494
+          "height": 7494,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1054,7 +1154,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1UYnHKcUGBRdq601dZauJdtmsB31RQhqhkCANtFfUUR0/edit",
           "updatedAt": "2026-10-20T12:49:31.000Z",
           "width": 1600,
-          "height": 516
+          "height": 516,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1078,7 +1180,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1eeB-RcPdIPysM6LSkbaTcXDgkpl1FksH9l5vx9_dY-I/edit",
           "updatedAt": "2026-10-20T12:46:01.000Z",
           "width": 1600,
-          "height": 660
+          "height": 660,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1102,7 +1206,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1-f7K-QcvOMYbeINNdrQ1_Jj2pGuaIJw3ZSEvHXO_q3w/edit",
           "updatedAt": "2026-10-20T12:47:47.000Z",
           "width": 1600,
-          "height": 474
+          "height": 474,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1

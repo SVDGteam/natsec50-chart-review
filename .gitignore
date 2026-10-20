@@ -11,3 +11,5 @@ data/source_charts.json
 design/
 __pycache__/
 *.pyc
+
+dist-hosted/

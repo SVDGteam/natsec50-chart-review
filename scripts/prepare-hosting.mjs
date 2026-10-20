@@ -1,5 +1,7 @@
 import {readFileSync,writeFileSync} from 'node:fs';
+import {orderItems} from '../src/chart-library.js';
 const catalog=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8'));
+catalog.items=orderItems(catalog.items);
 writeFileSync(new URL('../public/catalog.json',import.meta.url),JSON.stringify(catalog,null,2)+'\n');
 const quote=s=>"'"+s.replaceAll("'","''")+"'";
 const values=catalog.items.map(i=>`(${quote(i.id)},${quote(i.revision)},${quote(i.label)},array[${i.variants.map(v=>quote(v.id)).join(',')}],true)`);

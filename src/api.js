@@ -15,14 +15,6 @@ export async function exportFeedback(kind){
  const csv=await cloudExport(kind);const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
  const a=document.createElement('a');a.href=url;a.download='natsec50-'+kind+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
-export const groups = [
- {id:'all', label:'All charts',categories:[]},
- {id:'government',label:'Government awards',categories:['awards','buyers','products','contracts']},
- {id:'technology',label:'Critical technologies',categories:['technology']},
- {id:'capital',label:'Private investment',categories:['capital']},
- {id:'people',label:'People & places',categories:['people','places']},
- {id:'us',label:'US government',categories:['us']},
- {id:'other',label:'Other analyses',categories:['companies','investors']},
-];
+export {groups,orderItems} from './chart-library';
 export function initialSelection(){return location.hash.match(/^#chart=([A-Za-z0-9]{5})$/)?.[1] || '85B2M';}
 export function formatDate(value){return new Date(value).toLocaleDateString('en-AU',{day:'numeric',month:'short',year:'numeric'});}

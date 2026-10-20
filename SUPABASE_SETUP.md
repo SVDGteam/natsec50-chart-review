@@ -22,7 +22,7 @@ Open **SQL Editor → New query** in Supabase.
 1. Open [supabase/01-schema.sql](supabase/01-schema.sql) in this repository. Use the Raw button to copy the entire file, paste it into the SQL Editor, and click **Run**. Run this file once in the new project.
 2. Start a new query and run [supabase/02-catalog.sql](supabase/02-catalog.sql). This registers the 36 analyses, their revisions and their valid chart variants. This file is safe to run again after a chart refresh.
 
-The schema enables Row Level Security. Only approved signed-in reviewers can read feedback. Each person can change their own votes and comments; another reviewer cannot change them. The chart images themselves remain public on GitHub Pages.
+The schema enables Row Level Security. Only approved signed-in reviewers can read feedback. Each person can change their own votes and comments; another reviewer cannot change them. The chart library and saved draft images remain public on GitHub Pages; published graphs load live from Datawrapper.
 
 ## 3. Add yourself and your team
 
@@ -89,7 +89,8 @@ Changing variables alone does not update an already published site; run the work
 - **Remove access:** delete the email from `review_private.allowed_emails` in SQL Editor. Example: `delete from review_private.allowed_emails where email='person@example.com';`. This removes access without deleting historical feedback.
 - **Back up review results:** export the Results, Votes and Comments CSVs after review sessions. These are review records, not a complete database backup. Free-tier backup/recovery features are limited.
 - **Inactive project:** Supabase Free projects may pause after a week of low activity. Open the dashboard and resume the project if necessary. Feedback will be unavailable until it resumes; the public chart gallery should remain usable.
-- **Chart refresh:** update `data/catalog.json` and images, run `node scripts/prepare-hosting.mjs`, then run the updated `supabase/02-catalog.sql` in Supabase before publishing. Earlier feedback remains associated with its original revision and is included in detailed exports. The UI counts the current revision only.
+- **Republishing an existing chart:** republish in Datawrapper, then click **Refresh chart** or reopen the analysis. No GitHub deployment is needed. Unpublished graphs show saved drafts and switch to the published embed when available. Existing votes/comments stay with the analysis across republishing.
+- **Adding/removing charts or refreshing saved drafts:** update `data/catalog.json` and images, run `node scripts/prepare-hosting.mjs`, then run the updated `supabase/02-catalog.sql` in Supabase before publishing. Earlier feedback remains associated with its original revision and is included in detailed exports. The UI counts the current revision only.
 
 Free allowances should cover a small team reviewing this chart library, but are subject to the providers' current limits. This setup does not enable paid usage or automatic paid upgrades.
 

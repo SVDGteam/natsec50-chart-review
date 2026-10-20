@@ -24,7 +24,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1YgwER5HFt0ffaH4iKvEynkFgVn3DQ2mmiPA-r-ASlvw/edit",
           "updatedAt": "2026-10-20T12:44:51.000Z",
           "width": 1600,
-          "height": 900
+          "height": 900,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/85B2M/"
         },
         {
           "id": "vYJSR",
@@ -38,192 +40,12 @@
           "source": "https://docs.google.com/spreadsheets/d/1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo/edit",
           "updatedAt": "2026-10-20T12:44:51.000Z",
           "width": 1600,
-          "height": 900
+          "height": 900,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/vYJSR/"
         }
       ],
       "order": 0
-    },
-    {
-      "id": "UT7ui",
-      "label": "Cohort statistics",
-      "categoryId": "companies",
-      "category": "Companies & statistics",
-      "revision": "c060bf95a77a28d2",
-      "variants": [
-        {
-          "id": "UT7ui",
-          "label": "Including CDC",
-          "title": "AUS NatSec50 records US$6.78 billion in cumulative private capital",
-          "takeaway": "The 50 companies have AU$2.50 billion in recorded federal awards and 4,906 company-wide employees. Annual fundraising figures cover only the three latest recorded raises, not complete event histories.",
-          "descriptor": "Key statistics · current original-rank top 50 · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/UT7ui-2b574e5b2b2420a7.png",
-          "editor": "https://app.datawrapper.de/chart/UT7ui/visualize",
-          "preview": "https://app.datawrapper.de/preview/UT7ui",
-          "source": "https://docs.google.com/spreadsheets/d/1_VOJY2aq3ZFNhK7X1WZRqE6Ra_TyCqUhCWf9ADfabJg/edit",
-          "updatedAt": "2026-10-20T12:52:13.000Z",
-          "width": 1600,
-          "height": 686
-        },
-        {
-          "id": "YaKjd",
-          "label": "Excluding CDC",
-          "title": "The selected companies record US$3.73 billion in private capital · Excluding CDC",
-          "takeaway": "The 49 companies record AU$0.75 billion in federal awards and 4,540 company-wide employees. Annual fundraising covers only the three latest recorded raises; FY2026–27 is partial.",
-          "descriptor": "Key statistics · original 2026 cohort · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/YaKjd-f5ccb1444c8ed2e6.png",
-          "editor": "https://app.datawrapper.de/chart/YaKjd/visualize",
-          "preview": "https://app.datawrapper.de/preview/YaKjd",
-          "source": "https://docs.google.com/spreadsheets/d/1mgu6sp6-uTfgZHy7362DtJYEeFqjzdOiERF-gEk62L8/edit",
-          "updatedAt": "2026-10-20T12:59:05.000Z",
-          "width": 1600,
-          "height": 686
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "Lkxki",
-      "label": "Ranking sensitivity to excluding grants",
-      "categoryId": "companies",
-      "category": "Companies & statistics",
-      "revision": "0896745e019a55f1",
-      "variants": [
-        {
-          "id": "Lkxki",
-          "label": "Original",
-          "title": "Excluding grants changes the ranking of 48 NatSec50 companies",
-          "takeaway": "MCi Carbon moves from rank 19 to 76 under the contract-notice-only formula. The comparison holds the original 50-company cohort fixed and shows how the treatment of grants affects rank.",
-          "descriptor": "Original rank versus contract-notice-only rank (lower is better)",
-          "image": "/charts/Lkxki-9c22cf685d6fb8f8.png",
-          "editor": "https://app.datawrapper.de/chart/Lkxki/visualize",
-          "preview": "https://app.datawrapper.de/preview/Lkxki",
-          "source": "https://docs.google.com/spreadsheets/d/11U7Ramo807q6ODpZI0qL58tDLTZMucI5IibNGBfgUCc/edit",
-          "updatedAt": "2026-10-19T21:36:12.000Z",
-          "width": 1600,
-          "height": 1994
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "aaKIA",
-      "label": "The Australian NatSec50 companies",
-      "categoryId": "companies",
-      "category": "Companies & statistics",
-      "revision": "6638da81a437e4ec",
-      "variants": [
-        {
-          "id": "aaKIA",
-          "label": "Original",
-          "title": "The 2026 Australian NatSec50 companies",
-          "takeaway": "The current original-rank top 50 includes Applied EV. Recorded headquarters and USD capital are shown for every company; a founding year of 0 denotes missing source data.",
-          "descriptor": "Ranks 1–50 · original 2026 NatSec100 Formula · 19 October 2026",
-          "image": "/charts/aaKIA-c251392664b3d847.png",
-          "editor": "https://app.datawrapper.de/chart/aaKIA/visualize",
-          "preview": "https://app.datawrapper.de/preview/aaKIA",
-          "source": "https://docs.google.com/spreadsheets/d/1SsKa7kYuia_Blphm6Sk-GAZvgUqSsI-5vDXS1X9kHLg/edit",
-          "updatedAt": "2026-10-19T21:14:56.000Z",
-          "width": 1600,
-          "height": 3594
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "mEeZT",
-      "label": "Global office presence",
-      "categoryId": "places",
-      "category": "Company locations",
-      "revision": "3ee256ebff71cdd3",
-      "variants": [
-        {
-          "id": "mEeZT",
-          "label": "Original",
-          "title": "31 NatSec50 companies have recorded offices outside Australia",
-          "takeaway": "The office tags span 23 countries, including Australia. 31 companies have a recorded presence overseas; each company counts once per country regardless of how many cities are tagged there.",
-          "descriptor": "Companies with a recorded office presence by country",
-          "image": "/charts/mEeZT-4357f030fb5a7071.png",
-          "editor": "https://app.datawrapper.de/chart/mEeZT/visualize",
-          "preview": "https://app.datawrapper.de/preview/mEeZT",
-          "source": "https://docs.google.com/spreadsheets/d/19JcfQ_0XZTRBw3QSrELdICCxCqbd1KRYYEXKqX0fO_E/edit",
-          "updatedAt": "2026-10-19T21:37:42.000Z",
-          "width": 1600,
-          "height": 818
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "GQJqP",
-      "label": "Headquarters by state",
-      "categoryId": "places",
-      "category": "Company locations",
-      "revision": "05f5efaca70b8c72",
-      "variants": [
-        {
-          "id": "GQJqP",
-          "label": "Original",
-          "title": "New South Wales hosts 25 of the 50 NatSec50 headquarters",
-          "takeaway": "New South Wales accounts for 25 of the 50 headquarters. One company has a recorded US headquarters; all 50 have usable headquarters locations. Australian city-to-state mappings are documented in the spreadsheet.",
-          "descriptor": "Australian NatSec50 recorded headquarters by state and territory",
-          "image": "/charts/GQJqP-263ba57f82991dcc.png",
-          "editor": "https://app.datawrapper.de/chart/GQJqP/visualize",
-          "preview": "https://app.datawrapper.de/preview/GQJqP",
-          "source": "https://docs.google.com/spreadsheets/d/16wy14XXY9nGqTgB1-8CueudIi6Un2Hq65r0DlPUZG1M/edit",
-          "updatedAt": "2026-10-19T21:14:58.000Z",
-          "width": 1600,
-          "height": 1494
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "9i7n2",
-      "label": "Office presence by state",
-      "categoryId": "places",
-      "category": "Company locations",
-      "revision": "ed09a8ad040f767c",
-      "variants": [
-        {
-          "id": "9i7n2",
-          "label": "Original",
-          "title": "New South Wales has the broadest recorded NatSec50 office presence",
-          "takeaway": "32 of the 50 companies have at least one recorded office tag in New South Wales. Firms with several cities in one state count once in that state; companies operating across states appear in more than one state.",
-          "descriptor": "Companies with a recorded office presence by Australian state and territory",
-          "image": "/charts/9i7n2-4180c21140fc525f.png",
-          "editor": "https://app.datawrapper.de/chart/9i7n2/visualize",
-          "preview": "https://app.datawrapper.de/preview/9i7n2",
-          "source": "https://docs.google.com/spreadsheets/d/12tk1_9QxJ8CKwL5qw317G8ERImAsgsnrc28DlnfXY2M/edit",
-          "updatedAt": "2026-10-19T21:37:18.000Z",
-          "width": 1600,
-          "height": 1494
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "tvxoV",
-      "label": "Office presence in AUKUS countries",
-      "categoryId": "places",
-      "category": "Company locations",
-      "revision": "9ed3db629bd02e1c",
-      "variants": [
-        {
-          "id": "tvxoV",
-          "label": "Original",
-          "title": "The NatSec50 has a recorded office footprint across all three AUKUS countries",
-          "takeaway": "50 companies have Australian office tags, 22 have US tags and 16 have UK tags. These overlapping counts describe office presence, not AUKUS contracts or programme participation.",
-          "descriptor": "Companies with a recorded office presence by country",
-          "image": "/charts/tvxoV-c57f0be23260aba8.png",
-          "editor": "https://app.datawrapper.de/chart/tvxoV/visualize",
-          "preview": "https://app.datawrapper.de/preview/tvxoV",
-          "source": "https://docs.google.com/spreadsheets/d/189eXvOqdU3EttxeIYwpGCb4k50F59ZXVgABURo6rGe4/edit",
-          "updatedAt": "2026-10-19T21:14:59.000Z",
-          "width": 1600,
-          "height": 818
-        }
-      ],
-      "order": 1
     },
     {
       "id": "7feFF",
@@ -244,7 +66,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1cUhe3E87dXtWiX7IYlIhxzg6aQXx7g441e_OJQtW6NQ/edit",
           "updatedAt": "2026-10-20T12:52:16.000Z",
           "width": 1600,
-          "height": 922
+          "height": 922,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "B8Q58",
@@ -258,7 +82,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1OH0wm9WHPBdg8heZjQrXrI1Qo79cr60jTl4DMFna6gc/edit",
           "updatedAt": "2026-10-20T12:52:15.000Z",
           "width": 1600,
-          "height": 922
+          "height": 922,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -282,7 +108,9 @@
           "source": "https://docs.google.com/spreadsheets/d/17PiRGX8TA6DM5U26UxRJ6s7EJXLuUVrYQKvJTw0GmVY/edit",
           "updatedAt": "2026-10-20T12:52:40.000Z",
           "width": 1600,
-          "height": 206
+          "height": 206,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "wBKef",
@@ -296,297 +124,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1tBcKoQQa5jFYY8zIcCkJvxrX0VrbK0TDKBYZ_FJajsw/edit",
           "updatedAt": "2026-10-20T12:52:39.000Z",
           "width": 1600,
-          "height": 206
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "FPVa0",
-      "label": "AUKUS capability shares",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "8f259c11c622aec7",
-      "variants": [
-        {
-          "id": "FPVa0",
-          "label": "Including CDC",
-          "title": "AUKUS capability presence differs from capital and procurement shares",
-          "takeaway": "Advanced Cyber has the largest contract-value share among the recorded AUKUS technology areas, at 8.7%. The separate “None of the Above” row keeps companies outside the six technology tags visible in every denominator.",
-          "descriptor": "Shares of all 50 companies, cumulative private capital and federal contract notices (%) · Including CDC · 50 companies",
-          "image": "/charts/FPVa0-2ed4edeee74198d8.png",
-          "editor": "https://app.datawrapper.de/chart/FPVa0/visualize",
-          "preview": "https://app.datawrapper.de/preview/FPVa0",
-          "source": "https://docs.google.com/spreadsheets/d/1f2yd8iniolSVgFLWgAQWJ2RQ4xNBB9E321roCilPTtU/edit",
-          "updatedAt": "2026-10-20T12:52:31.000Z",
-          "width": 1600,
-          "height": 510
-        },
-        {
-          "id": "oq1YG",
-          "label": "Excluding CDC",
-          "title": "AUKUS capability presence differs from capital and procurement shares · Excluding CDC",
-          "takeaway": "Advanced Cyber has the largest contract share among the recorded AUKUS technology areas, at 38.9%. “None of the Above” remains visible; company, capital and contract shares use their respective cohort totals.",
-          "descriptor": "Shares of all 49 companies, cumulative private capital and federal contract notices (%) · Excluding CDC · 49 companies",
-          "image": "/charts/oq1YG-a48cb5f667e25a62.png",
-          "editor": "https://app.datawrapper.de/chart/oq1YG/visualize",
-          "preview": "https://app.datawrapper.de/preview/oq1YG",
-          "source": "https://docs.google.com/spreadsheets/d/1ONO-kjZDJucX3lPkSDxz-7LGgqdNQ0LC4kD9y6MrmxI/edit",
-          "updatedAt": "2026-10-20T12:52:30.000Z",
-          "width": 1600,
-          "height": 510
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "2vjDY",
-      "label": "AUKUS technology representation",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "5a65c7d7464ce208",
-      "variants": [
-        {
-          "id": "2vjDY",
-          "label": "Original",
-          "title": "AI and autonomy is the most represented AUKUS technology area in the NatSec50",
-          "takeaway": "Artificial intelligence and autonomy is recorded for 10 of the 50 companies (20%), followed by quantum technologies with seven (14%). Half the cohort is tagged “None of the Above”, so the chart measures representation within the recorded AUKUS capability categories rather than the cohort’s wider national security relevance.",
-          "descriptor": "AUKUS technology representation among the Australian NatSec50 · share of all 50 companies (%)",
-          "image": "/charts/2vjDY-a8e6564242758986.png",
-          "editor": "https://app.datawrapper.de/chart/2vjDY/visualize",
-          "preview": "https://app.datawrapper.de/preview/2vjDY",
-          "source": "https://docs.google.com/spreadsheets/d/14NTbSEkFjWQVix0uzLY-fDShbGkWE65AeN0NSLGYcGA/edit",
-          "updatedAt": "2026-10-19T21:15:51.000Z",
-          "width": 1600,
-          "height": 374
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "gTBY5",
-      "label": "Critical technologies · federal awards",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "a5703df678e7c42f",
-      "variants": [
-        {
-          "id": "gTBY5",
-          "label": "Including CDC",
-          "title": "Advanced information & communications leads recorded federal awards",
-          "takeaway": "Advanced information & communications leads with 1,985.0 AUD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/gTBY5-412f574ca586f5b4.png",
-          "editor": "https://app.datawrapper.de/chart/gTBY5/visualize",
-          "preview": "https://app.datawrapper.de/preview/gTBY5",
-          "source": "https://docs.google.com/spreadsheets/d/1U9fKRyFa_vJGjU_z9ry5WXBDQjvSQ8-8SQtRjF-33IQ/edit",
-          "updatedAt": "2026-10-20T12:51:58.000Z",
-          "width": 1600,
-          "height": 486
-        },
-        {
-          "id": "P1tcx",
-          "label": "Excluding CDC",
-          "title": "Autonomy, robotics & sensing leads recorded federal awards · Excluding CDC",
-          "takeaway": "Autonomy, robotics & sensing leads with 367.4 AUD million in federal awards. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/P1tcx-896c0f1820d9bbcc.png",
-          "editor": "https://app.datawrapper.de/chart/P1tcx/visualize",
-          "preview": "https://app.datawrapper.de/preview/P1tcx",
-          "source": "https://docs.google.com/spreadsheets/d/1orZrETLjGBHWIO3-aezazkHxVwU5Mmj0QYYJQDQ_99w/edit",
-          "updatedAt": "2026-10-20T12:51:57.000Z",
-          "width": 1600,
-          "height": 486
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "i7G14",
-      "label": "Critical technologies · private capital",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "5519803068c329c2",
-      "variants": [
-        {
-          "id": "i7G14",
-          "label": "Including CDC",
-          "title": "Advanced information & communications leads recorded private capital",
-          "takeaway": "Advanced information & communications leads with 3,591.1 USD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/i7G14-12f9c7e3ea05e14b.png",
-          "editor": "https://app.datawrapper.de/chart/i7G14/visualize",
-          "preview": "https://app.datawrapper.de/preview/i7G14",
-          "source": "https://docs.google.com/spreadsheets/d/16m2QJJQtTLpAl70dzw8GaxMsCI1kMBDpKyzYUd0jApk/edit",
-          "updatedAt": "2026-10-20T12:52:01.000Z",
-          "width": 1600,
-          "height": 486
-        },
-        {
-          "id": "TWQL0",
-          "label": "Excluding CDC",
-          "title": "Autonomy, robotics & sensing leads recorded private capital · Excluding CDC",
-          "takeaway": "Autonomy, robotics & sensing leads with 1,209.1 USD million in private capital. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/TWQL0-697caa0c129866b5.png",
-          "editor": "https://app.datawrapper.de/chart/TWQL0/visualize",
-          "preview": "https://app.datawrapper.de/preview/TWQL0",
-          "source": "https://docs.google.com/spreadsheets/d/11iGWrd-mXymeVTHcYmrYY1RynIbwSccEd7SiGYzJC6o/edit",
-          "updatedAt": "2026-10-20T12:52:00.000Z",
-          "width": 1600,
-          "height": 486
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "Riion",
-      "label": "Critical technology shares",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "f454929d89c5eb04",
-      "variants": [
-        {
-          "id": "Riion",
-          "label": "Including CDC",
-          "title": "Autonomy leads company share; information technologies dominate capital and awards",
-          "takeaway": "Autonomy, robotics & sensing accounts for 32% of companies. Advanced information & communications holds 53.0% of private capital and 79.4% of recorded federal awards.",
-          "descriptor": "Shares within all 50 companies, private capital and federal awards · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/Riion-f32df74be5534925.png",
-          "editor": "https://app.datawrapper.de/chart/Riion/visualize",
-          "preview": "https://app.datawrapper.de/preview/Riion",
-          "source": "https://docs.google.com/spreadsheets/d/12JWTQJcLHotKeqWgTjY6CjIIOKWtkFQFd43pciRZZ-A/edit",
-          "updatedAt": "2026-10-20T12:51:55.000Z",
-          "width": 1600,
-          "height": 454
-        },
-        {
-          "id": "PxOMC",
-          "label": "Excluding CDC",
-          "title": "Autonomy leads company share, private capital and federal awards · Excluding CDC",
-          "takeaway": "Autonomy, robotics & sensing accounts for 32.7% of companies, 32.4% of private capital and 49.1% of federal award value after excluding CDC.",
-          "descriptor": "Shares within all 49 companies, private capital and federal awards · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/PxOMC-4508da24a7424cf1.png",
-          "editor": "https://app.datawrapper.de/chart/PxOMC/visualize",
-          "preview": "https://app.datawrapper.de/preview/PxOMC",
-          "source": "https://docs.google.com/spreadsheets/d/1PfT1UreAZJkkk3EDIELTDsyIizEIZKgxqG9U-iK-3Xc/edit",
-          "updatedAt": "2026-10-20T12:55:37.000Z",
-          "width": 1600,
-          "height": 454
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "83STT",
-      "label": "Technology verticals · company count",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "f3cdc57e61ecf515",
-      "variants": [
-        {
-          "id": "83STT",
-          "label": "Including CDC",
-          "title": "Clean technology leads company count",
-          "takeaway": "Clean technology leads with 12 companies. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/83STT-410ea9ed01c6500e.png",
-          "editor": "https://app.datawrapper.de/chart/83STT/visualize",
-          "preview": "https://app.datawrapper.de/preview/83STT",
-          "source": "https://docs.google.com/spreadsheets/d/1jVe_JGMvOQCqJjFXoDIF10bybbonKzv0GlPdFQzTSc8/edit",
-          "updatedAt": "2026-10-20T12:52:04.000Z",
-          "width": 1600,
-          "height": 1028
-        },
-        {
-          "id": "iXn8a",
-          "label": "Excluding CDC",
-          "title": "Clean technology leads company count · Excluding CDC",
-          "takeaway": "Clean technology leads with 12 companies. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/iXn8a-5d2eec11a25805db.png",
-          "editor": "https://app.datawrapper.de/chart/iXn8a/visualize",
-          "preview": "https://app.datawrapper.de/preview/iXn8a",
-          "source": "https://docs.google.com/spreadsheets/d/1EfstPNxA9GK9EGBozvp9Mbcnk83dKuK-xSip5FogIFM/edit",
-          "updatedAt": "2026-10-20T12:55:37.000Z",
-          "width": 1600,
-          "height": 1028
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "t3Rvy",
-      "label": "Technology verticals · federal awards",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "a55a446a72e90fce",
-      "variants": [
-        {
-          "id": "t3Rvy",
-          "label": "Including CDC",
-          "title": "Technology, media, and telecommunications leads recorded federal awards",
-          "takeaway": "Technology, media, and telecommunications leads with 1,752.6 AUD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/t3Rvy-68f919b2b4a646d9.png",
-          "editor": "https://app.datawrapper.de/chart/t3Rvy/visualize",
-          "preview": "https://app.datawrapper.de/preview/t3Rvy",
-          "source": "https://docs.google.com/spreadsheets/d/1QXVJhImXa0RUbgGUN0sDlBthU70dKfJV7F2pLudD9QI/edit",
-          "updatedAt": "2026-10-20T12:52:10.000Z",
-          "width": 1600,
-          "height": 1028
-        },
-        {
-          "id": "WWR98",
-          "label": "Excluding CDC",
-          "title": "Cybersecurity leads recorded federal awards · Excluding CDC",
-          "takeaway": "Cybersecurity leads with 207.3 AUD million in federal awards. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/WWR98-eb89654ed965e000.png",
-          "editor": "https://app.datawrapper.de/chart/WWR98/visualize",
-          "preview": "https://app.datawrapper.de/preview/WWR98",
-          "source": "https://docs.google.com/spreadsheets/d/1IgrN1k9cfBuA0JxJcI5QvWmRugUCT_XuiJeblGxnwgk/edit",
-          "updatedAt": "2026-10-20T12:52:09.000Z",
-          "width": 1600,
-          "height": 1028
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "lyr0H",
-      "label": "Technology verticals · private capital",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "fa66650b86d29dff",
-      "variants": [
-        {
-          "id": "lyr0H",
-          "label": "Including CDC",
-          "title": "Technology, media, and telecommunications leads recorded private capital",
-          "takeaway": "Technology, media, and telecommunications leads with 3,049.2 USD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/lyr0H-b0162fe79a86ff28.png",
-          "editor": "https://app.datawrapper.de/chart/lyr0H/visualize",
-          "preview": "https://app.datawrapper.de/preview/lyr0H",
-          "source": "https://docs.google.com/spreadsheets/d/1M0Jzx7X8Tf2lzBA5AWh01gOl6iOT0yBWKoZPjHI4u84/edit",
-          "updatedAt": "2026-10-20T12:52:07.000Z",
-          "width": 1600,
-          "height": 1028
-        },
-        {
-          "id": "0Hg3c",
-          "label": "Excluding CDC",
-          "title": "Clean technology leads recorded private capital · Excluding CDC",
-          "takeaway": "Clean technology leads with 1,125.6 USD million in private capital. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/0Hg3c-187b02c289b4ecf2.png",
-          "editor": "https://app.datawrapper.de/chart/0Hg3c/visualize",
-          "preview": "https://app.datawrapper.de/preview/0Hg3c",
-          "source": "https://docs.google.com/spreadsheets/d/1Q9s5GqpPZ5sNz49cHO7Hlcb6bJJkK3X6B6FFJSZtDdE/edit",
-          "updatedAt": "2026-10-20T12:52:06.000Z",
-          "width": 1600,
-          "height": 1028
+          "height": 206,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -610,7 +150,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1mEa0DeX2bRThk98QzNRgKQODKRpIkJuT3Y08iwvFynA/edit",
           "updatedAt": "2026-10-20T12:59:03.000Z",
           "width": 1600,
-          "height": 1270
+          "height": 1270,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/OSRam/"
         },
         {
           "id": "xasLp",
@@ -624,7 +166,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1qsbCf629UNPUdbsE4Ae2xDLBDvoKZIbfbeL7SJm2Gjw/edit",
           "updatedAt": "2026-10-20T12:59:04.000Z",
           "width": 1600,
-          "height": 1270
+          "height": 1270,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -648,7 +192,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1M-dVXwPJhiJQMffjeBOneKoToyIO7FiIX3bccGSgKQE/edit",
           "updatedAt": "2026-10-20T12:52:27.000Z",
           "width": 1600,
-          "height": 616
+          "height": 616,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/QKQgp/"
         },
         {
           "id": "KIDgZ",
@@ -662,7 +208,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1CJd3nRBagff_e8FvNY5vreMmgZ6toqpjxeakO9R99XQ/edit",
           "updatedAt": "2026-10-20T12:55:38.000Z",
           "width": 1600,
-          "height": 650
+          "height": 650,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -686,7 +234,9 @@
           "source": "https://docs.google.com/spreadsheets/d/16_3xBttX-Y18lFmYsMeA3s7_9EbvWiYHfUvICmZ4oyg/edit",
           "updatedAt": "2026-10-20T12:52:25.000Z",
           "width": 1600,
-          "height": 1218
+          "height": 1218,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/EJ9oX/"
         },
         {
           "id": "WYdJr",
@@ -700,7 +250,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1iB2zTKRie4aRUzO1mk7bsnLX4NQbSrvVmUxCfUDjpXM/edit",
           "updatedAt": "2026-10-20T12:52:24.000Z",
           "width": 1600,
-          "height": 1218
+          "height": 1218,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -724,7 +276,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1ojXSrI76SI7ArWrv5XmzHwJw4Mu5CIjnkJN0qo8U0Fc/edit",
           "updatedAt": "2026-10-20T12:52:28.000Z",
           "width": 1600,
-          "height": 1036
+          "height": 1036,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "FgKYq",
@@ -738,127 +292,329 @@
           "source": "https://docs.google.com/spreadsheets/d/1RNftY4L5MQO8Aqd2mUf1M9shgiStoasLu6uGTfgP-Rs/edit",
           "updatedAt": "2026-10-20T12:52:27.000Z",
           "width": 1600,
-          "height": 1036
+          "height": 1036,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
     },
     {
-      "id": "egzKM",
-      "label": "Contributors to employment growth",
-      "categoryId": "people",
-      "category": "Headcount growth",
-      "revision": "5c8b3af62f77886a",
+      "id": "FPVa0",
+      "label": "AUKUS capability shares",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "8f259c11c622aec7",
       "variants": [
         {
-          "id": "egzKM",
-          "label": "Original",
-          "title": "The largest employment gains are concentrated in a few companies",
-          "takeaway": "CDC Data Centres adds 173 recorded employees between December 2022 and the current 2026 snapshot. Across all 50 companies, net company-wide headcount rises by 1,808; negative bars show firms with recorded declines. Missing historical headcounts count as zero.",
-          "descriptor": "Absolute change in company-wide headcount, December 2022 to current 2026",
-          "image": "/charts/egzKM-8fb91b4f19ecb5a7.png",
-          "editor": "https://app.datawrapper.de/chart/egzKM/visualize",
-          "preview": "https://app.datawrapper.de/preview/egzKM",
-          "source": "https://docs.google.com/spreadsheets/d/1NhwTdIJypSzeXUo-hRjTPlGT6kiCg8UhlRhIzZJwNI0/edit",
-          "updatedAt": "2026-10-19T21:38:28.000Z",
+          "id": "FPVa0",
+          "label": "Including CDC",
+          "title": "AUKUS capability presence differs from capital and procurement shares",
+          "takeaway": "Advanced Cyber has the largest contract-value share among the recorded AUKUS technology areas, at 8.7%. The separate “None of the Above” row keeps companies outside the six technology tags visible in every denominator.",
+          "descriptor": "Shares of all 50 companies, cumulative private capital and federal contract notices (%) · Including CDC · 50 companies",
+          "image": "/charts/FPVa0-2ed4edeee74198d8.png",
+          "editor": "https://app.datawrapper.de/chart/FPVa0/visualize",
+          "preview": "https://app.datawrapper.de/preview/FPVa0",
+          "source": "https://docs.google.com/spreadsheets/d/1f2yd8iniolSVgFLWgAQWJ2RQ4xNBB9E321roCilPTtU/edit",
+          "updatedAt": "2026-10-20T12:52:31.000Z",
           "width": 1600,
-          "height": 3078
+          "height": 510,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "oq1YG",
+          "label": "Excluding CDC",
+          "title": "AUKUS capability presence differs from capital and procurement shares · Excluding CDC",
+          "takeaway": "Advanced Cyber has the largest contract share among the recorded AUKUS technology areas, at 38.9%. “None of the Above” remains visible; company, capital and contract shares use their respective cohort totals.",
+          "descriptor": "Shares of all 49 companies, cumulative private capital and federal contract notices (%) · Excluding CDC · 49 companies",
+          "image": "/charts/oq1YG-a48cb5f667e25a62.png",
+          "editor": "https://app.datawrapper.de/chart/oq1YG/visualize",
+          "preview": "https://app.datawrapper.de/preview/oq1YG",
+          "source": "https://docs.google.com/spreadsheets/d/1ONO-kjZDJucX3lPkSDxz-7LGgqdNQ0LC4kD9y6MrmxI/edit",
+          "updatedAt": "2026-10-20T12:52:30.000Z",
+          "width": 1600,
+          "height": 510,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
     },
     {
-      "id": "hlrSA",
-      "label": "Employment by technology",
-      "categoryId": "people",
-      "category": "Headcount growth",
-      "revision": "162d4346de8ac9da",
+      "id": "2vjDY",
+      "label": "AUKUS technology representation",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "5a65c7d7464ce208",
       "variants": [
         {
-          "id": "hlrSA",
+          "id": "2vjDY",
           "label": "Original",
-          "title": "Autonomy, robotics & sensing has the largest recorded workforce",
-          "takeaway": "Autonomy, robotics & sensing accounts for 1,515 current company-wide employees. Separate panels show how employment has developed across the seven critical technology areas, using the same vertical scale for comparison.",
-          "descriptor": "Company-wide headcount by critical technology area, December 2022–current 2026",
-          "image": "/charts/hlrSA-99a4a85b2e2765cc.png",
-          "editor": "https://app.datawrapper.de/chart/hlrSA/visualize",
-          "preview": "https://app.datawrapper.de/preview/hlrSA",
-          "source": "https://docs.google.com/spreadsheets/d/18m7-HYFQ5ea_tRAcR_Fr-BXwENY71Trxsp_qX_Vt2OM/edit",
-          "updatedAt": "2026-10-19T21:38:48.000Z",
+          "title": "AI and autonomy is the most represented AUKUS technology area in the NatSec50",
+          "takeaway": "Artificial intelligence and autonomy is recorded for 10 of the 50 companies (20%), followed by quantum technologies with seven (14%). Half the cohort is tagged “None of the Above”, so the chart measures representation within the recorded AUKUS capability categories rather than the cohort’s wider national security relevance.",
+          "descriptor": "AUKUS technology representation among the Australian NatSec50 · share of all 50 companies (%)",
+          "image": "/charts/2vjDY-a8e6564242758986.png",
+          "editor": "https://app.datawrapper.de/chart/2vjDY/visualize",
+          "preview": "https://app.datawrapper.de/preview/2vjDY",
+          "source": "https://docs.google.com/spreadsheets/d/14NTbSEkFjWQVix0uzLY-fDShbGkWE65AeN0NSLGYcGA/edit",
+          "updatedAt": "2026-10-19T21:15:51.000Z",
           "width": 1600,
-          "height": 1802
+          "height": 374,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
     },
     {
-      "id": "ZmAvO",
-      "label": "Median headcount growth",
-      "categoryId": "people",
-      "category": "Headcount growth",
-      "revision": "8e4441fc3902ff34",
+      "id": "gTBY5",
+      "label": "Critical technologies · federal awards",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "a5703df678e7c42f",
       "variants": [
         {
-          "id": "ZmAvO",
-          "label": "Original",
-          "title": "Median NatSec50 headcount rose from 41.5 to 78 employees",
-          "takeaway": "The median company rises from 41.5 to 78 recorded employees. All 50 companies and all 426 eligible comparison companies are included; missing snapshots count as zero.",
-          "descriptor": "Median company-wide headcount · December 2022–current 2026",
-          "image": "/charts/ZmAvO-38f6561c6b6c2e0a.png",
-          "editor": "https://app.datawrapper.de/chart/ZmAvO/visualize",
-          "preview": "https://app.datawrapper.de/preview/ZmAvO",
-          "source": "https://docs.google.com/spreadsheets/d/1i2h9JVVHdaMakX_jtbJ0ULs_1du5NZxRwBU6hHXMdxM/edit",
-          "updatedAt": "2026-10-19T21:21:36.000Z",
+          "id": "gTBY5",
+          "label": "Including CDC",
+          "title": "Advanced information & communications leads recorded federal awards",
+          "takeaway": "Advanced information & communications leads with 1,985.0 AUD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
+          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/gTBY5-412f574ca586f5b4.png",
+          "editor": "https://app.datawrapper.de/chart/gTBY5/visualize",
+          "preview": "https://app.datawrapper.de/preview/gTBY5",
+          "source": "https://docs.google.com/spreadsheets/d/1U9fKRyFa_vJGjU_z9ry5WXBDQjvSQ8-8SQtRjF-33IQ/edit",
+          "updatedAt": "2026-10-20T12:51:58.000Z",
           "width": 1600,
-          "height": 770
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "P1tcx",
+          "label": "Excluding CDC",
+          "title": "Autonomy, robotics & sensing leads recorded federal awards · Excluding CDC",
+          "takeaway": "Autonomy, robotics & sensing leads with 367.4 AUD million in federal awards. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
+          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/P1tcx-896c0f1820d9bbcc.png",
+          "editor": "https://app.datawrapper.de/chart/P1tcx/visualize",
+          "preview": "https://app.datawrapper.de/preview/P1tcx",
+          "source": "https://docs.google.com/spreadsheets/d/1orZrETLjGBHWIO3-aezazkHxVwU5Mmj0QYYJQDQ_99w/edit",
+          "updatedAt": "2026-10-20T12:51:57.000Z",
+          "width": 1600,
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
     },
     {
-      "id": "TXLkw",
-      "label": "Total headcount growth",
-      "categoryId": "people",
-      "category": "Headcount growth",
-      "revision": "6eea3342f54d60cc",
+      "id": "i7G14",
+      "label": "Critical technologies · private capital",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "5519803068c329c2",
       "variants": [
         {
-          "id": "TXLkw",
-          "label": "Original",
-          "title": "NatSec50 headcount grew 58.4% from December 2022 to current 2026",
-          "takeaway": "The cohort rises from 3,098 to 4,906 recorded employees. All 50 companies and all 426 eligible comparison companies are included; missing snapshots count as zero.",
-          "descriptor": "Total company-wide headcount · December 2022–current 2026",
-          "image": "/charts/TXLkw-e29c2d87cdbeeb8c.png",
-          "editor": "https://app.datawrapper.de/chart/TXLkw/visualize",
-          "preview": "https://app.datawrapper.de/preview/TXLkw",
-          "source": "https://docs.google.com/spreadsheets/d/160UV2rZ5dJFoE5pRTigrS4VI-0DPtG-5Q7IPe6aHXRA/edit",
-          "updatedAt": "2026-10-19T21:38:11.000Z",
+          "id": "i7G14",
+          "label": "Including CDC",
+          "title": "Advanced information & communications leads recorded private capital",
+          "takeaway": "Advanced information & communications leads with 3,591.1 USD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
+          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/i7G14-12f9c7e3ea05e14b.png",
+          "editor": "https://app.datawrapper.de/chart/i7G14/visualize",
+          "preview": "https://app.datawrapper.de/preview/i7G14",
+          "source": "https://docs.google.com/spreadsheets/d/16m2QJJQtTLpAl70dzw8GaxMsCI1kMBDpKyzYUd0jApk/edit",
+          "updatedAt": "2026-10-20T12:52:01.000Z",
           "width": 1600,
-          "height": 770
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "TWQL0",
+          "label": "Excluding CDC",
+          "title": "Autonomy, robotics & sensing leads recorded private capital · Excluding CDC",
+          "takeaway": "Autonomy, robotics & sensing leads with 1,209.1 USD million in private capital. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
+          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/TWQL0-697caa0c129866b5.png",
+          "editor": "https://app.datawrapper.de/chart/TWQL0/visualize",
+          "preview": "https://app.datawrapper.de/preview/TWQL0",
+          "source": "https://docs.google.com/spreadsheets/d/11iGWrd-mXymeVTHcYmrYY1RynIbwSccEd7SiGYzJC6o/edit",
+          "updatedAt": "2026-10-20T12:52:00.000Z",
+          "width": 1600,
+          "height": 486,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
     },
     {
-      "id": "QvbtE",
-      "label": "Investors backing the NatSec50",
-      "categoryId": "investors",
-      "category": "Investors",
-      "revision": "a5dbe4a12bcfe7cd",
+      "id": "Riion",
+      "label": "Critical technology shares",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "f454929d89c5eb04",
       "variants": [
         {
-          "id": "QvbtE",
-          "label": "Original",
-          "title": "The most connected recorded investor backs 15 NatSec50 companies",
-          "takeaway": "Main Sequence Ventures is linked to 15 of the current 50 companies. This ranking counts distinct portfolio companies, so repeated funding events do not increase an investor’s count. Recorded investors include government programmes and accelerators.",
-          "descriptor": "Top 20 recorded investors by distinct NatSec50 portfolio companies",
-          "image": "/charts/QvbtE-489ea09e53c426f3.png",
-          "editor": "https://app.datawrapper.de/chart/QvbtE/visualize",
-          "preview": "https://app.datawrapper.de/preview/QvbtE",
-          "source": "https://docs.google.com/spreadsheets/d/1eO4s35phha_WwV3ZwTEAP2_tKidQnsE25OOFC9zuC20/edit",
-          "updatedAt": "2026-10-19T21:21:38.000Z",
+          "id": "Riion",
+          "label": "Including CDC",
+          "title": "Autonomy leads company share; information technologies dominate capital and awards",
+          "takeaway": "Autonomy, robotics & sensing accounts for 32% of companies. Advanced information & communications holds 53.0% of private capital and 79.4% of recorded federal awards.",
+          "descriptor": "Shares within all 50 companies, private capital and federal awards · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/Riion-f32df74be5534925.png",
+          "editor": "https://app.datawrapper.de/chart/Riion/visualize",
+          "preview": "https://app.datawrapper.de/preview/Riion",
+          "source": "https://docs.google.com/spreadsheets/d/12JWTQJcLHotKeqWgTjY6CjIIOKWtkFQFd43pciRZZ-A/edit",
+          "updatedAt": "2026-10-20T12:51:55.000Z",
           "width": 1600,
-          "height": 1242
+          "height": 454,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/Riion/"
+        },
+        {
+          "id": "PxOMC",
+          "label": "Excluding CDC",
+          "title": "Autonomy leads company share, private capital and federal awards · Excluding CDC",
+          "takeaway": "Autonomy, robotics & sensing accounts for 32.7% of companies, 32.4% of private capital and 49.1% of federal award value after excluding CDC.",
+          "descriptor": "Shares within all 49 companies, private capital and federal awards · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/PxOMC-4508da24a7424cf1.png",
+          "editor": "https://app.datawrapper.de/chart/PxOMC/visualize",
+          "preview": "https://app.datawrapper.de/preview/PxOMC",
+          "source": "https://docs.google.com/spreadsheets/d/1PfT1UreAZJkkk3EDIELTDsyIizEIZKgxqG9U-iK-3Xc/edit",
+          "updatedAt": "2026-10-20T12:55:37.000Z",
+          "width": 1600,
+          "height": 454,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "83STT",
+      "label": "Technology verticals · company count",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "f3cdc57e61ecf515",
+      "variants": [
+        {
+          "id": "83STT",
+          "label": "Including CDC",
+          "title": "Clean technology leads company count",
+          "takeaway": "Clean technology leads with 12 companies. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
+          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/83STT-410ea9ed01c6500e.png",
+          "editor": "https://app.datawrapper.de/chart/83STT/visualize",
+          "preview": "https://app.datawrapper.de/preview/83STT",
+          "source": "https://docs.google.com/spreadsheets/d/1jVe_JGMvOQCqJjFXoDIF10bybbonKzv0GlPdFQzTSc8/edit",
+          "updatedAt": "2026-10-20T12:52:04.000Z",
+          "width": 1600,
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "iXn8a",
+          "label": "Excluding CDC",
+          "title": "Clean technology leads company count · Excluding CDC",
+          "takeaway": "Clean technology leads with 12 companies. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
+          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/iXn8a-5d2eec11a25805db.png",
+          "editor": "https://app.datawrapper.de/chart/iXn8a/visualize",
+          "preview": "https://app.datawrapper.de/preview/iXn8a",
+          "source": "https://docs.google.com/spreadsheets/d/1EfstPNxA9GK9EGBozvp9Mbcnk83dKuK-xSip5FogIFM/edit",
+          "updatedAt": "2026-10-20T12:55:37.000Z",
+          "width": 1600,
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "t3Rvy",
+      "label": "Technology verticals · federal awards",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "a55a446a72e90fce",
+      "variants": [
+        {
+          "id": "t3Rvy",
+          "label": "Including CDC",
+          "title": "Technology, media, and telecommunications leads recorded federal awards",
+          "takeaway": "Technology, media, and telecommunications leads with 1,752.6 AUD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
+          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/t3Rvy-68f919b2b4a646d9.png",
+          "editor": "https://app.datawrapper.de/chart/t3Rvy/visualize",
+          "preview": "https://app.datawrapper.de/preview/t3Rvy",
+          "source": "https://docs.google.com/spreadsheets/d/1QXVJhImXa0RUbgGUN0sDlBthU70dKfJV7F2pLudD9QI/edit",
+          "updatedAt": "2026-10-20T12:52:10.000Z",
+          "width": 1600,
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "WWR98",
+          "label": "Excluding CDC",
+          "title": "Cybersecurity leads recorded federal awards · Excluding CDC",
+          "takeaway": "Cybersecurity leads with 207.3 AUD million in federal awards. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
+          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/WWR98-eb89654ed965e000.png",
+          "editor": "https://app.datawrapper.de/chart/WWR98/visualize",
+          "preview": "https://app.datawrapper.de/preview/WWR98",
+          "source": "https://docs.google.com/spreadsheets/d/1IgrN1k9cfBuA0JxJcI5QvWmRugUCT_XuiJeblGxnwgk/edit",
+          "updatedAt": "2026-10-20T12:52:09.000Z",
+          "width": 1600,
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "lyr0H",
+      "label": "Technology verticals · private capital",
+      "categoryId": "technology",
+      "category": "Critical technologies",
+      "revision": "fa66650b86d29dff",
+      "variants": [
+        {
+          "id": "lyr0H",
+          "label": "Including CDC",
+          "title": "Technology, media, and telecommunications leads recorded private capital",
+          "takeaway": "Technology, media, and telecommunications leads with 3,049.2 USD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
+          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/lyr0H-b0162fe79a86ff28.png",
+          "editor": "https://app.datawrapper.de/chart/lyr0H/visualize",
+          "preview": "https://app.datawrapper.de/preview/lyr0H",
+          "source": "https://docs.google.com/spreadsheets/d/1M0Jzx7X8Tf2lzBA5AWh01gOl6iOT0yBWKoZPjHI4u84/edit",
+          "updatedAt": "2026-10-20T12:52:07.000Z",
+          "width": 1600,
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "0Hg3c",
+          "label": "Excluding CDC",
+          "title": "Clean technology leads recorded private capital · Excluding CDC",
+          "takeaway": "Clean technology leads with 1,125.6 USD million in private capital. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
+          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/0Hg3c-187b02c289b4ecf2.png",
+          "editor": "https://app.datawrapper.de/chart/0Hg3c/visualize",
+          "preview": "https://app.datawrapper.de/preview/0Hg3c",
+          "source": "https://docs.google.com/spreadsheets/d/1Q9s5GqpPZ5sNz49cHO7Hlcb6bJJkK3X6B6FFJSZtDdE/edit",
+          "updatedAt": "2026-10-20T12:52:06.000Z",
+          "width": 1600,
+          "height": 1028,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -882,7 +638,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1hA1p5zgq9FW7o1MfDFWYnOJbQGT0yFVtkmcAAnyZi6I/edit",
           "updatedAt": "2026-10-20T12:52:37.000Z",
           "width": 1600,
-          "height": 978
+          "height": 978,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "4ScBj",
@@ -896,7 +654,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1IFfnMY_0TO3UYOr6WbW6QQ_Im3V85LQwnUfiuRBIo-Q/edit",
           "updatedAt": "2026-10-20T12:52:36.000Z",
           "width": 1600,
-          "height": 978
+          "height": 978,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -920,7 +680,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1eYfSfeUR9bT9L762axqLcqRi2PcsODDAlBxfUBMn41g/edit",
           "updatedAt": "2026-10-19T21:15:53.000Z",
           "width": 1600,
-          "height": 226
+          "height": 226,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -944,7 +706,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1j2vPQ5sIOX1tG6z_F46ECzTbMb8szVZneYDvdS3D6oM/edit",
           "updatedAt": "2026-10-19T21:15:15.000Z",
           "width": 1600,
-          "height": 308
+          "height": 308,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -968,7 +732,217 @@
           "source": "https://docs.google.com/spreadsheets/d/1NcU-psC8IkyScFM9PoNL_CMh-LRvZkVQg3UGVQQ0Bcs/edit",
           "updatedAt": "2026-10-19T21:41:36.000Z",
           "width": 1600,
-          "height": 382
+          "height": 382,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "mEeZT",
+      "label": "Global office presence",
+      "categoryId": "places",
+      "category": "Company locations",
+      "revision": "3ee256ebff71cdd3",
+      "variants": [
+        {
+          "id": "mEeZT",
+          "label": "Original",
+          "title": "31 NatSec50 companies have recorded offices outside Australia",
+          "takeaway": "The office tags span 23 countries, including Australia. 31 companies have a recorded presence overseas; each company counts once per country regardless of how many cities are tagged there.",
+          "descriptor": "Companies with a recorded office presence by country",
+          "image": "/charts/mEeZT-4357f030fb5a7071.png",
+          "editor": "https://app.datawrapper.de/chart/mEeZT/visualize",
+          "preview": "https://app.datawrapper.de/preview/mEeZT",
+          "source": "https://docs.google.com/spreadsheets/d/19JcfQ_0XZTRBw3QSrELdICCxCqbd1KRYYEXKqX0fO_E/edit",
+          "updatedAt": "2026-10-19T21:37:42.000Z",
+          "width": 1600,
+          "height": 818,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "GQJqP",
+      "label": "Headquarters by state",
+      "categoryId": "places",
+      "category": "Company locations",
+      "revision": "05f5efaca70b8c72",
+      "variants": [
+        {
+          "id": "GQJqP",
+          "label": "Original",
+          "title": "New South Wales hosts 25 of the 50 NatSec50 headquarters",
+          "takeaway": "New South Wales accounts for 25 of the 50 headquarters. One company has a recorded US headquarters; all 50 have usable headquarters locations. Australian city-to-state mappings are documented in the spreadsheet.",
+          "descriptor": "Australian NatSec50 recorded headquarters by state and territory",
+          "image": "/charts/GQJqP-263ba57f82991dcc.png",
+          "editor": "https://app.datawrapper.de/chart/GQJqP/visualize",
+          "preview": "https://app.datawrapper.de/preview/GQJqP",
+          "source": "https://docs.google.com/spreadsheets/d/16wy14XXY9nGqTgB1-8CueudIi6Un2Hq65r0DlPUZG1M/edit",
+          "updatedAt": "2026-10-19T21:14:58.000Z",
+          "width": 1600,
+          "height": 1494,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "9i7n2",
+      "label": "Office presence by state",
+      "categoryId": "places",
+      "category": "Company locations",
+      "revision": "ed09a8ad040f767c",
+      "variants": [
+        {
+          "id": "9i7n2",
+          "label": "Original",
+          "title": "New South Wales has the broadest recorded NatSec50 office presence",
+          "takeaway": "32 of the 50 companies have at least one recorded office tag in New South Wales. Firms with several cities in one state count once in that state; companies operating across states appear in more than one state.",
+          "descriptor": "Companies with a recorded office presence by Australian state and territory",
+          "image": "/charts/9i7n2-4180c21140fc525f.png",
+          "editor": "https://app.datawrapper.de/chart/9i7n2/visualize",
+          "preview": "https://app.datawrapper.de/preview/9i7n2",
+          "source": "https://docs.google.com/spreadsheets/d/12tk1_9QxJ8CKwL5qw317G8ERImAsgsnrc28DlnfXY2M/edit",
+          "updatedAt": "2026-10-19T21:37:18.000Z",
+          "width": 1600,
+          "height": 1494,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "tvxoV",
+      "label": "Office presence in AUKUS countries",
+      "categoryId": "places",
+      "category": "Company locations",
+      "revision": "9ed3db629bd02e1c",
+      "variants": [
+        {
+          "id": "tvxoV",
+          "label": "Original",
+          "title": "The NatSec50 has a recorded office footprint across all three AUKUS countries",
+          "takeaway": "50 companies have Australian office tags, 22 have US tags and 16 have UK tags. These overlapping counts describe office presence, not AUKUS contracts or programme participation.",
+          "descriptor": "Companies with a recorded office presence by country",
+          "image": "/charts/tvxoV-c57f0be23260aba8.png",
+          "editor": "https://app.datawrapper.de/chart/tvxoV/visualize",
+          "preview": "https://app.datawrapper.de/preview/tvxoV",
+          "source": "https://docs.google.com/spreadsheets/d/189eXvOqdU3EttxeIYwpGCb4k50F59ZXVgABURo6rGe4/edit",
+          "updatedAt": "2026-10-19T21:14:59.000Z",
+          "width": 1600,
+          "height": 818,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "egzKM",
+      "label": "Contributors to employment growth",
+      "categoryId": "people",
+      "category": "Headcount growth",
+      "revision": "5c8b3af62f77886a",
+      "variants": [
+        {
+          "id": "egzKM",
+          "label": "Original",
+          "title": "The largest employment gains are concentrated in a few companies",
+          "takeaway": "CDC Data Centres adds 173 recorded employees between December 2022 and the current 2026 snapshot. Across all 50 companies, net company-wide headcount rises by 1,808; negative bars show firms with recorded declines. Missing historical headcounts count as zero.",
+          "descriptor": "Absolute change in company-wide headcount, December 2022 to current 2026",
+          "image": "/charts/egzKM-8fb91b4f19ecb5a7.png",
+          "editor": "https://app.datawrapper.de/chart/egzKM/visualize",
+          "preview": "https://app.datawrapper.de/preview/egzKM",
+          "source": "https://docs.google.com/spreadsheets/d/1NhwTdIJypSzeXUo-hRjTPlGT6kiCg8UhlRhIzZJwNI0/edit",
+          "updatedAt": "2026-10-19T21:38:28.000Z",
+          "width": 1600,
+          "height": 3078,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "hlrSA",
+      "label": "Employment by technology",
+      "categoryId": "people",
+      "category": "Headcount growth",
+      "revision": "162d4346de8ac9da",
+      "variants": [
+        {
+          "id": "hlrSA",
+          "label": "Original",
+          "title": "Autonomy, robotics & sensing has the largest recorded workforce",
+          "takeaway": "Autonomy, robotics & sensing accounts for 1,515 current company-wide employees. Separate panels show how employment has developed across the seven critical technology areas, using the same vertical scale for comparison.",
+          "descriptor": "Company-wide headcount by critical technology area, December 2022–current 2026",
+          "image": "/charts/hlrSA-99a4a85b2e2765cc.png",
+          "editor": "https://app.datawrapper.de/chart/hlrSA/visualize",
+          "preview": "https://app.datawrapper.de/preview/hlrSA",
+          "source": "https://docs.google.com/spreadsheets/d/18m7-HYFQ5ea_tRAcR_Fr-BXwENY71Trxsp_qX_Vt2OM/edit",
+          "updatedAt": "2026-10-19T21:38:48.000Z",
+          "width": 1600,
+          "height": 1802,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "ZmAvO",
+      "label": "Median headcount growth",
+      "categoryId": "people",
+      "category": "Headcount growth",
+      "revision": "8e4441fc3902ff34",
+      "variants": [
+        {
+          "id": "ZmAvO",
+          "label": "Original",
+          "title": "Median NatSec50 headcount rose from 41.5 to 78 employees",
+          "takeaway": "The median company rises from 41.5 to 78 recorded employees. All 50 companies and all 426 eligible comparison companies are included; missing snapshots count as zero.",
+          "descriptor": "Median company-wide headcount · December 2022–current 2026",
+          "image": "/charts/ZmAvO-38f6561c6b6c2e0a.png",
+          "editor": "https://app.datawrapper.de/chart/ZmAvO/visualize",
+          "preview": "https://app.datawrapper.de/preview/ZmAvO",
+          "source": "https://docs.google.com/spreadsheets/d/1i2h9JVVHdaMakX_jtbJ0ULs_1du5NZxRwBU6hHXMdxM/edit",
+          "updatedAt": "2026-10-19T21:21:36.000Z",
+          "width": 1600,
+          "height": 770,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "TXLkw",
+      "label": "Total headcount growth",
+      "categoryId": "people",
+      "category": "Headcount growth",
+      "revision": "6eea3342f54d60cc",
+      "variants": [
+        {
+          "id": "TXLkw",
+          "label": "Original",
+          "title": "NatSec50 headcount grew 58.4% from December 2022 to current 2026",
+          "takeaway": "The cohort rises from 3,098 to 4,906 recorded employees. All 50 companies and all 426 eligible comparison companies are included; missing snapshots count as zero.",
+          "descriptor": "Total company-wide headcount · December 2022–current 2026",
+          "image": "/charts/TXLkw-e29c2d87cdbeeb8c.png",
+          "editor": "https://app.datawrapper.de/chart/TXLkw/visualize",
+          "preview": "https://app.datawrapper.de/preview/TXLkw",
+          "source": "https://docs.google.com/spreadsheets/d/160UV2rZ5dJFoE5pRTigrS4VI-0DPtG-5Q7IPe6aHXRA/edit",
+          "updatedAt": "2026-10-19T21:38:11.000Z",
+          "width": 1600,
+          "height": 770,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -992,7 +966,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1izIi-Ej8xMCeEwEC63VxNlooLKhRkHsOM5UUYBmBhCY/edit",
           "updatedAt": "2026-10-20T12:55:18.000Z",
           "width": 1600,
-          "height": 144
+          "height": 144,
+          "published": false,
+          "publishedUrl": null
         },
         {
           "id": "CsbIH",
@@ -1006,7 +982,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1qgPG4oqnLnIqtk4rsaman_PC_q6X0Xkw7QKc-RQM7nY/edit",
           "updatedAt": "2026-10-20T12:55:17.000Z",
           "width": 1600,
-          "height": 144
+          "height": 144,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1030,7 +1008,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1n_eMJjtQTjJ5sDAlSKYSKMFFcHNygxeacLStd3FDNA0/edit",
           "updatedAt": "2026-10-20T12:54:18.000Z",
           "width": 1600,
-          "height": 7494
+          "height": 7494,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1054,7 +1034,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1UYnHKcUGBRdq601dZauJdtmsB31RQhqhkCANtFfUUR0/edit",
           "updatedAt": "2026-10-20T12:49:31.000Z",
           "width": 1600,
-          "height": 516
+          "height": 516,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1078,7 +1060,9 @@
           "source": "https://docs.google.com/spreadsheets/d/1eeB-RcPdIPysM6LSkbaTcXDgkpl1FksH9l5vx9_dY-I/edit",
           "updatedAt": "2026-10-20T12:46:01.000Z",
           "width": 1600,
-          "height": 660
+          "height": 660,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
@@ -1102,7 +1086,129 @@
           "source": "https://docs.google.com/spreadsheets/d/1-f7K-QcvOMYbeINNdrQ1_Jj2pGuaIJw3ZSEvHXO_q3w/edit",
           "updatedAt": "2026-10-20T12:47:47.000Z",
           "width": 1600,
-          "height": 474
+          "height": 474,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "UT7ui",
+      "label": "Cohort statistics",
+      "categoryId": "companies",
+      "category": "Companies & statistics",
+      "revision": "c060bf95a77a28d2",
+      "variants": [
+        {
+          "id": "UT7ui",
+          "label": "Including CDC",
+          "title": "AUS NatSec50 records US$6.78 billion in cumulative private capital",
+          "takeaway": "The 50 companies have AU$2.50 billion in recorded federal awards and 4,906 company-wide employees. Annual fundraising figures cover only the three latest recorded raises, not complete event histories.",
+          "descriptor": "Key statistics · current original-rank top 50 · 19 October 2026 · Including CDC · 50 companies",
+          "image": "/charts/UT7ui-2b574e5b2b2420a7.png",
+          "editor": "https://app.datawrapper.de/chart/UT7ui/visualize",
+          "preview": "https://app.datawrapper.de/preview/UT7ui",
+          "source": "https://docs.google.com/spreadsheets/d/1_VOJY2aq3ZFNhK7X1WZRqE6Ra_TyCqUhCWf9ADfabJg/edit",
+          "updatedAt": "2026-10-20T12:52:13.000Z",
+          "width": 1600,
+          "height": 686,
+          "published": false,
+          "publishedUrl": null
+        },
+        {
+          "id": "YaKjd",
+          "label": "Excluding CDC",
+          "title": "The selected companies record US$3.73 billion in private capital · Excluding CDC",
+          "takeaway": "The 49 companies record AU$0.75 billion in federal awards and 4,540 company-wide employees. Annual fundraising covers only the three latest recorded raises; FY2026–27 is partial.",
+          "descriptor": "Key statistics · original 2026 cohort · 19 October 2026 · Excluding CDC · 49 companies",
+          "image": "/charts/YaKjd-f5ccb1444c8ed2e6.png",
+          "editor": "https://app.datawrapper.de/chart/YaKjd/visualize",
+          "preview": "https://app.datawrapper.de/preview/YaKjd",
+          "source": "https://docs.google.com/spreadsheets/d/1mgu6sp6-uTfgZHy7362DtJYEeFqjzdOiERF-gEk62L8/edit",
+          "updatedAt": "2026-10-20T12:59:05.000Z",
+          "width": 1600,
+          "height": 686,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "Lkxki",
+      "label": "Ranking sensitivity to excluding grants",
+      "categoryId": "companies",
+      "category": "Companies & statistics",
+      "revision": "0896745e019a55f1",
+      "variants": [
+        {
+          "id": "Lkxki",
+          "label": "Original",
+          "title": "Excluding grants changes the ranking of 48 NatSec50 companies",
+          "takeaway": "MCi Carbon moves from rank 19 to 76 under the contract-notice-only formula. The comparison holds the original 50-company cohort fixed and shows how the treatment of grants affects rank.",
+          "descriptor": "Original rank versus contract-notice-only rank (lower is better)",
+          "image": "/charts/Lkxki-9c22cf685d6fb8f8.png",
+          "editor": "https://app.datawrapper.de/chart/Lkxki/visualize",
+          "preview": "https://app.datawrapper.de/preview/Lkxki",
+          "source": "https://docs.google.com/spreadsheets/d/11U7Ramo807q6ODpZI0qL58tDLTZMucI5IibNGBfgUCc/edit",
+          "updatedAt": "2026-10-19T21:36:12.000Z",
+          "width": 1600,
+          "height": 1994,
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/Lkxki/"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "aaKIA",
+      "label": "The Australian NatSec50 companies",
+      "categoryId": "companies",
+      "category": "Companies & statistics",
+      "revision": "6638da81a437e4ec",
+      "variants": [
+        {
+          "id": "aaKIA",
+          "label": "Original",
+          "title": "The 2026 Australian NatSec50 companies",
+          "takeaway": "The current original-rank top 50 includes Applied EV. Recorded headquarters and USD capital are shown for every company; a founding year of 0 denotes missing source data.",
+          "descriptor": "Ranks 1–50 · original 2026 NatSec100 Formula · 19 October 2026",
+          "image": "/charts/aaKIA-c251392664b3d847.png",
+          "editor": "https://app.datawrapper.de/chart/aaKIA/visualize",
+          "preview": "https://app.datawrapper.de/preview/aaKIA",
+          "source": "https://docs.google.com/spreadsheets/d/1SsKa7kYuia_Blphm6Sk-GAZvgUqSsI-5vDXS1X9kHLg/edit",
+          "updatedAt": "2026-10-19T21:14:56.000Z",
+          "width": 1600,
+          "height": 3594,
+          "published": false,
+          "publishedUrl": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "QvbtE",
+      "label": "Investors backing the NatSec50",
+      "categoryId": "investors",
+      "category": "Investors",
+      "revision": "a5dbe4a12bcfe7cd",
+      "variants": [
+        {
+          "id": "QvbtE",
+          "label": "Original",
+          "title": "The most connected recorded investor backs 15 NatSec50 companies",
+          "takeaway": "Main Sequence Ventures is linked to 15 of the current 50 companies. This ranking counts distinct portfolio companies, so repeated funding events do not increase an investor’s count. Recorded investors include government programmes and accelerators.",
+          "descriptor": "Top 20 recorded investors by distinct NatSec50 portfolio companies",
+          "image": "/charts/QvbtE-489ea09e53c426f3.png",
+          "editor": "https://app.datawrapper.de/chart/QvbtE/visualize",
+          "preview": "https://app.datawrapper.de/preview/QvbtE",
+          "source": "https://docs.google.com/spreadsheets/d/1eO4s35phha_WwV3ZwTEAP2_tKidQnsE25OOFC9zuC20/edit",
+          "updatedAt": "2026-10-19T21:21:38.000Z",
+          "width": 1600,
+          "height": 1242,
+          "published": false,
+          "publishedUrl": null
         }
       ],
       "order": 1
