@@ -45,7 +45,7 @@ def export(c):
   out.write_bytes(b);stamp.write_text(json.dumps({'hash':fingerprint,'lastModifiedAt':c['lastModifiedAt'],'render':'800x2'}))
  print('Exported',cid,flush=True)
  return cid,fingerprint
-hashes=dict(concurrent.futures.ThreadPoolExecutor(max_workers=3).map(export,charts));items=[]
+hashes=dict(concurrent.futures.ThreadPoolExecutor(max_workers=3).map(export,charts));items=[];pinfile=ROOT/'data/revisions.json';pins=json.loads(pinfile.read_text()) if pinfile.exists() else {};newpins={}
 for c in charts:
  if c['id'] in companions:continue
  ids=[c['id']]+([pairs[c['id']]] if c['id'] in pairs else []) if c['id'] in INCL_FIRST or c['id'] not in pairs else [pairs[c['id']],c['id']];variants=[]
@@ -54,7 +54,9 @@ for c in charts:
   # Canvas ratio is served with each image so page layout reserves the correct height.
   import struct
   w,h=struct.unpack('>II',(ROOT/'public/charts'/f'{cid}-{hashes[cid][:16]}.png').read_bytes()[16:24]);variants[-1].update({'width':w,'height':h})
- key,category=FOLDERS[c['folderId']];revision=hashlib.sha256('|'.join(hashes[x] for x in ids).encode()).hexdigest()[:16]
+ key,category=FOLDERS[c['folderId']];datahash=hashlib.sha256('|'.join(dw.api_request('GET','/charts/'+x+'/data',token).decode('utf-8-sig').replace('\r\n','\n') for x in sorted(ids)).encode()).hexdigest()[:16];pin=pins.get(c['id'])
+ # Review revision changes only when a chart's plotted data changes, so wording or style edits never invalidate Supabase votes/comments.
+ revision=pin['revision'] if pin and pin['data'] in (datahash,'__seed__') else hashlib.sha256((datahash+'|'+'|'.join(hashes[x] for x in ids)).encode()).hexdigest()[:16];newpins[c['id']]={'data':datahash,'revision':revision}
  items.append({'id':c['id'],'label':LABELS.get(c['id'],c['title']),'categoryId':key,'category':category,'revision':revision,'variants':variants,'order':0 if c['id']=='85B2M' else 1})
 items.sort(key=lambda x:(x['order'],x['category'],x['label']));catalog={'title':'Australian NatSec50','capturedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'chartCount':len(charts),'analysisCount':len(items),'pairCount':sum(len(i['variants'])>1 for i in items),'items':items}
 catalog['analysisAliases']=consolidations['analysisAliases']
@@ -62,4 +64,4 @@ for item in catalog['items']:
  if item['id'] in consolidations['labels']:
   item['label']=consolidations['labels'][item['id']]
   item['consolidatedFrom']=[{'id':'i7G14','label':'Critical technologies · private capital','variantIds':['i7G14','TWQL0']}]
-(ROOT/'data/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in catalog.items() if k!='items'}))
+pinfile.write_text(json.dumps(newpins,indent=1,sort_keys=True));(ROOT/'data/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in catalog.items() if k!='items'}))

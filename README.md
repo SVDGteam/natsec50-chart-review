@@ -45,6 +45,10 @@ Chart snapshots captured 20 October 2026. This is a team review tool for draft a
 
 From 20 October 2026 every Including/Excluding CDC pair opens on the Excluding CDC view, which carries the report headline; the Including view explains what CDC changes. The capital-versus-awards donut (85B2M/vYJSR) is unchanged. `scripts/import_charts.py` sets the order.
 
+## Stable review IDs
+
+A chart's review revision is pinned in `data/revisions.json` and changes only when its plotted data changes. Editing wording or styling in Datawrapper and re-running `scripts/import_charts.py` keeps the revision, so Supabase votes and comments keep working without rerunning `02-catalog.sql`. Rerun that SQL only when `git diff supabase/02-catalog.sql` shows a change.
+
 ## Published chart updates
 
 Republish an existing chart in Datawrapper, then use **Refresh chart**, revisit that analysis or reload the review website. The latest published chart, title and description load from Datawrapper without rebuilding this site (subject to its CDN cache). Charts without a published version show a clearly labelled saved draft. Every view attempts a live embed when opened, so publishing a formerly unpublished chart does not require a website redeploy.
