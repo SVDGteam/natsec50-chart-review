@@ -21,7 +21,7 @@ policy=json.loads((ROOT/'data/source-policy.json').read_text())
 consolidations=json.loads((ROOT/'data/catalog-consolidations.json').read_text())
 withdrawn=set(policy['withdrawnChartIds'])|set(consolidations['consolidatedChartIds'])
 charts=[c for c in charts if c['id'] not in withdrawn]
-by={c['id']:c for c in charts};pairs={'85B2M':'vYJSR'}
+by={c['id']:c for c in charts};pairs={'85B2M':'vYJSR'};INCL_FIRST={'85B2M'}  # the capital-versus-awards donut keeps Including CDC first; every other pair leads with Excluding CDC
 for m in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/cdc_rollout/manifest.json')):
  if m['original_id'] in by and m['id'] in by:pairs[m['original_id']]=m['id']
 companions=set(pairs.values());sheets={q['chart_id']:q['sheet_id'] for q in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/audit/plans.json'))};sheets['vYJSR']='1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo'
@@ -48,9 +48,9 @@ def export(c):
 hashes=dict(concurrent.futures.ThreadPoolExecutor(max_workers=3).map(export,charts));items=[]
 for c in charts:
  if c['id'] in companions:continue
- ids=[c['id']]+([pairs[c['id']]] if c['id'] in pairs else []);variants=[]
+ ids=[c['id']]+([pairs[c['id']]] if c['id'] in pairs else []) if c['id'] in INCL_FIRST or c['id'] not in pairs else [pairs[c['id']],c['id']];variants=[]
  for i,cid in enumerate(ids):
-  v=by[cid];intro=v['metadata'].get('describe',{}).get('intro','');desc=re.findall('<b>(.*?)</b>',intro,re.S);variants.append({'id':cid,'label':('Including CDC' if i==0 else 'Excluding CDC') if len(ids)>1 else 'Original','title':v['title'],'takeaway':text(intro.split('<br><br>')[0]),'descriptor':text(desc[-1]) if desc else '', 'image':'/charts/'+cid+'-'+hashes[cid][:16]+'.png','editor':'https://app.datawrapper.de/chart/'+cid+'/visualize','preview':'https://app.datawrapper.de/preview/'+cid,'source':('https://docs.google.com/spreadsheets/d/'+sheets[cid]+'/edit') if sheets.get(cid) else 'https://docs.google.com/spreadsheets/d/1-pglM6wn91LFFsXiEZ050ne237bV1sGtD92L-xvq4gM/edit','published':bool(v.get('publicVersion') and v.get('publicUrl')),'publishedUrl':('https://datawrapper.dwcdn.net/'+cid+'/') if v.get('publicVersion') else None,'updatedAt':v['lastModifiedAt']})
+  v=by[cid];intro=v['metadata'].get('describe',{}).get('intro','');desc=re.findall('<b>(.*?)</b>',intro,re.S);variants.append({'id':cid,'label':(('Including CDC' if i==0 else 'Excluding CDC') if c['id'] in INCL_FIRST else ('Excluding CDC' if i==0 else 'Including CDC')) if len(ids)>1 else 'Original','title':v['title'],'takeaway':text(intro.split('<br><br>')[0]),'descriptor':text(desc[-1]) if desc else '', 'image':'/charts/'+cid+'-'+hashes[cid][:16]+'.png','editor':'https://app.datawrapper.de/chart/'+cid+'/visualize','preview':'https://app.datawrapper.de/preview/'+cid,'source':('https://docs.google.com/spreadsheets/d/'+sheets[cid]+'/edit') if sheets.get(cid) else 'https://docs.google.com/spreadsheets/d/1-pglM6wn91LFFsXiEZ050ne237bV1sGtD92L-xvq4gM/edit','published':bool(v.get('publicVersion') and v.get('publicUrl')),'publishedUrl':('https://datawrapper.dwcdn.net/'+cid+'/') if v.get('publicVersion') else None,'updatedAt':v['lastModifiedAt']})
   # Canvas ratio is served with each image so page layout reserves the correct height.
   import struct
   w,h=struct.unpack('>II',(ROOT/'public/charts'/f'{cid}-{hashes[cid][:16]}.png').read_bytes()[16:24]);variants[-1].update({'width':w,'height':h})

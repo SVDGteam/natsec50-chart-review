@@ -41,6 +41,10 @@ Run `supabase/01-schema.sql` once in a new Supabase project; `supabase/02-catalo
 
 Chart snapshots captured 20 October 2026. This is a team review tool for draft analyses.
 
+## Excluding CDC first
+
+From 20 October 2026 every Including/Excluding CDC pair opens on the Excluding CDC view, which carries the report headline; the Including view explains what CDC changes. The capital-versus-awards donut (85B2M/vYJSR) is unchanged. `scripts/import_charts.py` sets the order.
+
 ## Published chart updates
 
 Republish an existing chart in Datawrapper, then use **Refresh chart**, revisit that analysis or reload the review website. The latest published chart, title and description load from Datawrapper without rebuilding this site (subject to its CDN cache). Charts without a published version show a clearly labelled saved draft. Every view attempts a live embed when opened, so publishing a formerly unpublished chart does not require a website redeploy.
