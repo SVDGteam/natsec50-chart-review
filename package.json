@@ -1,0 +1,24 @@
+{
+  "name": "natsec50-chart-review",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "python3 server.py",
+    "test": "python3 -m unittest discover -s tests -v",
+    "build:hosted": "node scripts/prepare-hosting.mjs && VITE_REVIEW_BACKEND=supabase vite build",
+    "test:cloud": "node --test tests/cloud.test.mjs tests/database.test.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "vite": "^6.0.0"
+  }
+}

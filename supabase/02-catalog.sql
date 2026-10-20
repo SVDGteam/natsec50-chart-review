@@ -1,0 +1,42 @@
+-- Safe to run again when chart snapshots change. Keeps earlier review revisions.
+begin;
+update public.review_catalog set is_current=false;
+insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current) values
+('85B2M','cc477952dec072f1','Private capital versus federal awards',array['85B2M','vYJSR'],true),
+('UT7ui','c060bf95a77a28d2','Cohort statistics',array['UT7ui','YaKjd'],true),
+('Lkxki','0896745e019a55f1','Ranking sensitivity to excluding grants',array['Lkxki'],true),
+('aaKIA','6638da81a437e4ec','The Australian NatSec50 companies',array['aaKIA'],true),
+('mEeZT','3ee256ebff71cdd3','Global office presence',array['mEeZT'],true),
+('GQJqP','05f5efaca70b8c72','Headquarters by state',array['GQJqP'],true),
+('9i7n2','ed09a8ad040f767c','Office presence by state',array['9i7n2'],true),
+('tvxoV','9ed3db629bd02e1c','Office presence in AUKUS countries',array['tvxoV'],true),
+('7feFF','0396c3da1b472671','Contracts versus grants',array['7feFF','B8Q58'],true),
+('hmGV6','c4a765803e5fcb3a','Procurement methods',array['hmGV6','wBKef'],true),
+('FPVa0','8f259c11c622aec7','AUKUS capability shares',array['FPVa0','oq1YG'],true),
+('2vjDY','5a65c7d7464ce208','AUKUS technology representation',array['2vjDY'],true),
+('gTBY5','a5703df678e7c42f','Critical technologies · federal awards',array['gTBY5','P1tcx'],true),
+('i7G14','5519803068c329c2','Critical technologies · private capital',array['i7G14','TWQL0'],true),
+('Riion','f454929d89c5eb04','Critical technology shares',array['Riion','PxOMC'],true),
+('83STT','f3cdc57e61ecf515','Technology verticals · company count',array['83STT','iXn8a'],true),
+('t3Rvy','a55a446a72e90fce','Technology verticals · federal awards',array['t3Rvy','WWR98'],true),
+('lyr0H','fa66650b86d29dff','Technology verticals · private capital',array['lyr0H','0Hg3c'],true),
+('OSRam','1c62fe00937dcc79','Defence contracts by branch',array['OSRam','xasLp'],true),
+('QKQgp','d3c4d8c095de56fb','Federal awards by agency',array['QKQgp','KIDgZ'],true),
+('EJ9oX','c264fd02abe0b902','Contract-title terms',array['EJ9oX','WYdJr'],true),
+('PqCEz','cb1fba4d284e06b0','Government procurement categories',array['PqCEz','FgKYq'],true),
+('egzKM','5c8b3af62f77886a','Contributors to employment growth',array['egzKM'],true),
+('hlrSA','162d4346de8ac9da','Employment by technology',array['hlrSA'],true),
+('ZmAvO','8e4441fc3902ff34','Median headcount growth',array['ZmAvO'],true),
+('TXLkw','6eea3342f54d60cc','Total headcount growth',array['TXLkw'],true),
+('QvbtE','a5dbe4a12bcfe7cd','Investors backing the NatSec50',array['QvbtE'],true),
+('u9QBA','5440c509072f5705','Capital and contract concentration',array['u9QBA','4ScBj'],true),
+('IYjmo','0b4468f6b3d058e6','Fundraising recency',array['IYjmo'],true),
+('gRm6y','cdf5009878d693c7','Selected Australian defence IPOs',array['gRm6y'],true),
+('M13Os','d7cddf019c863f99','Selected mergers and acquisitions',array['M13Os'],true),
+('Ad105','6c278f37a82a039a','Australian versus US government totals',array['Ad105','CsbIH'],true),
+('hUwiI','1e7510635d02c6b1','Companies with recorded US government work',array['hUwiI'],true),
+('Gt24P','2b33f533476b3c76','US and Australian work by company',array['Gt24P'],true),
+('5xplP','d71a7fb72e5c7fcb','US prime obligations by agency',array['5xplP'],true),
+('2xdJS','998d98ceda1d2f50','US prime obligations by company',array['2xdJS'],true)
+on conflict(chart_id,revision) do update set label=excluded.label,variant_ids=excluded.variant_ids,is_current=true;
+commit;

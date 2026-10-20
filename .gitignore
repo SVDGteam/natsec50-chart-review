@@ -1,0 +1,13 @@
+node_modules/
+dist/
+data/*.sqlite3*
+data/*.snapshot.json
+.DS_Store
+
+.env
+.env.*
+!.env.example
+data/source_charts.json
+design/
+__pycache__/
+*.pyc
