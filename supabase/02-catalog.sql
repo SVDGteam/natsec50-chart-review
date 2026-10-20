@@ -4,8 +4,6 @@ update public.review_catalog set is_current=false;
 insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current) values
 ('85B2M','cc477952dec072f1','Private capital versus federal awards',array['85B2M','vYJSR'],true),
 ('7feFF','0396c3da1b472671','Contracts versus grants',array['7feFF','B8Q58'],true),
-('hmGV6','c4a765803e5fcb3a','Procurement methods',array['hmGV6','wBKef'],true),
-('OSRam','1c62fe00937dcc79','Defence contracts by branch',array['OSRam','xasLp'],true),
 ('QKQgp','d3c4d8c095de56fb','Federal awards by agency',array['QKQgp','KIDgZ'],true),
 ('EJ9oX','c264fd02abe0b902','Contract-title terms',array['EJ9oX','WYdJr'],true),
 ('PqCEz','cb1fba4d284e06b0','Government procurement categories',array['PqCEz','FgKYq'],true),

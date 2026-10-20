@@ -4,12 +4,13 @@ import {readFileSync} from 'node:fs';
 import {PGlite} from '@electric-sql/pglite';
 const schema=readFileSync(new URL('../supabase/01-schema.sql',import.meta.url),'utf8');
 const seed=readFileSync(new URL('../supabase/02-catalog.sql',import.meta.url),'utf8');
+const catalog=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8'));
 const alice='00000000-0000-4000-8000-000000000001',bob='00000000-0000-4000-8000-000000000002',outsider='00000000-0000-4000-8000-000000000003';
 test('Postgres RLS and review functions enforce team membership, ownership, revision and reply rules',async()=>{
  const db=new PGlite();try{
  await db.exec(`create role anon; create role authenticated;create schema auth;create table auth.users(id uuid primary key);create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;create function auth.jwt() returns jsonb language sql stable as $$select jsonb_build_object('email',current_setting('request.jwt.claim.email',true))$$;grant usage on schema auth to authenticated;grant execute on all functions in schema auth to authenticated;`);
  await db.exec(schema);await db.exec(seed);await db.exec(seed);
- assert.equal((await db.query('select count(*)::int n from review_catalog where is_current')).rows[0].n,36);
+ assert.equal((await db.query('select count(*)::int n from review_catalog where is_current')).rows[0].n,catalog.analysisCount);
  await db.query('insert into auth.users values($1),($2),($3)',[alice,bob,outsider]);
  await db.exec("insert into review_private.allowed_emails values('alice@example.com'),('bob@example.com')");
  async function as(id,email){await db.exec('reset role');await db.query("select set_config('request.jwt.claim.sub',$1,false),set_config('request.jwt.claim.email',$2,false)",[id,email]);await db.exec('set role authenticated');}

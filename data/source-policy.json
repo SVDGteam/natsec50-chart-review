@@ -1,0 +1,15 @@
+{
+  "effectiveDate": "2026-10-20",
+  "australianContracting": {
+    "allowedTableId": "tbl1jmti4Erk93WL1",
+    "allowedTableName": "Federal Tenders AUS",
+    "provider": "TenderTrace",
+    "masterDashboardTableId": "tblOrTjT1um8mu4N9",
+    "allowedMasterLinkFieldId": "fldSxkqCp6l3iXoLa",
+    "excludedTableId": "tblRupnG0oVLKMeqn",
+    "rule": "Use only Federal Tenders AUS and Master Dashboard fields derived from that table. Never use AusTender Contracts or its Master rollups, including as a backfill."
+  },
+  "usContractingException": "User explicitly approved keeping the existing US-source charts as a separate exception on 20 October 2026.",
+  "withdrawnChartIds": ["OSRam", "xasLp", "hmGV6", "wBKef"],
+  "withdrawalReason": "Procurement method and Defence branch are unavailable in Federal Tenders AUS. These four views used the excluded AusTender Contracts table. Retain drafts and review history as historical evidence; exclude from the live review site and future imports."
+}

@@ -16,7 +16,11 @@ def snapshot():
  charts=list(concurrent.futures.ThreadPoolExecutor(max_workers=3).map(lambda c:json.loads(dw.api_request('GET','/charts/'+c['id'],token)),charts))
  (ROOT/'data/source_charts.json').write_text(json.dumps(charts,indent=2));return token,charts
 # Use fresh authoritative live metadata from the bounded account listing.
-token,charts=snapshot();by={c['id']:c for c in charts};pairs={'85B2M':'vYJSR'}
+token,charts=snapshot()
+policy=json.loads((ROOT/'data/source-policy.json').read_text())
+withdrawn=set(policy['withdrawnChartIds'])
+charts=[c for c in charts if c['id'] not in withdrawn]
+by={c['id']:c for c in charts};pairs={'85B2M':'vYJSR'}
 for m in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/cdc_rollout/manifest.json')):
  if m['original_id'] in by and m['id'] in by:pairs[m['original_id']]=m['id']
 companions=set(pairs.values());sheets={q['chart_id']:q['sheet_id'] for q in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/audit/plans.json'))};sheets['vYJSR']='1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo'

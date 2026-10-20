@@ -1,9 +1,9 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T15:05:35.039214+00:00",
-  "chartCount": 53,
-  "analysisCount": 36,
-  "pairCount": 17,
+  "chartCount": 49,
+  "analysisCount": 34,
+  "pairCount": 15,
   "items": [
     {
       "id": "85B2M",
@@ -83,90 +83,6 @@
           "updatedAt": "2026-10-20T12:52:15.000Z",
           "width": 1600,
           "height": 922,
-          "published": false,
-          "publishedUrl": null
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "hmGV6",
-      "label": "Procurement methods",
-      "categoryId": "contracts",
-      "category": "Contract type",
-      "revision": "c4a765803e5fcb3a",
-      "variants": [
-        {
-          "id": "hmGV6",
-          "label": "Including CDC",
-          "title": "Procurement method differs by contract count and value",
-          "takeaway": "Limited tender accounts for 257 of the 412 non-cancelled contract records in the separate AusTender dataset. Comparing its share of notices with its share of value shows whether large contracts follow the same procurement mix.",
-          "descriptor": "Share of non-cancelled AusTender records and contract value by procurement method (%) · Including CDC · 50 companies",
-          "image": "/charts/hmGV6-78c35636d31c07f3.png",
-          "editor": "https://app.datawrapper.de/chart/hmGV6/visualize",
-          "preview": "https://app.datawrapper.de/preview/hmGV6",
-          "source": "https://docs.google.com/spreadsheets/d/17PiRGX8TA6DM5U26UxRJ6s7EJXLuUVrYQKvJTw0GmVY/edit",
-          "updatedAt": "2026-10-20T12:52:40.000Z",
-          "width": 1600,
-          "height": 206,
-          "published": false,
-          "publishedUrl": null
-        },
-        {
-          "id": "wBKef",
-          "label": "Excluding CDC",
-          "title": "Procurement method differs by contract count and value · Excluding CDC",
-          "takeaway": "Limited tender accounts for 243 of 324 non-cancelled records in the separate AusTender dataset. Method labels do not establish bidder count or competitive outcomes.",
-          "descriptor": "Share of non-cancelled AusTender records and contract value by procurement method (%) · Excluding CDC · 49 companies",
-          "image": "/charts/wBKef-4a040086c81c2a2d.png",
-          "editor": "https://app.datawrapper.de/chart/wBKef/visualize",
-          "preview": "https://app.datawrapper.de/preview/wBKef",
-          "source": "https://docs.google.com/spreadsheets/d/1tBcKoQQa5jFYY8zIcCkJvxrX0VrbK0TDKBYZ_FJajsw/edit",
-          "updatedAt": "2026-10-20T12:52:39.000Z",
-          "width": 1600,
-          "height": 206,
-          "published": false,
-          "publishedUrl": null
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "OSRam",
-      "label": "Defence contracts by branch",
-      "categoryId": "buyers",
-      "category": "Federal buyers",
-      "revision": "1c62fe00937dcc79",
-      "variants": [
-        {
-          "id": "OSRam",
-          "label": "Including CDC",
-          "title": "DDG - ICTDD leads recorded Defence branch contract value",
-          "takeaway": "DDG - ICTDD has the highest recorded value across the four years shown. Historical branch names are retained; cancelled notices are excluded.",
-          "descriptor": "Non-cancelled Department of Defence contracts by recorded branch · FY2022–23 to FY2025–26 · AUD M · Including CDC · 50 companies",
-          "image": "/charts/OSRam-19deb8798bef601c.png",
-          "editor": "https://app.datawrapper.de/chart/OSRam/visualize",
-          "preview": "https://app.datawrapper.de/preview/OSRam",
-          "source": "https://docs.google.com/spreadsheets/d/1mEa0DeX2bRThk98QzNRgKQODKRpIkJuT3Y08iwvFynA/edit",
-          "updatedAt": "2026-10-20T12:59:03.000Z",
-          "width": 1600,
-          "height": 1270,
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/OSRam/"
-        },
-        {
-          "id": "xasLp",
-          "label": "Excluding CDC",
-          "title": "DST Group leads recorded Defence branch contract value · Excluding CDC",
-          "takeaway": "DST Group has the highest recorded value across the four years shown. Historical branch names are retained; cancelled notices are excluded. This uses the separate AusTender Contracts dataset.",
-          "descriptor": "Non-cancelled Department of Defence contracts by recorded branch · FY2022–23 to FY2025–26 · AUD M · Excluding CDC · 49 companies",
-          "image": "/charts/xasLp-03e031f323268675.png",
-          "editor": "https://app.datawrapper.de/chart/xasLp/visualize",
-          "preview": "https://app.datawrapper.de/preview/xasLp",
-          "source": "https://docs.google.com/spreadsheets/d/1qsbCf629UNPUdbsE4Ae2xDLBDvoKZIbfbeL7SJm2Gjw/edit",
-          "updatedAt": "2026-10-20T12:59:04.000Z",
-          "width": 1600,
-          "height": 1270,
           "published": false,
           "publishedUrl": null
         }
@@ -1213,5 +1129,6 @@
       ],
       "order": 1
     }
-  ]
+  ],
+  "sourceAuditedAt": "2026-10-20T18:31:50.960115+00:00"
 }

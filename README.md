@@ -2,7 +2,7 @@
 
 **[Open the chart gallery](https://svdgteam.github.io/natsec50-chart-review/)** · **[Activate comments and votes](SUPABASE_SETUP.md)**
 
-A lightweight review workspace for 36 analyses, 53 chart views and 17 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
+A lightweight review workspace for 34 analyses, 49 chart views and 15 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
 
 ## Hosting
 
@@ -48,3 +48,7 @@ Republish an existing chart in Datawrapper, then use **Refresh chart**, revisit 
 Existing votes/comments remain attached to each analysis and CDC view across republishing. They do not imply approval of every later change. `revision` identifies the imported review-library batch; the live embed is not frozen to that batch. To add/remove analyses or update the draft fallbacks/search metadata, refresh the library and deploy it.
 
 All Charts follows the sidebar subject order: Government awards, Critical technologies, Private investment, People & places, US government, Other analyses. Login and password-change fields have independent Show/Hide controls. The sidebar uses the supplied SVDG logo.
+
+## Australian contracting source policy
+
+Use only TenderTrace’s Federal Tenders AUS table and its associated Master Dashboard rollups. AusTender Contracts and its Master rollups are excluded. US contracting retains its separately approved US-source exception. Procurement-method and Defence-branch analyses were withdrawn on 20 October 2026 because the approved table does not contain those fields. Historical drafts and feedback are retained. `data/source-policy.json` prevents these four views from returning in future imports.
