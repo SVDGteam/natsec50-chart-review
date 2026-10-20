@@ -1,9 +1,71 @@
 {
-  "consolidatedChartIds": ["i7G14", "TWQL0"],
-  "analysisAliases": {
-    "i7G14": {"analysisId": "gTBY5", "variantId": "gTBY5"},
-    "TWQL0": {"analysisId": "gTBY5", "variantId": "P1tcx"}
+ "consolidatedChartIds": [
+  "i7G14",
+  "TWQL0",
+  "83STT",
+  "iXn8a",
+  "lyr0H",
+  "0Hg3c"
+ ],
+ "analysisAliases": {
+  "i7G14": {
+   "analysisId": "gTBY5",
+   "variantId": "gTBY5"
   },
-  "labels": {"gTBY5": "Critical technologies · capital & federal awards"},
-  "reason": "Both original analyses already plotted company count, private capital and federal awards. Retain one combined CDC pair, with the original federal-awards review identity. Preserve earlier private-capital votes and comments separately in feedback exports."
+  "TWQL0": {
+   "analysisId": "gTBY5",
+   "variantId": "P1tcx"
+  },
+  "83STT": {
+   "analysisId": "t3Rvy",
+   "variantId": "t3Rvy"
+  },
+  "iXn8a": {
+   "analysisId": "t3Rvy",
+   "variantId": "WWR98"
+  },
+  "lyr0H": {
+   "analysisId": "t3Rvy",
+   "variantId": "t3Rvy"
+  },
+  "0Hg3c": {
+   "analysisId": "t3Rvy",
+   "variantId": "WWR98"
+  }
+ },
+ "labels": {
+  "gTBY5": "Critical technologies · capital & federal awards",
+  "t3Rvy": "Technology verticals · companies, capital & federal awards"
+ },
+ "reason": "Both original analyses already plotted company count, private capital and federal awards. Retain one combined CDC pair, with the original federal-awards review identity. Preserve earlier private-capital votes and comments separately in feedback exports. Technology verticals (21 Oct 2026): count, capital and awards views all plotted the same three measures; retain the awards-sorted t3Rvy / WWR98 pair.",
+ "consolidatedFrom": {
+  "gTBY5": [
+   {
+    "id": "i7G14",
+    "label": "Critical technologies · private capital",
+    "variantIds": [
+     "i7G14",
+     "TWQL0"
+    ]
+   }
+  ],
+  "t3Rvy": [
+   {
+    "id": "83STT",
+    "label": "Technology verticals · company count",
+    "variantIds": [
+     "83STT",
+     "iXn8a"
+    ]
+   },
+   {
+    "id": "lyr0H",
+    "label": "Technology verticals · private capital",
+    "variantIds": [
+     "lyr0H",
+     "0Hg3c"
+    ]
+   }
+  ]
+ }
 }

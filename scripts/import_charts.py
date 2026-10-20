@@ -63,5 +63,5 @@ catalog['analysisAliases']=consolidations['analysisAliases']
 for item in catalog['items']:
  if item['id'] in consolidations['labels']:
   item['label']=consolidations['labels'][item['id']]
-  item['consolidatedFrom']=[{'id':'i7G14','label':'Critical technologies · private capital','variantIds':['i7G14','TWQL0']}]
+  item['consolidatedFrom']=consolidations['consolidatedFrom'][item['id']]
 pinfile.write_text(json.dumps(newpins,indent=1,sort_keys=True));(ROOT/'data/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in catalog.items() if k!='items'}))

@@ -1,9 +1,9 @@
 {
   "title": "Australian NatSec50",
-  "capturedAt": "2026-10-20T22:41:17.412883+00:00",
-  "chartCount": 47,
-  "analysisCount": 33,
-  "pairCount": 14,
+  "capturedAt": "2026-10-20T22:47:02.605165+00:00",
+  "chartCount": 43,
+  "analysisCount": 31,
+  "pairCount": 12,
   "items": [
     {
       "id": "85B2M",
@@ -450,50 +450,8 @@
       "order": 1
     },
     {
-      "id": "83STT",
-      "label": "Technology verticals · company count",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "10e0fec4fcb3b8a6",
-      "variants": [
-        {
-          "id": "iXn8a",
-          "label": "Excluding CDC",
-          "title": "Clean technology broadens the national security base",
-          "takeaway": "Clean technology and space together represent 19 of 49 companies, or 39% of the cohort. Their prominence shows a company base that extends beyond traditional defence products into energy and space capabilities.",
-          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
-          "image": "/charts/iXn8a-033806738abcf4fd.png",
-          "editor": "https://app.datawrapper.de/chart/iXn8a/visualize",
-          "preview": "https://app.datawrapper.de/preview/iXn8a",
-          "source": "https://docs.google.com/spreadsheets/d/1EfstPNxA9GK9EGBozvp9Mbcnk83dKuK-xSip5FogIFM/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/iXn8a/",
-          "updatedAt": "2026-10-20T22:36:50.000Z",
-          "width": 1600,
-          "height": 1028
-        },
-        {
-          "id": "83STT",
-          "label": "Including CDC",
-          "title": "CDC adds one company but outsized financial weight",
-          "takeaway": "Including CDC barely changes the company count by vertical. It adds one technology, media and telecommunications company holding AU$4.37 billion of private capital and AU$1.75 billion of federal awards.",
-          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
-          "image": "/charts/83STT-912afe04999d9919.png",
-          "editor": "https://app.datawrapper.de/chart/83STT/visualize",
-          "preview": "https://app.datawrapper.de/preview/83STT",
-          "source": "https://docs.google.com/spreadsheets/d/1jVe_JGMvOQCqJjFXoDIF10bybbonKzv0GlPdFQzTSc8/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/83STT/",
-          "updatedAt": "2026-10-20T22:36:47.000Z",
-          "width": 1600,
-          "height": 1028
-        }
-      ],
-      "order": 1
-    },
-    {
       "id": "t3Rvy",
-      "label": "Technology verticals · federal awards",
+      "label": "Technology verticals · companies, capital & federal awards",
       "categoryId": "technology",
       "category": "Critical technologies",
       "revision": "f95a8d69ea508ef6",
@@ -501,79 +459,55 @@
         {
           "id": "WWR98",
           "label": "Excluding CDC",
-          "title": "Cybersecurity leads federal awards",
-          "takeaway": "Cybersecurity is the largest recipient of federal awards (AU$207.3 million), ahead of space (AU$170.3 million) and industrials (AU$156.4 million). Clean technology has the broadest company base but receives much less (AU$44.0 million), so company representation does not translate evenly into government support.",
+          "title": "Clean technology draws the capital; cybersecurity wins the awards",
+          "takeaway": "Clean technology has the most companies (12) and the most private capital (AU$1,612 million), yet receives only AU$44 million in federal awards. Cybersecurity, with 5 companies, leads awards at AU$207 million, so company breadth, private investment and government support favour different verticals.",
           "descriptor": "Companies, private capital and federal awards by primary technology vertical",
-          "image": "/charts/WWR98-e3cf005435cee1fc.png",
+          "image": "/charts/WWR98-1efacb061c063c24.png",
           "editor": "https://app.datawrapper.de/chart/WWR98/visualize",
           "preview": "https://app.datawrapper.de/preview/WWR98",
           "source": "https://docs.google.com/spreadsheets/d/1IgrN1k9cfBuA0JxJcI5QvWmRugUCT_XuiJeblGxnwgk/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/WWR98/",
-          "updatedAt": "2026-10-20T22:36:55.000Z",
+          "updatedAt": "2026-10-20T22:46:05.000Z",
           "width": 1600,
           "height": 1028
         },
         {
           "id": "t3Rvy",
           "label": "Including CDC",
-          "title": "One company shapes the federal-award picture",
-          "takeaway": "CDC accounts for roughly seven in ten dollars of recorded federal award value, lifting its technology, media and telecommunications vertical above the rest. Company-level concentration is therefore essential to understanding the apparent strength of that vertical.",
+          "title": "One company dominates both capital and awards",
+          "takeaway": "CDC accounts for about 45% of private capital and 70% of federal award value, lifting its technology, media and telecommunications vertical, a single company, above every other vertical on both measures. Clean technology and space have far more companies but a fraction of the financial weight.",
           "descriptor": "Companies, private capital and federal awards by primary technology vertical",
-          "image": "/charts/t3Rvy-2b3386bf771db549.png",
+          "image": "/charts/t3Rvy-5bd7d9f620660e5c.png",
           "editor": "https://app.datawrapper.de/chart/t3Rvy/visualize",
           "preview": "https://app.datawrapper.de/preview/t3Rvy",
           "source": "https://docs.google.com/spreadsheets/d/1QXVJhImXa0RUbgGUN0sDlBthU70dKfJV7F2pLudD9QI/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/t3Rvy/",
-          "updatedAt": "2026-10-20T22:36:52.000Z",
+          "updatedAt": "2026-10-20T22:46:03.000Z",
           "width": 1600,
           "height": 1028
         }
       ],
-      "order": 1
-    },
-    {
-      "id": "lyr0H",
-      "label": "Technology verticals · private capital",
-      "categoryId": "technology",
-      "category": "Critical technologies",
-      "revision": "4ad8896b3f30ef46",
-      "variants": [
+      "order": 1,
+      "consolidatedFrom": [
         {
-          "id": "0Hg3c",
-          "label": "Excluding CDC",
-          "title": "Clean technology leads private capital",
-          "takeaway": "Clean technology is the largest pool of private capital (AU$1.61 billion). Together with space, it accounts for almost half of the cohort's investment, placing energy and space capabilities at the centre of the funding picture.",
-          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
-          "image": "/charts/0Hg3c-fcb8fb7fd868cc95.png",
-          "editor": "https://app.datawrapper.de/chart/0Hg3c/visualize",
-          "preview": "https://app.datawrapper.de/preview/0Hg3c",
-          "source": "https://docs.google.com/spreadsheets/d/1Q9s5GqpPZ5sNz49cHO7Hlcb6bJJkK3X6B6FFJSZtDdE/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/0Hg3c/",
-          "updatedAt": "2026-10-20T22:36:59.000Z",
-          "width": 1600,
-          "height": 1028
+          "id": "83STT",
+          "label": "Technology verticals · company count",
+          "variantIds": [
+            "83STT",
+            "iXn8a"
+          ]
         },
         {
           "id": "lyr0H",
-          "label": "Including CDC",
-          "title": "CDC shapes the private-capital landscape",
-          "takeaway": "A single company holds 45% of the cohort’s private capital, placing technology, media and telecommunications well ahead of other verticals. Clean technology and space represent broader pools of companies, highlighting the difference between financial scale and ecosystem breadth.",
-          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
-          "image": "/charts/lyr0H-cb093523b44bbd6d.png",
-          "editor": "https://app.datawrapper.de/chart/lyr0H/visualize",
-          "preview": "https://app.datawrapper.de/preview/lyr0H",
-          "source": "https://docs.google.com/spreadsheets/d/1M0Jzx7X8Tf2lzBA5AWh01gOl6iOT0yBWKoZPjHI4u84/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/lyr0H/",
-          "updatedAt": "2026-10-20T22:36:57.000Z",
-          "width": 1600,
-          "height": 1028
+          "label": "Technology verticals · private capital",
+          "variantIds": [
+            "lyr0H",
+            "0Hg3c"
+          ]
         }
-      ],
-      "order": 1
+      ]
     },
     {
       "id": "QKQgp",
@@ -842,33 +776,33 @@
           "id": "4ScBj",
           "label": "Excluding CDC",
           "title": "Federal procurement is more concentrated than private capital",
-          "takeaway": "The five largest recipients hold 68.2% of recorded contract value, against 29.7% of private capital for the five largest fundraisers. Procurement is concentrated in far fewer companies than capital formation.",
-          "descriptor": "Cumulative shares of private capital and federal contract value by company rank",
-          "image": "/charts/4ScBj-c327d6c075073a2b.png",
+          "takeaway": "The five largest recipients hold 68.2% of recorded contract value, against 29.7% of private capital for the five largest fundraisers; the top ten hold 86.3% against 49.2%. Procurement is concentrated in far fewer companies than capital formation.",
+          "descriptor": "Share of private capital and federal contract value by company rank band (companies ranked separately on each measure)",
+          "image": "/charts/4ScBj-30d3d8a44b745e9b.png",
           "editor": "https://app.datawrapper.de/chart/4ScBj/visualize",
           "preview": "https://app.datawrapper.de/preview/4ScBj",
           "source": "https://docs.google.com/spreadsheets/d/1IFfnMY_0TO3UYOr6WbW6QQ_Im3V85LQwnUfiuRBIo-Q/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/4ScBj/",
-          "updatedAt": "2026-10-20T20:54:42.000Z",
+          "updatedAt": "2026-10-20T22:44:33.000Z",
           "width": 1600,
-          "height": 978
+          "height": 906
         },
         {
           "id": "u9QBA",
           "label": "Including CDC",
           "title": "CDC pushes procurement concentration higher still",
           "takeaway": "Including CDC, the five largest recipients hold 91.7% of contract value, and the largest recipient alone 77.6%. Private capital is more evenly spread, with 58.7% held by the five largest fundraisers.",
-          "descriptor": "Cumulative shares of private capital and federal contract value by company rank",
-          "image": "/charts/u9QBA-fbb5e8873b38a2fd.png",
+          "descriptor": "Share of private capital and federal contract value by company rank band (companies ranked separately on each measure)",
+          "image": "/charts/u9QBA-fdfd449a859e6e3b.png",
           "editor": "https://app.datawrapper.de/chart/u9QBA/visualize",
           "preview": "https://app.datawrapper.de/preview/u9QBA",
           "source": "https://docs.google.com/spreadsheets/d/1hA1p5zgq9FW7o1MfDFWYnOJbQGT0yFVtkmcAAnyZi6I/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/u9QBA/",
-          "updatedAt": "2026-10-20T20:54:45.000Z",
+          "updatedAt": "2026-10-20T22:44:28.000Z",
           "width": 1600,
-          "height": 978
+          "height": 906
         }
       ],
       "order": 1
@@ -1106,6 +1040,22 @@
     "TWQL0": {
       "analysisId": "gTBY5",
       "variantId": "P1tcx"
+    },
+    "83STT": {
+      "analysisId": "t3Rvy",
+      "variantId": "t3Rvy"
+    },
+    "iXn8a": {
+      "analysisId": "t3Rvy",
+      "variantId": "WWR98"
+    },
+    "lyr0H": {
+      "analysisId": "t3Rvy",
+      "variantId": "t3Rvy"
+    },
+    "0Hg3c": {
+      "analysisId": "t3Rvy",
+      "variantId": "WWR98"
     }
   }
 }

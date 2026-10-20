@@ -2,7 +2,7 @@
 
 **[Open the chart gallery](https://svdgteam.github.io/natsec50-chart-review/)** · **[Activate comments and votes](SUPABASE_SETUP.md)**
 
-A lightweight review workspace for 33 analyses, 47 chart views and 14 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
+A lightweight review workspace for 31 analyses, 43 chart views and 12 Including/Excluding CDC comparisons. Browse subjects, search findings, enlarge charts, vote on report inclusion, record a preferred CDC view and discuss each chart with your team. Results and comments export to CSV.
 
 ## Hosting
 
@@ -40,6 +40,10 @@ Run `supabase/01-schema.sql` once in a new Supabase project; `supabase/02-catalo
 `npm run test:cloud` runs real PostgreSQL schema/RLS/function tests in PGlite plus aggregation and CSV tests. PGlite simulates Supabase's auth roles and JWT helper functions; it does not test a live Supabase Auth deployment. The Python local mode's HTTP/SQLite tests run with `npm test`.
 
 Chart snapshots captured 20 October 2026. This is a team review tool for draft analyses.
+
+## Combined analyses
+
+Critical-technology capital/awards and the three technology-vertical charts (count, capital, awards) each plot the same measures, so one pair per topic remains (gTBY5/P1tcx, t3Rvy/WWR98). Old links redirect via `data/catalog-consolidations.json`. The capital-and-contract concentration charts are now donuts by company rank band.
 
 ## Excluding CDC first
 
