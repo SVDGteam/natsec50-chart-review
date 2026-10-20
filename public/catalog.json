@@ -1,6 +1,6 @@
 {
   "title": "Australian NatSec50",
-  "capturedAt": "2026-10-20T15:05:35.039214+00:00",
+  "capturedAt": "2026-10-20T18:48:03.512254+00:00",
   "chartCount": 49,
   "analysisCount": 34,
   "pairCount": 15,
@@ -15,14 +15,14 @@
         {
           "id": "85B2M",
           "label": "Including CDC",
-          "title": "Recorded private capital is 3.9 times federal award value",
-          "takeaway": "CDC Data Centres accounts for 70.1% of the cohort’s federal award value. Excluding CDC from both measures raises the capital-to-awards ratio from 3.9 to 7.1 times. Federal awards include contracts and grants.",
-          "descriptor": "Cumulative private capital versus all-time federal awards · Including CDC · 50 companies · AUD millions · 19 October 2026",
-          "image": "/charts/85B2M-67b3460798b91771.png",
+          "title": "Private capital outpaces federal awards",
+          "takeaway": "The gap may partly reflect the dual-use nature of many Aus NatSec50 companies, which serve both commercial and government markets. However, it also points to the need for government to turn national security demand into procurement contracts that generate sustained revenue and help these companies scale.",
+          "descriptor": "Cumulative private capital raised and federal award value",
+          "image": "/charts/85B2M-298a8681fb044027.png",
           "editor": "https://app.datawrapper.de/chart/85B2M/visualize",
           "preview": "https://app.datawrapper.de/preview/85B2M",
           "source": "https://docs.google.com/spreadsheets/d/1YgwER5HFt0ffaH4iKvEynkFgVn3DQ2mmiPA-r-ASlvw/edit",
-          "updatedAt": "2026-10-20T12:44:51.000Z",
+          "updatedAt": "2026-10-20T18:43:39.000Z",
           "width": 1600,
           "height": 900,
           "published": true,
@@ -31,14 +31,14 @@
         {
           "id": "vYJSR",
           "label": "Excluding CDC",
-          "title": "Recorded private capital is 7.1 times federal award value",
-          "takeaway": "CDC Data Centres accounts for 70.1% of the cohort’s federal award value. Excluding CDC from both measures raises the capital-to-awards ratio from 3.9 to 7.1 times. Federal awards include contracts and grants.",
-          "descriptor": "Cumulative private capital versus all-time federal awards · Excluding CDC · 49 companies · AUD millions · 19 October 2026",
-          "image": "/charts/vYJSR-96dff5444f0c04f1.png",
+          "title": "The capital-to-awards gap widens",
+          "takeaway": "CDC’s large federal awards mask a wider gap across the rest of the cohort. Without CDC, private capital is 7.1 times federal award value, reinforcing the need to turn national security demand into sustained procurement revenue.",
+          "descriptor": "Cumulative private capital raised and federal award value",
+          "image": "/charts/vYJSR-76aba6a3906bdc63.png",
           "editor": "https://app.datawrapper.de/chart/vYJSR/visualize",
           "preview": "https://app.datawrapper.de/preview/vYJSR",
           "source": "https://docs.google.com/spreadsheets/d/1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo/edit",
-          "updatedAt": "2026-10-20T12:44:51.000Z",
+          "updatedAt": "2026-10-20T18:45:32.000Z",
           "width": 1600,
           "height": 900,
           "published": true,
@@ -57,34 +57,34 @@
         {
           "id": "7feFF",
           "label": "Including CDC",
-          "title": "Procurement and grants make distinct contributions to government support",
-          "takeaway": "Grants account for 1.8% of recorded award value in FY2025–26. Separating grants from contract notices shows the changing mix of support without treating grants as procurement.",
-          "descriptor": "Federal award value by disposition and start financial year (AUD M) · Including CDC · 50 companies",
-          "image": "/charts/7feFF-3c932c97f5d13f1b.png",
+          "title": "Procurement now outweighs recorded grant support",
+          "takeaway": "The balance of federal support has shifted sharply towards contract notices as recorded grant value has declined. The distinction matters: grants and procurement represent different forms of government engagement with the ecosystem.",
+          "descriptor": "Federal contract-notice and grant value by financial year (AUD millions)",
+          "image": "/charts/7feFF-8260d2a6f1b078ba.png",
           "editor": "https://app.datawrapper.de/chart/7feFF/visualize",
           "preview": "https://app.datawrapper.de/preview/7feFF",
           "source": "https://docs.google.com/spreadsheets/d/1cUhe3E87dXtWiX7IYlIhxzg6aQXx7g441e_OJQtW6NQ/edit",
-          "updatedAt": "2026-10-20T12:52:16.000Z",
+          "updatedAt": "2026-10-20T18:40:55.000Z",
           "width": 1600,
           "height": 922,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/7feFF/"
         },
         {
           "id": "B8Q58",
           "label": "Excluding CDC",
-          "title": "Procurement and grants make distinct contributions to government support · Excluding CDC",
-          "takeaway": "Grants account for 3.8% of recorded award value in FY2025–26. Contract notices and grants are shown separately; FY2026–27 is partial and award values are not cash receipts.",
-          "descriptor": "Federal award value by disposition and start financial year (AUD M) · Excluding CDC · 49 companies",
-          "image": "/charts/B8Q58-fde70ae6d69e8ca6.png",
+          "title": "The shift towards procurement extends beyond CDC",
+          "takeaway": "The move towards contract notices is still visible after removing the largest award recipient. Procurement value rose in the latest completed financial year while grant value fell sharply, changing the mix of federal support.",
+          "descriptor": "Federal contract-notice and grant value by financial year (AUD millions)",
+          "image": "/charts/B8Q58-e8cb05d680f11fc9.png",
           "editor": "https://app.datawrapper.de/chart/B8Q58/visualize",
           "preview": "https://app.datawrapper.de/preview/B8Q58",
           "source": "https://docs.google.com/spreadsheets/d/1OH0wm9WHPBdg8heZjQrXrI1Qo79cr60jTl4DMFna6gc/edit",
-          "updatedAt": "2026-10-20T12:52:15.000Z",
+          "updatedAt": "2026-10-20T18:40:58.000Z",
           "width": 1600,
           "height": 922,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/B8Q58/"
         }
       ],
       "order": 1
@@ -99,14 +99,14 @@
         {
           "id": "QKQgp",
           "label": "Including CDC",
-          "title": "The leading recorded federal buyer changes across financial years",
-          "takeaway": "Defence leads recorded award value in FY2022–23 and FY2023–24; Services Australia leads in FY2024–25 and Home Affairs in FY2025–26. The leading customer changes across years.",
-          "descriptor": "Federal award value by agency · FY2022–23 to FY2025–26 · AUD millions · Including CDC · 50 companies",
-          "image": "/charts/QKQgp-deba237fed3b22cb.png",
+          "title": "Federal demand extends beyond Defence",
+          "takeaway": "Defence leads in the first two financial years, while Services Australia and Home Affairs lead in the next two. The changing buyers show that recorded government demand for the cohort reaches beyond the defence portfolio.",
+          "descriptor": "Federal award value by buyer and financial year (AUD millions)",
+          "image": "/charts/QKQgp-9847435edc46ba8f.png",
           "editor": "https://app.datawrapper.de/chart/QKQgp/visualize",
           "preview": "https://app.datawrapper.de/preview/QKQgp",
           "source": "https://docs.google.com/spreadsheets/d/1M-dVXwPJhiJQMffjeBOneKoToyIO7FiIX3bccGSgKQE/edit",
-          "updatedAt": "2026-10-20T12:52:27.000Z",
+          "updatedAt": "2026-10-20T18:41:51.000Z",
           "width": 1600,
           "height": 616,
           "published": true,
@@ -115,18 +115,18 @@
         {
           "id": "KIDgZ",
           "label": "Excluding CDC",
-          "title": "Defence leads recorded federal awards in all four financial years · Excluding CDC",
-          "takeaway": "The Department of Defence leads recorded award value in each financial year from FY2022–23 through FY2025–26 after excluding CDC. Awards include contracts and grants.",
-          "descriptor": "Federal award value by agency · FY2022–23 to FY2025–26 · AUD millions · Excluding CDC · 49 companies",
-          "image": "/charts/KIDgZ-a05e08841621012d.png",
+          "title": "Defence anchors demand beyond CDC",
+          "takeaway": "Removing CDC reveals Defence as the largest federal buyer in every financial year shown. The wider cohort’s recorded government support is therefore more dependent on the defence portfolio than the aggregate figures initially suggest.",
+          "descriptor": "Federal award value by buyer and financial year (AUD millions)",
+          "image": "/charts/KIDgZ-94c2c0550499926a.png",
           "editor": "https://app.datawrapper.de/chart/KIDgZ/visualize",
           "preview": "https://app.datawrapper.de/preview/KIDgZ",
           "source": "https://docs.google.com/spreadsheets/d/1CJd3nRBagff_e8FvNY5vreMmgZ6toqpjxeakO9R99XQ/edit",
-          "updatedAt": "2026-10-20T12:55:38.000Z",
+          "updatedAt": "2026-10-20T18:41:54.000Z",
           "width": 1600,
           "height": 650,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/KIDgZ/"
         }
       ],
       "order": 1
@@ -141,14 +141,14 @@
         {
           "id": "EJ9oX",
           "label": "Including CDC",
-          "title": "Data is the most common recorded contract-title term",
-          "takeaway": "“Data” appears in 150 of 824 recorded contract-notice titles. Term frequency describes title language, not spending or capability concentration.",
-          "descriptor": "Top 20 distinct-title word counts · contract notices only · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/EJ9oX-9553dcf7bcbc2436.png",
+          "title": "Data infrastructure shapes procurement language",
+          "takeaway": "The prominence of data and centre terminology places infrastructure-related work at the forefront of recorded contract titles. Equipment and software also feature strongly, pointing to a mix of physical and digital procurement.",
+          "descriptor": "Most frequent terms in federal contract-notice titles",
+          "image": "/charts/EJ9oX-b4d0f89338021adb.png",
           "editor": "https://app.datawrapper.de/chart/EJ9oX/visualize",
           "preview": "https://app.datawrapper.de/preview/EJ9oX",
           "source": "https://docs.google.com/spreadsheets/d/16_3xBttX-Y18lFmYsMeA3s7_9EbvWiYHfUvICmZ4oyg/edit",
-          "updatedAt": "2026-10-20T12:52:25.000Z",
+          "updatedAt": "2026-10-20T18:41:58.000Z",
           "width": 1600,
           "height": 1218,
           "published": true,
@@ -157,18 +157,18 @@
         {
           "id": "WYdJr",
           "label": "Excluding CDC",
-          "title": "Equipment is the most common recorded contract-title term · Excluding CDC",
-          "takeaway": "“Equipment” appears in 81 of 475 recorded contract-notice titles. Each term counts once per title; frequency describes title language, not spending or capability concentration.",
-          "descriptor": "Top 20 distinct-title word counts · contract notices only · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/WYdJr-c47514389bd1b503.png",
+          "title": "Products and supporting work both feature in procurement",
+          "takeaway": "Equipment and software lead the contract-title vocabulary after CDC is removed, alongside research and support. The pattern points to a mix of technical products and supporting work rather than a single type of purchase.",
+          "descriptor": "Most frequent terms in federal contract-notice titles",
+          "image": "/charts/WYdJr-08f1df1bda589e11.png",
           "editor": "https://app.datawrapper.de/chart/WYdJr/visualize",
           "preview": "https://app.datawrapper.de/preview/WYdJr",
           "source": "https://docs.google.com/spreadsheets/d/1iB2zTKRie4aRUzO1mk7bsnLX4NQbSrvVmUxCfUDjpXM/edit",
-          "updatedAt": "2026-10-20T12:52:24.000Z",
+          "updatedAt": "2026-10-20T18:42:01.000Z",
           "width": 1600,
           "height": 1218,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/WYdJr/"
         }
       ],
       "order": 1
@@ -183,34 +183,34 @@
         {
           "id": "PqCEz",
           "label": "Including CDC",
-          "title": "Recorded contract value is concentrated in Professional engineering services",
-          "takeaway": "Professional engineering services has the largest total value among the source procurement categories. Comparing notice count with value separates frequently purchased items from categories dominated by large contracts.",
-          "descriptor": "Federal contract notices by recorded procurement category: count and value (AUD M) · Including CDC · 50 companies",
-          "image": "/charts/PqCEz-7be3d7c24fbea234.png",
+          "title": "A few purchase categories dominate contract value",
+          "takeaway": "Engineering, data services and property leases together account for more than three-quarters of recorded contract value. The mix shows why aggregate procurement figures cannot be interpreted solely as purchases of emerging technology products.",
+          "descriptor": "Federal contract-notice count and value by procurement category",
+          "image": "/charts/PqCEz-a8d2ab3b81426edf.png",
           "editor": "https://app.datawrapper.de/chart/PqCEz/visualize",
           "preview": "https://app.datawrapper.de/preview/PqCEz",
           "source": "https://docs.google.com/spreadsheets/d/1ojXSrI76SI7ArWrv5XmzHwJw4Mu5CIjnkJN0qo8U0Fc/edit",
-          "updatedAt": "2026-10-20T12:52:28.000Z",
+          "updatedAt": "2026-10-20T18:42:05.000Z",
           "width": 1600,
           "height": 1036,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/PqCEz/"
         },
         {
           "id": "FgKYq",
           "label": "Excluding CDC",
-          "title": "Recorded contract value is concentrated in Military science and research · Excluding CDC",
-          "takeaway": "Military science and research leads recorded contract value. Notice counts and value use separate scales; grants are excluded and all categories outside the top 15 are grouped as Other.",
-          "descriptor": "Federal contract notices by recorded procurement category: count and value (AUD M) · Excluding CDC · 49 companies",
-          "image": "/charts/FgKYq-de2e7288283cb9f6.png",
+          "title": "Research leads procurement beyond CDC",
+          "takeaway": "Military science and research becomes the largest purchase category once CDC is removed. Categories with few notices can still carry substantial value, so frequent purchases and large financial commitments do not necessarily indicate the same priorities.",
+          "descriptor": "Federal contract-notice count and value by procurement category",
+          "image": "/charts/FgKYq-9e65b2767fe0ac0f.png",
           "editor": "https://app.datawrapper.de/chart/FgKYq/visualize",
           "preview": "https://app.datawrapper.de/preview/FgKYq",
           "source": "https://docs.google.com/spreadsheets/d/1RNftY4L5MQO8Aqd2mUf1M9shgiStoasLu6uGTfgP-Rs/edit",
-          "updatedAt": "2026-10-20T12:52:27.000Z",
+          "updatedAt": "2026-10-20T18:42:08.000Z",
           "width": 1600,
           "height": 1036,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/FgKYq/"
         }
       ],
       "order": 1
@@ -225,34 +225,34 @@
         {
           "id": "FPVa0",
           "label": "Including CDC",
-          "title": "AUKUS capability presence differs from capital and procurement shares",
-          "takeaway": "Advanced Cyber has the largest contract-value share among the recorded AUKUS technology areas, at 8.7%. The separate “None of the Above” row keeps companies outside the six technology tags visible in every denominator.",
-          "descriptor": "Shares of all 50 companies, cumulative private capital and federal contract notices (%) · Including CDC · 50 companies",
-          "image": "/charts/FPVa0-2ed4edeee74198d8.png",
+          "title": "AUKUS technology tags capture only part of the ecosystem",
+          "takeaway": "Companies outside the six recorded AUKUS technology categories hold most of the cohort’s capital and contract value. The classification therefore captures a narrower slice of the ecosystem than its full national security relevance.",
+          "descriptor": "Company, private-capital and federal-contract shares by AUKUS capability",
+          "image": "/charts/FPVa0-87ad9f6647261191.png",
           "editor": "https://app.datawrapper.de/chart/FPVa0/visualize",
           "preview": "https://app.datawrapper.de/preview/FPVa0",
           "source": "https://docs.google.com/spreadsheets/d/1f2yd8iniolSVgFLWgAQWJ2RQ4xNBB9E321roCilPTtU/edit",
-          "updatedAt": "2026-10-20T12:52:31.000Z",
+          "updatedAt": "2026-10-20T18:41:02.000Z",
           "width": 1600,
           "height": 510,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/FPVa0/"
         },
         {
           "id": "oq1YG",
           "label": "Excluding CDC",
-          "title": "AUKUS capability presence differs from capital and procurement shares · Excluding CDC",
-          "takeaway": "Advanced Cyber has the largest contract share among the recorded AUKUS technology areas, at 38.9%. “None of the Above” remains visible; company, capital and contract shares use their respective cohort totals.",
-          "descriptor": "Shares of all 49 companies, cumulative private capital and federal contract notices (%) · Excluding CDC · 49 companies",
-          "image": "/charts/oq1YG-a48cb5f667e25a62.png",
+          "title": "Advanced cyber stands out in federal procurement",
+          "takeaway": "Advanced cyber’s share of contract value is much larger than its share of companies once CDC is removed. Meanwhile, companies outside the recorded AUKUS categories remain prominent in private investment, illustrating different concentrations of capital and government demand.",
+          "descriptor": "Company, private-capital and federal-contract shares by AUKUS capability",
+          "image": "/charts/oq1YG-c45b45851aa5f8d3.png",
           "editor": "https://app.datawrapper.de/chart/oq1YG/visualize",
           "preview": "https://app.datawrapper.de/preview/oq1YG",
           "source": "https://docs.google.com/spreadsheets/d/1ONO-kjZDJucX3lPkSDxz-7LGgqdNQ0LC4kD9y6MrmxI/edit",
-          "updatedAt": "2026-10-20T12:52:30.000Z",
+          "updatedAt": "2026-10-20T18:41:05.000Z",
           "width": 1600,
           "height": 510,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/oq1YG/"
         }
       ],
       "order": 1
@@ -267,18 +267,18 @@
         {
           "id": "2vjDY",
           "label": "Original",
-          "title": "AI and autonomy is the most represented AUKUS technology area in the NatSec50",
-          "takeaway": "Artificial intelligence and autonomy is recorded for 10 of the 50 companies (20%), followed by quantum technologies with seven (14%). Half the cohort is tagged “None of the Above”, so the chart measures representation within the recorded AUKUS capability categories rather than the cohort’s wider national security relevance.",
-          "descriptor": "AUKUS technology representation among the Australian NatSec50 · share of all 50 companies (%)",
-          "image": "/charts/2vjDY-a8e6564242758986.png",
+          "title": "AI and autonomy lead recorded AUKUS representation",
+          "takeaway": "AI and autonomy is the most common recorded AUKUS capability, followed by quantum technologies. Half the cohort falls outside these six categories, underscoring that AUKUS technology tags do not capture every company’s national security relevance.",
+          "descriptor": "Company representation by recorded AUKUS technology area",
+          "image": "/charts/2vjDY-faa8d75e4da989f0.png",
           "editor": "https://app.datawrapper.de/chart/2vjDY/visualize",
           "preview": "https://app.datawrapper.de/preview/2vjDY",
           "source": "https://docs.google.com/spreadsheets/d/14NTbSEkFjWQVix0uzLY-fDShbGkWE65AeN0NSLGYcGA/edit",
-          "updatedAt": "2026-10-19T21:15:51.000Z",
+          "updatedAt": "2026-10-20T18:41:08.000Z",
           "width": 1600,
           "height": 374,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/2vjDY/"
         }
       ],
       "order": 1
@@ -293,34 +293,34 @@
         {
           "id": "gTBY5",
           "label": "Including CDC",
-          "title": "Advanced information & communications leads recorded federal awards",
-          "takeaway": "Advanced information & communications leads with 1,985.0 AUD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/gTBY5-412f574ca586f5b4.png",
+          "title": "Federal awards favour information technologies",
+          "takeaway": "Information and communications attracts a much larger share of federal award value than its share of companies. CDC’s presence makes this concentration especially pronounced, so the headline pattern should not be read as uniform traction across the technology area.",
+          "descriptor": "Companies, private capital and federal awards by critical technology area",
+          "image": "/charts/gTBY5-d4aef743f7ed553b.png",
           "editor": "https://app.datawrapper.de/chart/gTBY5/visualize",
           "preview": "https://app.datawrapper.de/preview/gTBY5",
           "source": "https://docs.google.com/spreadsheets/d/1U9fKRyFa_vJGjU_z9ry5WXBDQjvSQ8-8SQtRjF-33IQ/edit",
-          "updatedAt": "2026-10-20T12:51:58.000Z",
+          "updatedAt": "2026-10-20T18:41:11.000Z",
           "width": 1600,
           "height": 486,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/gTBY5/"
         },
         {
           "id": "P1tcx",
           "label": "Excluding CDC",
-          "title": "Autonomy, robotics & sensing leads recorded federal awards · Excluding CDC",
-          "takeaway": "Autonomy, robotics & sensing leads with 367.4 AUD million in federal awards. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/P1tcx-896c0f1820d9bbcc.png",
+          "title": "Autonomy leads awards beyond the largest outlier",
+          "takeaway": "Removing CDC changes the technology leader in federal awards to autonomy, robotics and sensing. Together with information and communications, it accounts for roughly four-fifths of remaining award value, showing that concentration persists beyond one company.",
+          "descriptor": "Companies, private capital and federal awards by critical technology area",
+          "image": "/charts/P1tcx-bd3705e7e862aa94.png",
           "editor": "https://app.datawrapper.de/chart/P1tcx/visualize",
           "preview": "https://app.datawrapper.de/preview/P1tcx",
           "source": "https://docs.google.com/spreadsheets/d/1orZrETLjGBHWIO3-aezazkHxVwU5Mmj0QYYJQDQ_99w/edit",
-          "updatedAt": "2026-10-20T12:51:57.000Z",
+          "updatedAt": "2026-10-20T18:41:16.000Z",
           "width": 1600,
           "height": 486,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/P1tcx/"
         }
       ],
       "order": 1
@@ -335,34 +335,34 @@
         {
           "id": "i7G14",
           "label": "Including CDC",
-          "title": "Advanced information & communications leads recorded private capital",
-          "takeaway": "Advanced information & communications leads with 3,591.1 USD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/i7G14-12f9c7e3ea05e14b.png",
+          "title": "Private capital clusters in information technologies",
+          "takeaway": "Information and communications holds more than half of private capital despite representing a relatively small share of companies. The distribution reflects the scale of its largest businesses rather than the breadth of company participation alone.",
+          "descriptor": "Companies, private capital and federal awards by critical technology area",
+          "image": "/charts/i7G14-90498fdd25e9536b.png",
           "editor": "https://app.datawrapper.de/chart/i7G14/visualize",
           "preview": "https://app.datawrapper.de/preview/i7G14",
           "source": "https://docs.google.com/spreadsheets/d/16m2QJJQtTLpAl70dzw8GaxMsCI1kMBDpKyzYUd0jApk/edit",
-          "updatedAt": "2026-10-20T12:52:01.000Z",
+          "updatedAt": "2026-10-20T18:41:19.000Z",
           "width": 1600,
           "height": 486,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/i7G14/"
         },
         {
           "id": "TWQL0",
           "label": "Excluding CDC",
-          "title": "Autonomy, robotics & sensing leads recorded private capital · Excluding CDC",
-          "takeaway": "Autonomy, robotics & sensing leads with 1,209.1 USD million in private capital. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by critical technology area · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/TWQL0-697caa0c129866b5.png",
+          "title": "Autonomy and clean energy lead capital beyond CDC",
+          "takeaway": "Without CDC, autonomy, robotics and sensing becomes the largest concentration of private capital, closely followed by clean energy. Their combined share shows how much of the remaining investment base sits across these two technology areas.",
+          "descriptor": "Companies, private capital and federal awards by critical technology area",
+          "image": "/charts/TWQL0-04bf476be426c5f6.png",
           "editor": "https://app.datawrapper.de/chart/TWQL0/visualize",
           "preview": "https://app.datawrapper.de/preview/TWQL0",
           "source": "https://docs.google.com/spreadsheets/d/11iGWrd-mXymeVTHcYmrYY1RynIbwSccEd7SiGYzJC6o/edit",
-          "updatedAt": "2026-10-20T12:52:00.000Z",
+          "updatedAt": "2026-10-20T18:41:22.000Z",
           "width": 1600,
           "height": 486,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/TWQL0/"
         }
       ],
       "order": 1
@@ -377,14 +377,14 @@
         {
           "id": "Riion",
           "label": "Including CDC",
-          "title": "Autonomy leads company share; information technologies dominate capital and awards",
-          "takeaway": "Autonomy, robotics & sensing accounts for 32% of companies. Advanced information & communications holds 53.0% of private capital and 79.4% of recorded federal awards.",
-          "descriptor": "Shares within all 50 companies, private capital and federal awards · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/Riion-f32df74be5534925.png",
+          "title": "Company breadth and financial scale diverge",
+          "takeaway": "Autonomy, robotics and sensing has the broadest company representation, while information and communications dominates private capital and federal awards. Counting companies alone therefore gives a different picture of the ecosystem from measuring its financial scale.",
+          "descriptor": "Company, private-capital and federal-award shares by critical technology area",
+          "image": "/charts/Riion-fbecd16ff3c63c3b.png",
           "editor": "https://app.datawrapper.de/chart/Riion/visualize",
           "preview": "https://app.datawrapper.de/preview/Riion",
           "source": "https://docs.google.com/spreadsheets/d/12JWTQJcLHotKeqWgTjY6CjIIOKWtkFQFd43pciRZZ-A/edit",
-          "updatedAt": "2026-10-20T12:51:55.000Z",
+          "updatedAt": "2026-10-20T18:41:25.000Z",
           "width": 1600,
           "height": 454,
           "published": true,
@@ -393,18 +393,18 @@
         {
           "id": "PxOMC",
           "label": "Excluding CDC",
-          "title": "Autonomy leads company share, private capital and federal awards · Excluding CDC",
-          "takeaway": "Autonomy, robotics & sensing accounts for 32.7% of companies, 32.4% of private capital and 49.1% of federal award value after excluding CDC.",
-          "descriptor": "Shares within all 49 companies, private capital and federal awards · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/PxOMC-4508da24a7424cf1.png",
+          "title": "Autonomy leads across three measures",
+          "takeaway": "Without CDC, autonomy, robotics and sensing leads company representation, private capital and federal awards. Its larger share of awards than of companies suggests stronger concentration in government support than in company presence.",
+          "descriptor": "Company, private-capital and federal-award shares by critical technology area",
+          "image": "/charts/PxOMC-023180c65f44e964.png",
           "editor": "https://app.datawrapper.de/chart/PxOMC/visualize",
           "preview": "https://app.datawrapper.de/preview/PxOMC",
           "source": "https://docs.google.com/spreadsheets/d/1PfT1UreAZJkkk3EDIELTDsyIizEIZKgxqG9U-iK-3Xc/edit",
-          "updatedAt": "2026-10-20T12:55:37.000Z",
+          "updatedAt": "2026-10-20T18:41:29.000Z",
           "width": 1600,
           "height": 454,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/PxOMC/"
         }
       ],
       "order": 1
@@ -419,34 +419,34 @@
         {
           "id": "83STT",
           "label": "Including CDC",
-          "title": "Clean technology leads company count",
-          "takeaway": "Clean technology leads with 12 companies. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/83STT-410ea9ed01c6500e.png",
+          "title": "Clean technology broadens the national security base",
+          "takeaway": "Clean technology and space together represent more than a third of the cohort. Their prominence highlights an ecosystem whose company base extends beyond traditional defence products into energy and space capabilities.",
+          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
+          "image": "/charts/83STT-1e40993ad0bc6ef7.png",
           "editor": "https://app.datawrapper.de/chart/83STT/visualize",
           "preview": "https://app.datawrapper.de/preview/83STT",
           "source": "https://docs.google.com/spreadsheets/d/1jVe_JGMvOQCqJjFXoDIF10bybbonKzv0GlPdFQzTSc8/edit",
-          "updatedAt": "2026-10-20T12:52:04.000Z",
+          "updatedAt": "2026-10-20T18:41:32.000Z",
           "width": 1600,
           "height": 1028,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/83STT/"
         },
         {
           "id": "iXn8a",
           "label": "Excluding CDC",
-          "title": "Clean technology leads company count · Excluding CDC",
-          "takeaway": "Clean technology leads with 12 companies. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/iXn8a-5d2eec11a25805db.png",
+          "title": "Clean technology remains the broadest vertical",
+          "takeaway": "Removing CDC leaves clean technology and space as the largest combined concentration of companies. The breadth of these verticals is therefore a feature of the wider cohort, rather than the result of its largest financial outlier.",
+          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
+          "image": "/charts/iXn8a-92095d31407acb2f.png",
           "editor": "https://app.datawrapper.de/chart/iXn8a/visualize",
           "preview": "https://app.datawrapper.de/preview/iXn8a",
           "source": "https://docs.google.com/spreadsheets/d/1EfstPNxA9GK9EGBozvp9Mbcnk83dKuK-xSip5FogIFM/edit",
-          "updatedAt": "2026-10-20T12:55:37.000Z",
+          "updatedAt": "2026-10-20T18:41:35.000Z",
           "width": 1600,
           "height": 1028,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/iXn8a/"
         }
       ],
       "order": 1
@@ -461,34 +461,34 @@
         {
           "id": "t3Rvy",
           "label": "Including CDC",
-          "title": "Technology, media, and telecommunications leads recorded federal awards",
-          "takeaway": "Technology, media, and telecommunications leads with 1,752.6 AUD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/t3Rvy-68f919b2b4a646d9.png",
+          "title": "One company shapes the federal-award picture",
+          "takeaway": "CDC accounts for roughly seven in ten dollars of recorded federal award value, lifting its technology, media and telecommunications vertical above the rest. Company-level concentration is therefore essential to understanding the apparent strength of that vertical.",
+          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
+          "image": "/charts/t3Rvy-3f5ec10daf36de33.png",
           "editor": "https://app.datawrapper.de/chart/t3Rvy/visualize",
           "preview": "https://app.datawrapper.de/preview/t3Rvy",
           "source": "https://docs.google.com/spreadsheets/d/1QXVJhImXa0RUbgGUN0sDlBthU70dKfJV7F2pLudD9QI/edit",
-          "updatedAt": "2026-10-20T12:52:10.000Z",
+          "updatedAt": "2026-10-20T18:41:38.000Z",
           "width": 1600,
           "height": 1028,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/t3Rvy/"
         },
         {
           "id": "WWR98",
           "label": "Excluding CDC",
-          "title": "Cybersecurity leads recorded federal awards · Excluding CDC",
-          "takeaway": "Cybersecurity leads with 207.3 AUD million in federal awards. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/WWR98-eb89654ed965e000.png",
+          "title": "Cybersecurity leads awards beyond CDC",
+          "takeaway": "Cybersecurity becomes the largest recipient of federal awards when CDC is removed. Clean technology has the broadest company base but a much smaller share of awards, showing that company representation does not translate evenly into government support.",
+          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
+          "image": "/charts/WWR98-5f5112efcae20770.png",
           "editor": "https://app.datawrapper.de/chart/WWR98/visualize",
           "preview": "https://app.datawrapper.de/preview/WWR98",
           "source": "https://docs.google.com/spreadsheets/d/1IgrN1k9cfBuA0JxJcI5QvWmRugUCT_XuiJeblGxnwgk/edit",
-          "updatedAt": "2026-10-20T12:52:09.000Z",
+          "updatedAt": "2026-10-20T18:41:41.000Z",
           "width": 1600,
           "height": 1028,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/WWR98/"
         }
       ],
       "order": 1
@@ -503,34 +503,34 @@
         {
           "id": "lyr0H",
           "label": "Including CDC",
-          "title": "Technology, media, and telecommunications leads recorded private capital",
-          "takeaway": "Technology, media, and telecommunications leads with 3,049.2 USD M. Company presence, cumulative private capital and federal awards describe different dimensions; monetary panels retain their source currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/lyr0H-b0162fe79a86ff28.png",
+          "title": "CDC shapes the private-capital landscape",
+          "takeaway": "A single company holds 45% of the cohort’s private capital, placing technology, media and telecommunications well ahead of other verticals. Clean technology and space represent broader pools of companies, highlighting the difference between financial scale and ecosystem breadth.",
+          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
+          "image": "/charts/lyr0H-07afb6ad8b015eec.png",
           "editor": "https://app.datawrapper.de/chart/lyr0H/visualize",
           "preview": "https://app.datawrapper.de/preview/lyr0H",
           "source": "https://docs.google.com/spreadsheets/d/1M0Jzx7X8Tf2lzBA5AWh01gOl6iOT0yBWKoZPjHI4u84/edit",
-          "updatedAt": "2026-10-20T12:52:07.000Z",
+          "updatedAt": "2026-10-20T18:41:44.000Z",
           "width": 1600,
           "height": 1028,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/lyr0H/"
         },
         {
           "id": "0Hg3c",
           "label": "Excluding CDC",
-          "title": "Clean technology leads recorded private capital · Excluding CDC",
-          "takeaway": "Clean technology leads with 1,125.6 USD million in private capital. Company presence, capital and awards measure different dimensions; the monetary panels retain separate currencies.",
-          "descriptor": "Australian NatSec50 by primary tech vertical · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/0Hg3c-187b02c289b4ecf2.png",
+          "title": "Clean technology leads capital beyond CDC",
+          "takeaway": "Clean technology becomes the largest pool of private capital when CDC is removed. Together with space, it accounts for almost half of the remaining investment base, placing energy and space capabilities at the centre of the wider funding picture.",
+          "descriptor": "Companies, private capital and federal awards by primary technology vertical",
+          "image": "/charts/0Hg3c-648ab398207ce55f.png",
           "editor": "https://app.datawrapper.de/chart/0Hg3c/visualize",
           "preview": "https://app.datawrapper.de/preview/0Hg3c",
           "source": "https://docs.google.com/spreadsheets/d/1Q9s5GqpPZ5sNz49cHO7Hlcb6bJJkK3X6B6FFJSZtDdE/edit",
-          "updatedAt": "2026-10-20T12:52:06.000Z",
+          "updatedAt": "2026-10-20T18:41:48.000Z",
           "width": 1600,
           "height": 1028,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/0Hg3c/"
         }
       ],
       "order": 1
@@ -545,34 +545,34 @@
         {
           "id": "u9QBA",
           "label": "Including CDC",
-          "title": "Federal contract value is more concentrated than private capital",
+          "title": "Federal procurement is more concentrated than private capital",
           "takeaway": "The five largest recipients account for 91.7% of federal contract-notice value, compared with 58.7% of private capital for the five largest fundraisers. Recorded procurement is concentrated in fewer companies than capital formation.",
-          "descriptor": "Cumulative share held by the largest companies (%) · Including CDC · 50 companies",
-          "image": "/charts/u9QBA-e668caa227f06bce.png",
+          "descriptor": "Cumulative shares of private capital and federal contract value by company rank",
+          "image": "/charts/u9QBA-045bce22166e8e0b.png",
           "editor": "https://app.datawrapper.de/chart/u9QBA/visualize",
           "preview": "https://app.datawrapper.de/preview/u9QBA",
           "source": "https://docs.google.com/spreadsheets/d/1hA1p5zgq9FW7o1MfDFWYnOJbQGT0yFVtkmcAAnyZi6I/edit",
-          "updatedAt": "2026-10-20T12:52:37.000Z",
+          "updatedAt": "2026-10-20T18:42:27.000Z",
           "width": 1600,
           "height": 978,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/u9QBA/"
         },
         {
           "id": "4ScBj",
           "label": "Excluding CDC",
-          "title": "Federal contract value is more concentrated than private capital · Excluding CDC",
-          "takeaway": "The five largest recipients hold 68.2% of contract value; the five largest fundraisers hold 29.7% of private capital. Each curve ranks companies independently by its own measure.",
-          "descriptor": "Cumulative share held by the largest companies (%) · Excluding CDC · 49 companies",
-          "image": "/charts/4ScBj-0a96b450a602a37f.png",
+          "title": "Procurement concentration persists beyond CDC",
+          "takeaway": "Removing CDC reduces the dominance of the largest recipients, but contract value remains more concentrated than private capital. The five largest recipients still hold more than two-thirds of recorded contract value, showing that the pattern extends beyond one outlier.",
+          "descriptor": "Cumulative shares of private capital and federal contract value by company rank",
+          "image": "/charts/4ScBj-55aff03148922586.png",
           "editor": "https://app.datawrapper.de/chart/4ScBj/visualize",
           "preview": "https://app.datawrapper.de/preview/4ScBj",
           "source": "https://docs.google.com/spreadsheets/d/1IFfnMY_0TO3UYOr6WbW6QQ_Im3V85LQwnUfiuRBIo-Q/edit",
-          "updatedAt": "2026-10-20T12:52:36.000Z",
+          "updatedAt": "2026-10-20T18:42:30.000Z",
           "width": 1600,
           "height": 978,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/4ScBj/"
         }
       ],
       "order": 1
@@ -587,18 +587,18 @@
         {
           "id": "IYjmo",
           "label": "Original",
-          "title": "Fundraising recency varies across the NatSec50",
-          "takeaway": "17 companies (34%) have a recorded latest raise within the past 12 months. 4 companies have no recorded date, so their fundraising recency remains unspecified.",
-          "descriptor": "Share of all 50 companies by time since latest recorded raise, as of 19 October 2026",
-          "image": "/charts/IYjmo-38ff4eb6250e7bab.png",
+          "title": "Recent fundraising is uneven across the cohort",
+          "takeaway": "Only about a third of companies have a recorded latest raise within the past year. The spread of fundraising dates highlights different funding timelines across the ecosystem, without establishing whether individual companies need additional capital.",
+          "descriptor": "Companies by time since their latest recorded capital raise",
+          "image": "/charts/IYjmo-6c019ee18b16580b.png",
           "editor": "https://app.datawrapper.de/chart/IYjmo/visualize",
           "preview": "https://app.datawrapper.de/preview/IYjmo",
           "source": "https://docs.google.com/spreadsheets/d/1eYfSfeUR9bT9L762axqLcqRi2PcsODDAlBxfUBMn41g/edit",
-          "updatedAt": "2026-10-19T21:15:53.000Z",
+          "updatedAt": "2026-10-20T18:42:33.000Z",
           "width": 1600,
           "height": 226,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/IYjmo/"
         }
       ],
       "order": 1
@@ -613,18 +613,18 @@
         {
           "id": "gRm6y",
           "label": "Original",
-          "title": "Three selected Australian defence IPOs raised AUD 58 million in 2026",
-          "takeaway": "KTEK, Boresight and Innovaero raised a combined AUD 58 million through their selected 2026 IPOs, with Innovaero accounting for AUD 40 million. These examples show access to public equity markets within the Australian defence technology ecosystem; they are not a census of listings or the current private-company cohort.",
-          "descriptor": "Selected Australian defence IPOs highlighted in the graph plan",
-          "image": "/charts/gRm6y-519bf0327e1bd792.png",
+          "title": "Public markets offer another funding route",
+          "takeaway": "Selected 2026 listings show Australian defence technology companies accessing public equity alongside private funding. Innovaero accounts for most of the capital raised across these three examples, illustrating the range in listing scale.",
+          "descriptor": "Selected Australian defence IPOs and capital raised",
+          "image": "/charts/gRm6y-f21954917f0a6d24.png",
           "editor": "https://app.datawrapper.de/chart/gRm6y/visualize",
           "preview": "https://app.datawrapper.de/preview/gRm6y",
           "source": "https://docs.google.com/spreadsheets/d/1j2vPQ5sIOX1tG6z_F46ECzTbMb8szVZneYDvdS3D6oM/edit",
-          "updatedAt": "2026-10-19T21:15:15.000Z",
+          "updatedAt": "2026-10-20T18:42:36.000Z",
           "width": 1600,
           "height": 308,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/gRm6y/"
         }
       ],
       "order": 1
@@ -639,18 +639,18 @@
         {
           "id": "M13Os",
           "label": "Original",
-          "title": "Selected transactions show consolidation in Australian defence technology",
-          "takeaway": "The Penten–Amiosec merger and Shield AI’s acquisition of Sentient Vision illustrate two forms of consolidation in cybersecurity and sensing. These selected transactions are ecosystem context rather than a complete exit count; the PentenAmio merger also left the combined company privately held.",
-          "descriptor": "Selected recent Australian defence mergers and acquisitions",
-          "image": "/charts/M13Os-3f8b4578c673df14.png",
+          "title": "Selected deals connect defence technology businesses",
+          "takeaway": "The Penten–Amiosec merger and Shield AI’s acquisition of Sentient Vision illustrate different routes to consolidation in cybersecurity and sensing. A merger can combine businesses without taking the resulting company out of private ownership, as PentenAmio demonstrates.",
+          "descriptor": "Selected Australian defence mergers and acquisitions",
+          "image": "/charts/M13Os-ce556b644907c85f.png",
           "editor": "https://app.datawrapper.de/chart/M13Os/visualize",
           "preview": "https://app.datawrapper.de/preview/M13Os",
           "source": "https://docs.google.com/spreadsheets/d/1NcU-psC8IkyScFM9PoNL_CMh-LRvZkVQg3UGVQQ0Bcs/edit",
-          "updatedAt": "2026-10-19T21:41:36.000Z",
+          "updatedAt": "2026-10-20T18:42:40.000Z",
           "width": 1600,
           "height": 382,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/M13Os/"
         }
       ],
       "order": 1
@@ -672,11 +672,11 @@
           "editor": "https://app.datawrapper.de/chart/mEeZT/visualize",
           "preview": "https://app.datawrapper.de/preview/mEeZT",
           "source": "https://docs.google.com/spreadsheets/d/19JcfQ_0XZTRBw3QSrELdICCxCqbd1KRYYEXKqX0fO_E/edit",
-          "updatedAt": "2026-10-19T21:37:42.000Z",
+          "updatedAt": "2026-10-20T17:54:32.000Z",
           "width": 1600,
           "height": 818,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/mEeZT/"
         }
       ],
       "order": 1
@@ -691,18 +691,18 @@
         {
           "id": "GQJqP",
           "label": "Original",
-          "title": "New South Wales hosts 25 of the 50 NatSec50 headquarters",
-          "takeaway": "New South Wales accounts for 25 of the 50 headquarters. One company has a recorded US headquarters; all 50 have usable headquarters locations. Australian city-to-state mappings are documented in the spreadsheet.",
-          "descriptor": "Australian NatSec50 recorded headquarters by state and territory",
-          "image": "/charts/GQJqP-263ba57f82991dcc.png",
+          "title": "New South Wales anchors the NatSec50",
+          "takeaway": "Half the cohort is headquartered in New South Wales, making it the largest concentration of company headquarters. Victoria, the ACT, South Australia and Queensland provide additional centres of activity.",
+          "descriptor": "Company headquarters by state and territory",
+          "image": "/charts/GQJqP-792d7c6ff2f1f4bd.png",
           "editor": "https://app.datawrapper.de/chart/GQJqP/visualize",
           "preview": "https://app.datawrapper.de/preview/GQJqP",
           "source": "https://docs.google.com/spreadsheets/d/16wy14XXY9nGqTgB1-8CueudIi6Un2Hq65r0DlPUZG1M/edit",
-          "updatedAt": "2026-10-19T21:14:58.000Z",
+          "updatedAt": "2026-10-20T18:40:43.000Z",
           "width": 1600,
           "height": 1494,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/GQJqP/"
         }
       ],
       "order": 1
@@ -717,18 +717,18 @@
         {
           "id": "9i7n2",
           "label": "Original",
-          "title": "New South Wales has the broadest recorded NatSec50 office presence",
-          "takeaway": "32 of the 50 companies have at least one recorded office tag in New South Wales. Firms with several cities in one state count once in that state; companies operating across states appear in more than one state.",
+          "title": "New South Wales leads a broader office network",
+          "takeaway": "The cohort’s office footprint extends beyond its headquarters, with substantial company presence in Victoria and the ACT alongside New South Wales. This points to several centres of activity within the national ecosystem.",
           "descriptor": "Companies with a recorded office presence by Australian state and territory",
-          "image": "/charts/9i7n2-4180c21140fc525f.png",
+          "image": "/charts/9i7n2-02493a599625f050.png",
           "editor": "https://app.datawrapper.de/chart/9i7n2/visualize",
           "preview": "https://app.datawrapper.de/preview/9i7n2",
           "source": "https://docs.google.com/spreadsheets/d/12tk1_9QxJ8CKwL5qw317G8ERImAsgsnrc28DlnfXY2M/edit",
-          "updatedAt": "2026-10-19T21:37:18.000Z",
+          "updatedAt": "2026-10-20T18:40:49.000Z",
           "width": 1600,
           "height": 1494,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/9i7n2/"
         }
       ],
       "order": 1
@@ -743,18 +743,18 @@
         {
           "id": "tvxoV",
           "label": "Original",
-          "title": "The NatSec50 has a recorded office footprint across all three AUKUS countries",
-          "takeaway": "50 companies have Australian office tags, 22 have US tags and 16 have UK tags. These overlapping counts describe office presence, not AUKUS contracts or programme participation.",
-          "descriptor": "Companies with a recorded office presence by country",
-          "image": "/charts/tvxoV-c57f0be23260aba8.png",
+          "title": "The NatSec50 has an AUKUS-wide footprint",
+          "takeaway": "Recorded offices connect the cohort to all three AUKUS countries, with the US the more common overseas location. That presence provides an organisational link to partner markets, although it does not establish participation in AUKUS programmes.",
+          "descriptor": "Companies with a recorded office presence in AUKUS countries",
+          "image": "/charts/tvxoV-0c30b515533b7b4a.png",
           "editor": "https://app.datawrapper.de/chart/tvxoV/visualize",
           "preview": "https://app.datawrapper.de/preview/tvxoV",
           "source": "https://docs.google.com/spreadsheets/d/189eXvOqdU3EttxeIYwpGCb4k50F59ZXVgABURo6rGe4/edit",
-          "updatedAt": "2026-10-19T21:14:59.000Z",
+          "updatedAt": "2026-10-20T18:40:52.000Z",
           "width": 1600,
           "height": 818,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/tvxoV/"
         }
       ],
       "order": 1
@@ -769,18 +769,18 @@
         {
           "id": "egzKM",
           "label": "Original",
-          "title": "The largest employment gains are concentrated in a few companies",
-          "takeaway": "CDC Data Centres adds 173 recorded employees between December 2022 and the current 2026 snapshot. Across all 50 companies, net company-wide headcount rises by 1,808; negative bars show firms with recorded declines. Missing historical headcounts count as zero.",
-          "descriptor": "Absolute change in company-wide headcount, December 2022 to current 2026",
-          "image": "/charts/egzKM-8fb91b4f19ecb5a7.png",
+          "title": "Employment growth has several leading contributors",
+          "takeaway": "CDC, Neara and Q-CTRL together account for just over a quarter of the cohort’s net recorded headcount gain. Their prominence is substantial, but most of the overall gain comes from the rest of the cohort.",
+          "descriptor": "Change in company-wide headcount, December 2022 to current 2026",
+          "image": "/charts/egzKM-79ecb3f123155796.png",
           "editor": "https://app.datawrapper.de/chart/egzKM/visualize",
           "preview": "https://app.datawrapper.de/preview/egzKM",
           "source": "https://docs.google.com/spreadsheets/d/1NhwTdIJypSzeXUo-hRjTPlGT6kiCg8UhlRhIzZJwNI0/edit",
-          "updatedAt": "2026-10-19T21:38:28.000Z",
+          "updatedAt": "2026-10-20T18:42:11.000Z",
           "width": 1600,
           "height": 3078,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/egzKM/"
         }
       ],
       "order": 1
@@ -795,18 +795,18 @@
         {
           "id": "hlrSA",
           "label": "Original",
-          "title": "Autonomy, robotics & sensing has the largest recorded workforce",
-          "takeaway": "Autonomy, robotics & sensing accounts for 1,515 current company-wide employees. Separate panels show how employment has developed across the seven critical technology areas, using the same vertical scale for comparison.",
+          "title": "Workforce scale differs across technology areas",
+          "takeaway": "Autonomy and information technologies together employ more than half the recorded workforce, while quantum employment has nearly doubled since December 2022. The contrast highlights both established workforce concentrations and growth in a smaller technology area.",
           "descriptor": "Company-wide headcount by critical technology area, December 2022–current 2026",
-          "image": "/charts/hlrSA-99a4a85b2e2765cc.png",
+          "image": "/charts/hlrSA-4e81c767d28dfa3e.png",
           "editor": "https://app.datawrapper.de/chart/hlrSA/visualize",
           "preview": "https://app.datawrapper.de/preview/hlrSA",
           "source": "https://docs.google.com/spreadsheets/d/18m7-HYFQ5ea_tRAcR_Fr-BXwENY71Trxsp_qX_Vt2OM/edit",
-          "updatedAt": "2026-10-19T21:38:48.000Z",
+          "updatedAt": "2026-10-20T18:42:14.000Z",
           "width": 1600,
           "height": 1802,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/hlrSA/"
         }
       ],
       "order": 1
@@ -821,18 +821,18 @@
         {
           "id": "ZmAvO",
           "label": "Original",
-          "title": "Median NatSec50 headcount rose from 41.5 to 78 employees",
-          "takeaway": "The median company rises from 41.5 to 78 recorded employees. All 50 companies and all 426 eligible comparison companies are included; missing snapshots count as zero.",
-          "descriptor": "Median company-wide headcount · December 2022–current 2026",
-          "image": "/charts/ZmAvO-38f6561c6b6c2e0a.png",
+          "title": "The typical NatSec50 company has grown substantially",
+          "takeaway": "Median recorded headcount has nearly doubled since December 2022 and is now more than five times the median across the wider eligible company pool. Growth in the typical company shows that the cohort’s expansion extends beyond its largest employers.",
+          "descriptor": "Median company-wide headcount, December 2022–current 2026",
+          "image": "/charts/ZmAvO-a56d4ebee7840f55.png",
           "editor": "https://app.datawrapper.de/chart/ZmAvO/visualize",
           "preview": "https://app.datawrapper.de/preview/ZmAvO",
           "source": "https://docs.google.com/spreadsheets/d/1i2h9JVVHdaMakX_jtbJ0ULs_1du5NZxRwBU6hHXMdxM/edit",
-          "updatedAt": "2026-10-19T21:21:36.000Z",
+          "updatedAt": "2026-10-20T18:42:17.000Z",
           "width": 1600,
           "height": 770,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/ZmAvO/"
         }
       ],
       "order": 1
@@ -847,18 +847,18 @@
         {
           "id": "TXLkw",
           "label": "Original",
-          "title": "NatSec50 headcount grew 58.4% from December 2022 to current 2026",
-          "takeaway": "The cohort rises from 3,098 to 4,906 recorded employees. All 50 companies and all 426 eligible comparison companies are included; missing snapshots count as zero.",
-          "descriptor": "Total company-wide headcount · December 2022–current 2026",
-          "image": "/charts/TXLkw-e29c2d87cdbeeb8c.png",
+          "title": "NatSec50 employment outpaces the wider pool",
+          "takeaway": "NatSec50 headcount grew faster than the wider eligible company pool, which expanded 33.6% over the same period. The cohort’s share of recorded employment rose from 32.7% to 38.7%.",
+          "descriptor": "Total company-wide headcount, December 2022–current 2026",
+          "image": "/charts/TXLkw-51ca5f4b0f6a1ddc.png",
           "editor": "https://app.datawrapper.de/chart/TXLkw/visualize",
           "preview": "https://app.datawrapper.de/preview/TXLkw",
           "source": "https://docs.google.com/spreadsheets/d/160UV2rZ5dJFoE5pRTigrS4VI-0DPtG-5Q7IPe6aHXRA/edit",
-          "updatedAt": "2026-10-19T21:38:11.000Z",
+          "updatedAt": "2026-10-20T18:42:20.000Z",
           "width": 1600,
           "height": 770,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/TXLkw/"
         }
       ],
       "order": 1
@@ -873,34 +873,34 @@
         {
           "id": "Ad105",
           "label": "Including CDC",
-          "title": "Australian contract values are 31 times recorded US prime obligations",
-          "takeaway": "Across all 50 companies, Australian contract notices total AU$2.26 billion; recorded US prime obligations equal AU$72.83 million. Among the eight US prime awardees, the corresponding Australian value is AU$55.30 million. These are cumulative source totals with different coverage, not comparable cash spending.",
-          "descriptor": "Same companies within each row · AU$ millions · US dollars converted at RBA 20 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/Ad105-4814417f190fa238.png",
+          "title": "Australia dominates the aggregate contracting picture",
+          "takeaway": "Recorded Australian contract values far exceed US prime obligations across the cohort, heavily influenced by CDC. Among companies already holding US prime awards, the balance reverses, showing why the aggregate alone can obscure the significance of US government work; source coverage differs.",
+          "descriptor": "Australian contract values and US prime obligations (AUD millions)",
+          "image": "/charts/Ad105-8971041b08011161.png",
           "editor": "https://app.datawrapper.de/chart/Ad105/visualize",
           "preview": "https://app.datawrapper.de/preview/Ad105",
           "source": "https://docs.google.com/spreadsheets/d/1izIi-Ej8xMCeEwEC63VxNlooLKhRkHsOM5UUYBmBhCY/edit",
-          "updatedAt": "2026-10-20T12:55:18.000Z",
+          "updatedAt": "2026-10-20T18:42:43.000Z",
           "width": 1600,
           "height": 144,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/Ad105/"
         },
         {
           "id": "CsbIH",
           "label": "Excluding CDC",
-          "title": "Australian contract values are 6.9 times recorded US prime obligations · Excluding CDC",
-          "takeaway": "Excluding CDC leaves AU$504.73 million in Australian contract notices versus AU$72.83 million in recorded US prime obligations. CDC has no recorded US prime value; the eight-prime-awardee subset is unchanged. Source coverage differs; these are not comparable cash receipts.",
-          "descriptor": "Same companies within each row · AU$ millions · US dollars converted at RBA 20 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/CsbIH-2a6b57110ccec315.png",
+          "title": "Australian contract value still leads beyond CDC",
+          "takeaway": "Removing CDC narrows the gap substantially, but recorded Australian contract value remains 6.9 times US prime obligations. US government work is concentrated in a smaller group of companies, and the two sources have different coverage.",
+          "descriptor": "Australian contract values and US prime obligations (AUD millions)",
+          "image": "/charts/CsbIH-8e07c8c499ad61c8.png",
           "editor": "https://app.datawrapper.de/chart/CsbIH/visualize",
           "preview": "https://app.datawrapper.de/preview/CsbIH",
           "source": "https://docs.google.com/spreadsheets/d/1qgPG4oqnLnIqtk4rsaman_PC_q6X0Xkw7QKc-RQM7nY/edit",
-          "updatedAt": "2026-10-20T12:55:17.000Z",
+          "updatedAt": "2026-10-20T18:42:46.000Z",
           "width": 1600,
           "height": 144,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/CsbIH/"
         }
       ],
       "order": 1
@@ -915,18 +915,18 @@
         {
           "id": "hUwiI",
           "label": "Original",
-          "title": "Recorded US government work identified for 9 NatSec50 companies",
-          "takeaway": "Eight companies have recorded prime awards; Silentium Defence appears through subaward reports only. Of 50 companies, 48 profiles were matched and two remain unmatched. Zero denotes no recorded value, not proof of no US business.",
-          "descriptor": "All 50 companies · ordered by recorded US activity · US$ millions · 19 October 2026",
-          "image": "/charts/hUwiI-fb70cbb80e5610ac.png",
+          "title": "US government work reaches a limited part of the cohort",
+          "takeaway": "Recorded US activity is concentrated in a small group rather than spread across the NatSec50. Eight companies have prime awards, while Silentium Defence appears through subaward reports, showing that participation includes both direct and subcontracting relationships.",
+          "descriptor": "Recorded US prime obligations and subaward reports by company",
+          "image": "/charts/hUwiI-153f7a38788df85a.png",
           "editor": "https://app.datawrapper.de/chart/hUwiI/visualize",
           "preview": "https://app.datawrapper.de/preview/hUwiI",
           "source": "https://docs.google.com/spreadsheets/d/1n_eMJjtQTjJ5sDAlSKYSKMFFcHNygxeacLStd3FDNA0/edit",
-          "updatedAt": "2026-10-20T12:54:18.000Z",
+          "updatedAt": "2026-10-20T18:42:49.000Z",
           "width": 1600,
           "height": 7494,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/hUwiI/"
         }
       ],
       "order": 1
@@ -941,18 +941,18 @@
         {
           "id": "Gt24P",
           "label": "Original",
-          "title": "Six of eight US prime awardees record larger US than Australian totals",
-          "takeaway": "At the same AUD valuation, US prime obligations exceed recorded Australian contract-notice value for six of the eight companies. Australian grants and reported US subawards are excluded. Zero means no recorded contract notices, not no government support; neither measure is revenue or cash received.",
-          "descriptor": "Eight US prime awardees · cumulative recorded totals · AU$ millions · RBA 20 October 2026 FX",
-          "image": "/charts/Gt24P-f0310de8cf041e24.png",
+          "title": "US awards matter disproportionately to several companies",
+          "takeaway": "Six of the eight companies with US prime awards record larger US totals than Australian contract values. For this group, US government work is a substantial part of the recorded contracting picture, even though Australian value dominates the cohort-wide aggregate; source coverage differs.",
+          "descriptor": "US prime obligations and Australian contract values by company (AUD millions)",
+          "image": "/charts/Gt24P-d7bb59c6cf789b50.png",
           "editor": "https://app.datawrapper.de/chart/Gt24P/visualize",
           "preview": "https://app.datawrapper.de/preview/Gt24P",
           "source": "https://docs.google.com/spreadsheets/d/1UYnHKcUGBRdq601dZauJdtmsB31RQhqhkCANtFfUUR0/edit",
-          "updatedAt": "2026-10-20T12:49:31.000Z",
+          "updatedAt": "2026-10-20T18:42:52.000Z",
           "width": 1600,
           "height": 516,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/Gt24P/"
         }
       ],
       "order": 1
@@ -967,18 +967,18 @@
         {
           "id": "5xplP",
           "label": "Original",
-          "title": "DARPA accounts for 56% of recorded US prime obligations",
-          "takeaway": "DARPA awards go to Q-CTRL, Diraq and Silicon Quantum Computing. The Office of the Secretary of Defense is the second-largest awarding customer, serving Fivecast and Hypersonix. Funding-agency hierarchies can differ.",
-          "descriptor": "Awarding agencies · US$ millions in prime obligations · NatSec50 · 19 October 2026",
-          "image": "/charts/5xplP-650c33c23c04a234.png",
+          "title": "DARPA anchors recorded US prime obligations",
+          "takeaway": "DARPA’s awards to Q-CTRL, Diraq and Silicon Quantum Computing make it the largest recorded US awarding customer. The pattern places research-oriented defence demand at the centre of the cohort’s recorded US prime activity.",
+          "descriptor": "US prime obligations by awarding agency (USD millions)",
+          "image": "/charts/5xplP-bd4907ce3d0ce1bf.png",
           "editor": "https://app.datawrapper.de/chart/5xplP/visualize",
           "preview": "https://app.datawrapper.de/preview/5xplP",
           "source": "https://docs.google.com/spreadsheets/d/1eeB-RcPdIPysM6LSkbaTcXDgkpl1FksH9l5vx9_dY-I/edit",
-          "updatedAt": "2026-10-20T12:46:01.000Z",
+          "updatedAt": "2026-10-20T18:42:56.000Z",
           "width": 1600,
           "height": 660,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/5xplP/"
         }
       ],
       "order": 1
@@ -993,18 +993,18 @@
         {
           "id": "2xdJS",
           "label": "Original",
-          "title": "Eight NatSec50 companies record US$50.86 million in prime obligations",
-          "takeaway": "Q-CTRL accounts for 32.4% of the recorded total. These cumulative figures include purchase orders and Other Transactions; reported subawards are excluded.",
-          "descriptor": "Recorded prime obligations by company · US$ millions · 19 October 2026",
-          "image": "/charts/2xdJS-2c143664e1edb030.png",
+          "title": "A few companies lead recorded US prime activity",
+          "takeaway": "Q-CTRL, Hypersonix and Fivecast together account for roughly seven in ten dollars of recorded US prime obligations. The concentration shows that access to US government work is substantial for a few companies but uneven across the cohort.",
+          "descriptor": "US prime obligations by company (USD millions)",
+          "image": "/charts/2xdJS-2e10d18135ee93bb.png",
           "editor": "https://app.datawrapper.de/chart/2xdJS/visualize",
           "preview": "https://app.datawrapper.de/preview/2xdJS",
           "source": "https://docs.google.com/spreadsheets/d/1-f7K-QcvOMYbeINNdrQ1_Jj2pGuaIJw3ZSEvHXO_q3w/edit",
-          "updatedAt": "2026-10-20T12:47:47.000Z",
+          "updatedAt": "2026-10-20T18:42:59.000Z",
           "width": 1600,
           "height": 474,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/2xdJS/"
         }
       ],
       "order": 1
@@ -1019,34 +1019,34 @@
         {
           "id": "UT7ui",
           "label": "Including CDC",
-          "title": "AUS NatSec50 records US$6.78 billion in cumulative private capital",
-          "takeaway": "The 50 companies have AU$2.50 billion in recorded federal awards and 4,906 company-wide employees. Annual fundraising figures cover only the three latest recorded raises, not complete event histories.",
-          "descriptor": "Key statistics · current original-rank top 50 · 19 October 2026 · Including CDC · 50 companies",
-          "image": "/charts/UT7ui-2b574e5b2b2420a7.png",
+          "title": "Private investment has built substantial scale",
+          "takeaway": "The cohort combines billions in private capital with a growing workforce, but recorded federal support has not followed a steady upward path. Federal award value fell 56% in the latest completed financial year, highlighting the uneven pace of government engagement.",
+          "descriptor": "Private capital, federal awards, fundraising and employment indicators",
+          "image": "/charts/UT7ui-6f752004ca2b8f43.png",
           "editor": "https://app.datawrapper.de/chart/UT7ui/visualize",
           "preview": "https://app.datawrapper.de/preview/UT7ui",
           "source": "https://docs.google.com/spreadsheets/d/1_VOJY2aq3ZFNhK7X1WZRqE6Ra_TyCqUhCWf9ADfabJg/edit",
-          "updatedAt": "2026-10-20T12:52:13.000Z",
+          "updatedAt": "2026-10-20T18:40:29.000Z",
           "width": 1600,
           "height": 686,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/UT7ui/"
         },
         {
           "id": "YaKjd",
           "label": "Excluding CDC",
-          "title": "The selected companies record US$3.73 billion in private capital · Excluding CDC",
-          "takeaway": "The 49 companies record AU$0.75 billion in federal awards and 4,540 company-wide employees. Annual fundraising covers only the three latest recorded raises; FY2026–27 is partial.",
-          "descriptor": "Key statistics · original 2026 cohort · 19 October 2026 · Excluding CDC · 49 companies",
-          "image": "/charts/YaKjd-f5ccb1444c8ed2e6.png",
+          "title": "The ecosystem extends well beyond CDC",
+          "takeaway": "Removing CDC still leaves billions in private investment and more than 4,500 employees across the cohort. Federal award value fell 24% in the latest completed financial year, showing that investment scale and government demand do not necessarily move together.",
+          "descriptor": "Private capital, federal awards, fundraising and employment indicators",
+          "image": "/charts/YaKjd-0c1ec298075c57ba.png",
           "editor": "https://app.datawrapper.de/chart/YaKjd/visualize",
           "preview": "https://app.datawrapper.de/preview/YaKjd",
           "source": "https://docs.google.com/spreadsheets/d/1mgu6sp6-uTfgZHy7362DtJYEeFqjzdOiERF-gEk62L8/edit",
-          "updatedAt": "2026-10-20T12:59:05.000Z",
+          "updatedAt": "2026-10-20T18:40:32.000Z",
           "width": 1600,
           "height": 686,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/YaKjd/"
         }
       ],
       "order": 1
@@ -1061,14 +1061,14 @@
         {
           "id": "Lkxki",
           "label": "Original",
-          "title": "Excluding grants changes the ranking of 48 NatSec50 companies",
-          "takeaway": "MCi Carbon moves from rank 19 to 76 under the contract-notice-only formula. The comparison holds the original 50-company cohort fixed and shows how the treatment of grants affects rank.",
-          "descriptor": "Original rank versus contract-notice-only rank (lower is better)",
-          "image": "/charts/Lkxki-9c22cf685d6fb8f8.png",
+          "title": "Grants reshape the NatSec50 rankings",
+          "takeaway": "Excluding grants shifts several companies’ rankings, highlighting those with stronger federal procurement traction.",
+          "descriptor": "Original rank versus contract-notice-only rank",
+          "image": "/charts/Lkxki-252a34ea8b8cb4f3.png",
           "editor": "https://app.datawrapper.de/chart/Lkxki/visualize",
           "preview": "https://app.datawrapper.de/preview/Lkxki",
           "source": "https://docs.google.com/spreadsheets/d/11U7Ramo807q6ODpZI0qL58tDLTZMucI5IibNGBfgUCc/edit",
-          "updatedAt": "2026-10-19T21:36:12.000Z",
+          "updatedAt": "2026-10-20T18:40:36.000Z",
           "width": 1600,
           "height": 1994,
           "published": true,
@@ -1087,18 +1087,18 @@
         {
           "id": "aaKIA",
           "label": "Original",
-          "title": "The 2026 Australian NatSec50 companies",
-          "takeaway": "The current original-rank top 50 includes Applied EV. Recorded headquarters and USD capital are shown for every company; a founding year of 0 denotes missing source data.",
-          "descriptor": "Ranks 1–50 · original 2026 NatSec100 Formula · 19 October 2026",
-          "image": "/charts/aaKIA-c251392664b3d847.png",
+          "title": "National security innovation spans diverse companies",
+          "takeaway": "The NatSec50 brings together businesses with markedly different levels of private investment and organisational maturity. Its leading ranks span space, data infrastructure and navigation, rather than a single technology niche.",
+          "descriptor": "Australian NatSec50 rankings and company profiles",
+          "image": "/charts/aaKIA-655ac1bacc808266.png",
           "editor": "https://app.datawrapper.de/chart/aaKIA/visualize",
           "preview": "https://app.datawrapper.de/preview/aaKIA",
           "source": "https://docs.google.com/spreadsheets/d/1SsKa7kYuia_Blphm6Sk-GAZvgUqSsI-5vDXS1X9kHLg/edit",
-          "updatedAt": "2026-10-19T21:14:56.000Z",
+          "updatedAt": "2026-10-20T18:40:39.000Z",
           "width": 1600,
           "height": 3594,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/aaKIA/"
         }
       ],
       "order": 1
@@ -1113,22 +1113,23 @@
         {
           "id": "QvbtE",
           "label": "Original",
-          "title": "The most connected recorded investor backs 15 NatSec50 companies",
-          "takeaway": "Main Sequence Ventures is linked to 15 of the current 50 companies. This ranking counts distinct portfolio companies, so repeated funding events do not increase an investor’s count. Recorded investors include government programmes and accelerators.",
-          "descriptor": "Top 20 recorded investors by distinct NatSec50 portfolio companies",
-          "image": "/charts/QvbtE-489ea09e53c426f3.png",
+          "title": "Public and private backers share the investment network",
+          "takeaway": "Main Sequence Ventures, the National Reconstruction Fund Corporation and In-Q-Tel are among the most widely connected recorded backers. The network also includes government programmes and accelerators, highlighting several forms of support around the cohort.",
+          "descriptor": "Recorded investors and programmes by distinct NatSec50 companies backed",
+          "image": "/charts/QvbtE-0ef3cdac4caa9d9a.png",
           "editor": "https://app.datawrapper.de/chart/QvbtE/visualize",
           "preview": "https://app.datawrapper.de/preview/QvbtE",
           "source": "https://docs.google.com/spreadsheets/d/1eO4s35phha_WwV3ZwTEAP2_tKidQnsE25OOFC9zuC20/edit",
-          "updatedAt": "2026-10-19T21:21:38.000Z",
+          "updatedAt": "2026-10-20T18:42:24.000Z",
           "width": 1600,
           "height": 1242,
-          "published": false,
-          "publishedUrl": null
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/QvbtE/"
         }
       ],
       "order": 1
     }
   ],
-  "sourceAuditedAt": "2026-10-20T18:31:50.960115+00:00"
+  "sourceAuditedAt": "2026-10-20T18:31:50.960115+00:00",
+  "editorialRevision": "Three-layer report wording — 20 October 2026"
 }
