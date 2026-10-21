@@ -1,9 +1,9 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T22:47:02.605165+00:00",
-  "chartCount": 41,
-  "analysisCount": 29,
-  "pairCount": 12,
+  "chartCount": 39,
+  "analysisCount": 28,
+  "pairCount": 11,
   "items": [
     {
       "id": "85B2M",
@@ -709,48 +709,6 @@
           "updatedAt": "2026-10-20T18:42:20.000Z",
           "width": 1600,
           "height": 770
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "Ad105",
-      "label": "Australian versus US government totals",
-      "categoryId": "us",
-      "category": "US government",
-      "revision": "069ea0fc750b7c0b",
-      "variants": [
-        {
-          "id": "CsbIH",
-          "label": "Excluding CDC",
-          "title": "Australian contract value leads US prime obligations",
-          "takeaway": "Recorded Australian contract value is 6.9 times US prime obligations across the cohort. US government work is concentrated in a smaller group of companies, and the two sources have different coverage.",
-          "descriptor": "Australian contract values and US prime obligations (AUD millions)",
-          "image": "/charts/CsbIH-32741c2a3c56b83f.png",
-          "editor": "https://app.datawrapper.de/chart/CsbIH/visualize",
-          "preview": "https://app.datawrapper.de/preview/CsbIH",
-          "source": "https://docs.google.com/spreadsheets/d/1qgPG4oqnLnIqtk4rsaman_PC_q6X0Xkw7QKc-RQM7nY/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/CsbIH/",
-          "updatedAt": "2026-10-20T20:54:48.000Z",
-          "width": 1600,
-          "height": 144
-        },
-        {
-          "id": "Ad105",
-          "label": "Including CDC",
-          "title": "CDC makes Australian contracting dominate the aggregate",
-          "takeaway": "Including CDC, recorded Australian contract value is 31 times US prime obligations. Among the eight companies with US prime awards the balance reverses, with US obligations exceeding Australian contract value; source coverage differs.",
-          "descriptor": "Australian contract values and US prime obligations (AUD millions)",
-          "image": "/charts/Ad105-ad52d46d4ffe7493.png",
-          "editor": "https://app.datawrapper.de/chart/Ad105/visualize",
-          "preview": "https://app.datawrapper.de/preview/Ad105",
-          "source": "https://docs.google.com/spreadsheets/d/1izIi-Ej8xMCeEwEC63VxNlooLKhRkHsOM5UUYBmBhCY/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/Ad105/",
-          "updatedAt": "2026-10-20T20:54:51.000Z",
-          "width": 1600,
-          "height": 144
         }
       ],
       "order": 1
