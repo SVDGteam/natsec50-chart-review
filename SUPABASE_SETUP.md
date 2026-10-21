@@ -21,6 +21,7 @@ Open **SQL Editor → New query** in Supabase.
 
 1. Open [supabase/01-schema.sql](supabase/01-schema.sql) in this repository. Use the Raw button to copy the entire file, paste it into the SQL Editor, and click **Run**. Run this file once in the new project.
 2. Start a new query and run [supabase/02-catalog.sql](supabase/02-catalog.sql). This registers the 36 analyses, their revisions and their valid chart variants. This file is safe to run again after a chart refresh.
+3. Start a new query and run [supabase/03-suggestions.sql](supabase/03-suggestions.sql) once. This adds the **Suggest a graph** page, where signed-in reviewers post graph ideas that the whole team can read. Existing projects only need this file; it does not touch earlier votes or comments.
 
 The schema enables Row Level Security. Only approved signed-in reviewers can read feedback. Each person can change their own votes and comments; another reviewer cannot change them. The chart library and saved draft images remain public on GitHub Pages; published graphs load live from Datawrapper.
 

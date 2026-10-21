@@ -16,7 +16,7 @@ async function rpc(name,args){return checked(await required().rpc(name,args));}
 async function rows(table,filters={}){
  const all=[];
  for(let offset=0;;offset+=500){let q=required().from(table).select('*');for(const [column,value] of Object.entries(filters))q=q.eq(column,value);
- const order=table==='review_votes'?['chart_id','revision','reviewer_id']:table==='review_comments'?['created_at','id']:['id'];for(const column of order)q=q.order(column);
+ const order=table==='review_votes'?['chart_id','revision','reviewer_id']:table==='review_comments'||table==='review_suggestions'?['created_at','id']:['id'];for(const column of order)q=q.order(column);
  const page=checked(await q.range(offset,offset+499));all.push(...page);if(page.length<500)return all;}
 }
 async function accessibleUser(){const u=await user();if(!u)return null;const allowed=await rpc('review_has_access',{});if(!allowed)throw new Error('This account is not on the reviewer list. Ask the project owner to add your email.');return u;}
@@ -47,6 +47,16 @@ export async function cloudApi(path,body,method='POST'){
   }
   return rpc('review_post_comment',{p_chart_id:item.id,p_revision:body.revision,p_variant:body.variantId,p_body:body.body,p_parent:body.parentId||null});
  }
+ if(path==='/api/suggestions'){
+  if(body===undefined){
+   const u=await accessibleUser();if(!u)return {suggestions:[]};
+   const [list,profiles]=await Promise.all([rows('review_suggestions'),rows('review_profiles')]);
+   const names=new Map(profiles.map(p=>[p.id,p.name]));return {suggestions:list.map(x=>({...x,author:names.get(x.reviewer_id)||'Reviewer'})).reverse()};
+  }
+  return rpc('review_post_suggestion',{p_title:body.title,p_body:body.body});
+ }
+ const suggestion=path.match(/^\/api\/suggestions\/([\w-]+)$/);
+ if(suggestion)return rpc(method==='DELETE'?'review_remove_suggestion':'review_edit_suggestion',method==='DELETE'?{p_id:suggestion[1]}:{p_id:suggestion[1],p_title:body.title,p_body:body.body});
  const comment=path.match(/^\/api\/comments\/([\w-]+)$/);
  if(comment)return rpc(method==='DELETE'?'review_remove_comment':'review_edit_comment',method==='DELETE'?{p_id:comment[1]}:{p_id:comment[1],p_body:body.body});
  throw new Error('Unsupported request.');

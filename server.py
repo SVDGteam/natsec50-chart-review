@@ -13,7 +13,13 @@ CREATE TABLE IF NOT EXISTS snapshots(chart_id TEXT NOT NULL,revision TEXT NOT NU
 CREATE TABLE IF NOT EXISTS reviews(chart_id TEXT NOT NULL,revision TEXT NOT NULL,reviewer_id TEXT NOT NULL REFERENCES reviewers(id),vote INTEGER CHECK(vote IN (-1,1) OR vote IS NULL),preference TEXT,updated_at TEXT NOT NULL,PRIMARY KEY(chart_id,revision,reviewer_id));
 CREATE TABLE IF NOT EXISTS comments(id TEXT PRIMARY KEY,chart_id TEXT NOT NULL,revision TEXT NOT NULL,variant_id TEXT NOT NULL,reviewer_id TEXT NOT NULL REFERENCES reviewers(id),parent_id TEXT REFERENCES comments(id),body TEXT NOT NULL,created_at TEXT NOT NULL,updated_at TEXT NOT NULL,deleted_at TEXT);
 CREATE INDEX IF NOT EXISTS comments_chart ON comments(chart_id,revision,created_at);
+CREATE TABLE IF NOT EXISTS suggestions(id TEXT PRIMARY KEY,reviewer_id TEXT NOT NULL REFERENCES reviewers(id),title TEXT NOT NULL,body TEXT NOT NULL,created_at TEXT NOT NULL,updated_at TEXT NOT NULL,deleted_at TEXT);
 '''
+def suggestion_text(data):
+ title=' '.join(str(data.get('title','')).split());body=str(data.get('body','')).strip()
+ if not 1<=len(title)<=120:raise ValueError('Give the suggestion a short title (1 to 120 characters).')
+ if not 1<=len(body)<=4000:raise ValueError('Describe the graph in 1 to 4,000 characters.')
+ return title,body
 def now():return datetime.now(timezone.utc).isoformat()
 def connect(path):
  db=sqlite3.connect(path,timeout=10);db.row_factory=sqlite3.Row;db.execute('PRAGMA foreign_keys=ON');return db
@@ -83,6 +89,10 @@ class ReviewHandler(SimpleHTTPRequestHandler):
     with self.db() as db:
      rows=db.execute('SELECT c.*,r.name author FROM comments c JOIN reviewers r ON c.reviewer_id=r.id WHERE c.chart_id=? AND c.revision=? ORDER BY c.created_at,c.id',(item['id'],revision)).fetchall()
      return self.json({'comments':[{**dict(r),'body':'' if r['deleted_at'] else r['body']} for r in rows],'revision':revision})
+   if path=='/api/suggestions':
+    with self.db() as db:
+     rows=db.execute('SELECT s.*,r.name author FROM suggestions s JOIN reviewers r ON s.reviewer_id=r.id ORDER BY s.created_at DESC,s.id').fetchall()
+     return self.json({'suggestions':[{**dict(r),'title':'' if r['deleted_at'] else r['title'],'body':'' if r['deleted_at'] else r['body']} for r in rows]})
    if path=='/api/export.csv':return self.export_csv()
    if path.startswith('/api/'):return self.json({'error':'Not found.'},404)
    if path=='/':self.path='/index.html'
@@ -130,6 +140,19 @@ class ReviewHandler(SimpleHTTPRequestHandler):
       if not pr:raise ValueError('Reply target does not belong to this chart revision.')
       if pr['parent_id']:raise ValueError('Reply to the original comment instead.')
      cid=secrets.token_hex(12);stamp=now();db.execute('INSERT INTO comments VALUES(?,?,?,?,?,?,?,?,?,NULL)',(cid,item['id'],revision,variant,who['id'],parent,body,stamp,stamp));db.commit();return self.json({'id':cid},201)
+    if path=='/api/suggestions' and method=='POST':
+     title,body=suggestion_text(data);sid=secrets.token_hex(12);stamp=now()
+     db.execute('INSERT INTO suggestions VALUES(?,?,?,?,?,?,NULL)',(sid,who['id'],title,body,stamp,stamp));db.commit();return self.json({'id':sid},201)
+    sm=re.fullmatch(r'/api/suggestions/([a-f0-9]{24})',path)
+    if sm and method in ('PATCH','DELETE'):
+     row=db.execute('SELECT * FROM suggestions WHERE id=?',(sm[1],)).fetchone()
+     if not row:return self.json({'error':'Suggestion not found.'},404)
+     if row['reviewer_id']!=who['id']:return self.json({'error':'Only the author can change this suggestion.'},403)
+     if row['deleted_at']:raise ValueError('This suggestion was removed.')
+     if method=='DELETE':db.execute('UPDATE suggestions SET deleted_at=?,updated_at=? WHERE id=?',(now(),now(),sm[1]))
+     else:
+      title,body=suggestion_text(data);db.execute('UPDATE suggestions SET title=?,body=?,updated_at=? WHERE id=?',(title,body,now(),sm[1]))
+     db.commit();return self.json({'ok':True})
     cm=re.fullmatch(r'/api/comments/([a-f0-9]{24})',path)
     if cm and method in ('PATCH','DELETE'):
      comment=db.execute('SELECT * FROM comments WHERE id=?',(cm[1],)).fetchone()
