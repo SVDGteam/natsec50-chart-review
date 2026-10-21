@@ -24,7 +24,6 @@ insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current
 ('TXLkw','f8e3e210119a2e36','Total headcount growth',array['TXLkw'],true),
 ('hUwiI','1ee49e0c4c2bfe48','Companies doing business with the US government',array['hUwiI'],true),
 ('5xplP','d50b22af63d54464','US prime obligations by agency',array['5xplP'],true),
-('2xdJS','21376308a14164ac','US prime obligations by company',array['2xdJS'],true),
 ('UT7ui','fdca596f9b342eb4','Cohort statistics',array['YaKjd','UT7ui'],true),
 ('Lkxki','0516bea79c13458f','Ranking sensitivity to excluding grants',array['Lkxki'],true),
 ('aaKIA','3a4b111f29980338','The Australian NatSec50 companies',array['aaKIA'],true),

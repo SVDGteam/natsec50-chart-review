@@ -1,8 +1,8 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T22:47:02.605165+00:00",
-  "chartCount": 38,
-  "analysisCount": 27,
+  "chartCount": 37,
+  "analysisCount": 26,
   "pairCount": 11,
   "items": [
     {
@@ -881,32 +881,6 @@
           "updatedAt": "2026-10-20T18:42:56.000Z",
           "width": 1600,
           "height": 660
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "2xdJS",
-      "label": "US prime obligations by company",
-      "categoryId": "us",
-      "category": "US government",
-      "revision": "21376308a14164ac",
-      "variants": [
-        {
-          "id": "2xdJS",
-          "label": "Original",
-          "title": "A few companies lead recorded US prime activity",
-          "takeaway": "Q-CTRL, Hypersonix and Fivecast together account for roughly seven in ten dollars of recorded US prime obligations. The concentration shows that access to US government work is substantial for a few companies but uneven across the cohort.",
-          "descriptor": "US prime obligations by company (USD millions)",
-          "image": "/charts/2xdJS-97003a818791496b.png",
-          "editor": "https://app.datawrapper.de/chart/2xdJS/visualize",
-          "preview": "https://app.datawrapper.de/preview/2xdJS",
-          "source": "https://docs.google.com/spreadsheets/d/1-f7K-QcvOMYbeINNdrQ1_Jj2pGuaIJw3ZSEvHXO_q3w/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/2xdJS/",
-          "updatedAt": "2026-10-20T18:42:59.000Z",
-          "width": 1600,
-          "height": 474
         }
       ],
       "order": 1
