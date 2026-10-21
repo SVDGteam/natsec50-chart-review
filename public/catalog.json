@@ -1,8 +1,8 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T22:47:02.605165+00:00",
-  "chartCount": 39,
-  "analysisCount": 28,
+  "chartCount": 38,
+  "analysisCount": 27,
   "pairCount": 11,
   "items": [
     {
@@ -715,7 +715,7 @@
     },
     {
       "id": "hUwiI",
-      "label": "Companies with recorded US government work",
+      "label": "Companies doing business with the US government",
       "categoryId": "us",
       "category": "US government",
       "revision": "1ee49e0c4c2bfe48",
@@ -735,32 +735,6 @@
           "updatedAt": "2026-10-20T18:42:49.000Z",
           "width": 1600,
           "height": 7494
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "Gt24P",
-      "label": "US and Australian work by company",
-      "categoryId": "us",
-      "category": "US government",
-      "revision": "ed8d4cbc9d34c89e",
-      "variants": [
-        {
-          "id": "Gt24P",
-          "label": "Original",
-          "title": "US awards matter disproportionately to several companies",
-          "takeaway": "Six of the eight companies with US prime awards record larger US totals than Australian contract values. For this group, US government work is a substantial part of the recorded contracting picture, even though Australian value dominates the cohort-wide aggregate; source coverage differs.",
-          "descriptor": "US prime obligations and Australian contract values by company (AUD millions)",
-          "image": "/charts/Gt24P-9c0e1eac1b48728e.png",
-          "editor": "https://app.datawrapper.de/chart/Gt24P/visualize",
-          "preview": "https://app.datawrapper.de/preview/Gt24P",
-          "source": "https://docs.google.com/spreadsheets/d/1UYnHKcUGBRdq601dZauJdtmsB31RQhqhkCANtFfUUR0/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/Gt24P/",
-          "updatedAt": "2026-10-20T18:42:52.000Z",
-          "width": 1600,
-          "height": 516
         }
       ],
       "order": 1
