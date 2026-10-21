@@ -1,8 +1,8 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T22:47:02.605165+00:00",
-  "chartCount": 42,
-  "analysisCount": 30,
+  "chartCount": 41,
+  "analysisCount": 29,
   "pairCount": 12,
   "items": [
     {
@@ -501,32 +501,6 @@
           "updatedAt": "2026-10-20T18:42:36.000Z",
           "width": 1600,
           "height": 308
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "M13Os",
-      "label": "Selected mergers and acquisitions",
-      "categoryId": "capital",
-      "category": "Private investment",
-      "revision": "d1132efb50614688",
-      "variants": [
-        {
-          "id": "M13Os",
-          "label": "Original",
-          "title": "Selected deals connect defence technology businesses",
-          "takeaway": "The Penten–Amiosec merger and Shield AI’s acquisition of Sentient Vision illustrate different routes to consolidation in cybersecurity and sensing. A merger can combine businesses without taking the resulting company out of private ownership, as PentenAmio demonstrates.",
-          "descriptor": "Selected Australian defence mergers and acquisitions",
-          "image": "/charts/M13Os-263bd4dbc193bf3f.png",
-          "editor": "https://app.datawrapper.de/chart/M13Os/visualize",
-          "preview": "https://app.datawrapper.de/preview/M13Os",
-          "source": "https://docs.google.com/spreadsheets/d/1NcU-psC8IkyScFM9PoNL_CMh-LRvZkVQg3UGVQQ0Bcs/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/M13Os/",
-          "updatedAt": "2026-10-20T18:42:40.000Z",
-          "width": 1600,
-          "height": 382
         }
       ],
       "order": 1

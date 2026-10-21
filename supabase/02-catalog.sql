@@ -14,7 +14,6 @@ insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current
 ('t3Rvy','f95a8d69ea508ef6','Technology verticals · companies, capital & federal awards',array['WWR98','t3Rvy'],true),
 ('u9QBA','e13285045ed01dcf','Capital and contract concentration',array['4ScBj','u9QBA'],true),
 ('gRm6y','776df31f76cdc21d','Selected Australian defence IPOs',array['gRm6y'],true),
-('M13Os','d1132efb50614688','Selected mergers and acquisitions',array['M13Os'],true),
 ('mEeZT','a9dcada73440daf5','Global office presence',array['mEeZT'],true),
 ('GQJqP','f29d99324083701d','Headquarters by state',array['GQJqP'],true),
 ('9i7n2','e422ffff9a5a0f7b','Office presence by state',array['9i7n2'],true),
