@@ -1,8 +1,8 @@
 {
   "title": "Australian NatSec50",
   "capturedAt": "2026-10-20T22:47:02.605165+00:00",
-  "chartCount": 43,
-  "analysisCount": 31,
+  "chartCount": 42,
+  "analysisCount": 30,
   "pairCount": 12,
   "items": [
     {
@@ -475,32 +475,6 @@
           "updatedAt": "2026-10-20T22:44:28.000Z",
           "width": 1600,
           "height": 906
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "IYjmo",
-      "label": "Fundraising recency",
-      "categoryId": "capital",
-      "category": "Private investment",
-      "revision": "8ef3362d62f13464",
-      "variants": [
-        {
-          "id": "IYjmo",
-          "label": "Original",
-          "title": "Recent fundraising is uneven across the cohort",
-          "takeaway": "Only about a third of companies have a recorded latest raise within the past year. The spread of fundraising dates highlights different funding timelines across the ecosystem, without establishing whether individual companies need additional capital.",
-          "descriptor": "Companies by time since their latest recorded capital raise",
-          "image": "/charts/IYjmo-cec1be7a5c3039ef.png",
-          "editor": "https://app.datawrapper.de/chart/IYjmo/visualize",
-          "preview": "https://app.datawrapper.de/preview/IYjmo",
-          "source": "https://docs.google.com/spreadsheets/d/1eYfSfeUR9bT9L762axqLcqRi2PcsODDAlBxfUBMn41g/edit",
-          "published": true,
-          "publishedUrl": "https://datawrapper.dwcdn.net/IYjmo/",
-          "updatedAt": "2026-10-20T18:42:33.000Z",
-          "width": 1600,
-          "height": 226
         }
       ],
       "order": 1
