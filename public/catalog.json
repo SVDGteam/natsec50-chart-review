@@ -1,6 +1,6 @@
 {
   "title": "Australian NatSec50",
-  "capturedAt": "2026-11-03T14:35:25.714595+00:00",
+  "capturedAt": "2026-11-03T20:26:03.903788+00:00",
   "chartCount": 37,
   "analysisCount": 26,
   "pairCount": 11,
@@ -869,16 +869,16 @@
         {
           "id": "QvbtE",
           "label": "Original",
-          "title": "A few specialist investors anchor the NatSec50",
-          "takeaway": "Main Sequence Ventures backs 16 NatSec50 companies and In-Q-Tel 13, well ahead of any other investor. Beyond them, the most active backers each support five to seven companies, a sign of a broad investor base with a thin bench of repeat backers.",
-          "descriptor": "Top 10 recorded investors by number of NatSec50 companies backed",
-          "image": "/charts/QvbtE-6f89c4775034d616.png",
+          "title": "Two repeat backers stand out across the NatSec50",
+          "takeaway": "Main Sequence Ventures and In-Q-Tel each back more than a quarter of the NatSec50, while no other investor backs more than seven companies. Counts combine related entities, such as a firm and its venture arm, and exclude government grant programmes.",
+          "descriptor": "Top 10 investors by number of NatSec50 companies backed",
+          "image": "/charts/QvbtE-49134868f50a0bcc.png",
           "editor": "https://app.datawrapper.de/chart/QvbtE/visualize",
           "preview": "https://app.datawrapper.de/preview/QvbtE",
           "source": "https://docs.google.com/spreadsheets/d/1eO4s35phha_WwV3ZwTEAP2_tKidQnsE25OOFC9zuC20/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/QvbtE/",
-          "updatedAt": "2026-11-02T16:47:18.000Z",
+          "updatedAt": "2026-11-03T20:17:02.000Z",
           "width": 1600,
           "height": 598
         }

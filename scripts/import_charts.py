@@ -22,12 +22,12 @@ consolidations=json.loads((ROOT/'data/catalog-consolidations.json').read_text())
 withdrawn=set(policy['withdrawnChartIds'])|set(consolidations['consolidatedChartIds'])
 charts=[c for c in charts if c['id'] not in withdrawn]
 by={c['id']:c for c in charts};pairs={'85B2M':'vYJSR'};INCL_FIRST={'85B2M'}  # the capital-versus-awards donut keeps Including CDC first; every other pair leads with Excluding CDC
-for m in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/cdc_rollout/manifest.json')):
+for m in json.load(open(Path('/Users/simonemontandon/Desktop/Claude Outputs/Australian NatSec100')/'datawrapper_aus_natsec50/cdc_rollout/manifest.json')):
  if m['original_id'] in by and m['id'] in by:pairs[m['original_id']]=m['id']
-companions=set(pairs.values());sheets={q['chart_id']:q['sheet_id'] for q in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/audit/plans.json'))};sheets['vYJSR']='1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo'
-for m in json.load(open(WORK/'outputs/datawrapper_aus_natsec50/cdc_rollout/manifest.json')):sheets[m['id']]=m.get('sheet_id')
+companions=set(pairs.values());sheets={q['chart_id']:q['sheet_id'] for q in json.load(open(Path('/Users/simonemontandon/Desktop/Claude Outputs/Australian NatSec100')/'datawrapper_aus_natsec50/audit/plans.json'))};sheets['vYJSR']='1HpVdYBhkNIFEjdf386qV7kmtCTvY5Dr1FJl_lyCadqo'
+for m in json.load(open(Path('/Users/simonemontandon/Desktop/Claude Outputs/Australian NatSec100')/'datawrapper_aus_natsec50/cdc_rollout/manifest.json')):sheets[m['id']]=m.get('sheet_id')
 # Reuse verified native US backing identities from the completed source run.
-us_report=WORK/'outputs/datawrapper_usg_natsec50_2026-10-20/completion_report.json'
+us_report=Path('/Users/simonemontandon/Desktop/Claude Outputs/Australian NatSec100')/'datawrapper_usg_natsec50_2026-10-20/completion_report.json'
 if us_report.exists():
  report=json.loads(us_report.read_text());keys={c['key']:c['id'] for c in report['createdCharts']}
  for sheet in report['nativeSheets']:
