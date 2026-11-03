@@ -22,7 +22,7 @@ insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current
 ('hlrSA','ee36c0ed14497a2f','Employment by technology',array['hlrSA'],true),
 ('ZmAvO','2e5b4a7d9492a588','Median headcount growth',array['ZmAvO'],true),
 ('TXLkw','f8e3e210119a2e36','Total headcount growth',array['TXLkw'],true),
-('hUwiI','1ee49e0c4c2bfe48','Companies doing business with the US government',array['hUwiI'],true),
+('hUwiI','1ee49e0c4c2bfe48','Companies with recorded US government work',array['hUwiI'],true),
 ('5xplP','d50b22af63d54464','US prime obligations by agency',array['5xplP'],true),
 ('UT7ui','fdca596f9b342eb4','Cohort statistics',array['YaKjd','UT7ui'],true),
 ('Lkxki','0516bea79c13458f','Ranking sensitivity to excluding grants',array['Lkxki'],true),
