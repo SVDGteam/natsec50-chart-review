@@ -22,5 +22,9 @@
     "Gt24P",
     "2xdJS"
   ],
-  "withdrawalReason": "Procurement method and Defence branch are unavailable in Federal Tenders AUS. These four views used the excluded AusTender Contracts table. Retain drafts and review history as historical evidence; exclude from the live review site and future imports."
+  "withdrawalReason": "Procurement method and Defence branch are unavailable in Federal Tenders AUS. These four views used the excluded AusTender Contracts table. Retain drafts and review history as historical evidence; exclude from the live review site and future imports.",
+  "analysisIdOverrides": {
+    "oq1YG": "FPVa0"
+  },
+  "archiveNote": "Charts cut from the review on 9 Nov 2026 (tvxoV, FPVa0, 2vjDY, EJ9oX, WYdJr) live in Datawrapper folder AUS NatSec50 / Archive (459628), which the import does not read. oq1YG keeps the FPVa0 analysis ID so earlier feedback stays attached."
 }
