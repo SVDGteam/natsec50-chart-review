@@ -1,6 +1,6 @@
 {
   "title": "Australian NatSec50",
-  "capturedAt": "2026-11-09T18:48:35.677764+00:00",
+  "capturedAt": "2026-11-09T20:53:42.888479+00:00",
   "chartCount": 33,
   "analysisCount": 24,
   "pairCount": 9,
@@ -364,15 +364,15 @@
           "id": "4ScBj",
           "label": "Excluding CDC",
           "title": "Federal procurement is more concentrated than private capital",
-          "takeaway": "Federal contracts flow to a narrower group of companies than private capital. The ten largest contract recipients hold about four-fifths of contract value, against about two-thirds of capital for the ten largest fundraisers; PentenAmio leads contracts with 29.5% and PsiQuantum leads capital with 36.2%.",
+          "takeaway": "Federal contract value is concentrated in fewer companies than private capital: the ten largest contract recipients hold about four-fifths of it, while the ten largest fundraisers hold just over two-thirds of capital. Outside each top 20, the remaining 29 companies share only 3.5% of contract value but 14.8% of capital.",
           "descriptor": "Share of private capital and federal contract value by company rank band (companies ranked separately on each measure)",
-          "image": "/charts/4ScBj-a4065d9ae7c10f93.png",
+          "image": "/charts/4ScBj-f3a2f485ba241529.png",
           "editor": "https://app.datawrapper.de/chart/4ScBj/visualize",
           "preview": "https://app.datawrapper.de/preview/4ScBj",
           "source": "https://docs.google.com/spreadsheets/d/1IFfnMY_0TO3UYOr6WbW6QQ_Im3V85LQwnUfiuRBIo-Q/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/4ScBj/",
-          "updatedAt": "2026-11-03T14:28:29.000Z",
+          "updatedAt": "2026-11-09T20:51:49.000Z",
           "width": 1600,
           "height": 940
         },
@@ -380,15 +380,15 @@
           "id": "u9QBA",
           "label": "Including CDC",
           "title": "CDC pushes procurement concentration higher still",
-          "takeaway": "With CDC included, CDC Data Centres holds 75.9% of federal contract value and 39.9% of private capital. The remaining 49 companies share less than a quarter of contract value between them.",
+          "takeaway": "CDC Data Centres alone holds three-quarters of federal contract value and two-fifths of private capital. The 30 companies outside each top 20 share about 1% of contract value and under a tenth of capital.",
           "descriptor": "Share of private capital and federal contract value by company rank band (companies ranked separately on each measure)",
-          "image": "/charts/u9QBA-09621757f0fe195d.png",
+          "image": "/charts/u9QBA-24e45b30bc2bc99d.png",
           "editor": "https://app.datawrapper.de/chart/u9QBA/visualize",
           "preview": "https://app.datawrapper.de/preview/u9QBA",
           "source": "https://docs.google.com/spreadsheets/d/1hA1p5zgq9FW7o1MfDFWYnOJbQGT0yFVtkmcAAnyZi6I/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/u9QBA/",
-          "updatedAt": "2026-11-03T14:28:33.000Z",
+          "updatedAt": "2026-11-09T20:51:51.000Z",
           "width": 1600,
           "height": 906
         }
@@ -582,23 +582,23 @@
       "label": "Median headcount growth",
       "categoryId": "people",
       "category": "Headcount growth",
-      "revision": "2e5b4a7d9492a588",
+      "revision": "1d55c52f8791bdf7",
       "variants": [
         {
           "id": "ZmAvO",
           "label": "Original",
           "title": "The typical NatSec50 company has grown substantially",
-          "takeaway": "Median recorded headcount has more than doubled since December 2022 and is now more than four times the median across the wider eligible company pool. Growth in the typical company shows that the cohort’s expansion extends beyond its largest employers.",
+          "takeaway": "Median recorded headcount has more than doubled since December 2022, from 28 to 66 employees. Growth in the typical company shows that the cohort’s expansion extends beyond its largest employers.",
           "descriptor": "Median company-wide headcount, December 2022–current 2026",
-          "image": "/charts/ZmAvO-e83e1f4c8d6aa8ce.png",
+          "image": "/charts/ZmAvO-94923e49aec8935a.png",
           "editor": "https://app.datawrapper.de/chart/ZmAvO/visualize",
           "preview": "https://app.datawrapper.de/preview/ZmAvO",
           "source": "https://docs.google.com/spreadsheets/d/1i2h9JVVHdaMakX_jtbJ0ULs_1du5NZxRwBU6hHXMdxM/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/ZmAvO/",
-          "updatedAt": "2026-10-28T15:58:33.000Z",
+          "updatedAt": "2026-11-09T20:51:42.000Z",
           "width": 1600,
-          "height": 770
+          "height": 694
         }
       ],
       "order": 1
@@ -608,21 +608,21 @@
       "label": "Total headcount growth",
       "categoryId": "people",
       "category": "Headcount growth",
-      "revision": "f8e3e210119a2e36",
+      "revision": "528c71692d308b50",
       "variants": [
         {
           "id": "TXLkw",
           "label": "Original",
-          "title": "NatSec50 employment outpaces the wider pool",
-          "takeaway": "NatSec50 headcount has grown 77.9% since December 2022, ahead of the wider eligible company pool’s 61.7%. The cohort’s share of recorded employment rose from 57.6% to 63.4%.",
+          "title": "The NatSec50 has added more than 2,300 jobs since 2022",
+          "takeaway": "Recorded headcount across the 50 companies rose 77.9%, from about 3,050 in December 2022 to about 5,420 today, with the largest annual gain, about 760 jobs, in 2025. Headcount growth is one of the ranking metrics, so the chart shows the scale of the cohort’s hiring rather than how it compares with other companies.",
           "descriptor": "Growth in total company-wide headcount since December 2022 (%)",
-          "image": "/charts/TXLkw-5bce41ecdb7e5418.png",
+          "image": "/charts/TXLkw-c049766c56c49c9e.png",
           "editor": "https://app.datawrapper.de/chart/TXLkw/visualize",
           "preview": "https://app.datawrapper.de/preview/TXLkw",
           "source": "https://docs.google.com/spreadsheets/d/160UV2rZ5dJFoE5pRTigrS4VI-0DPtG-5Q7IPe6aHXRA/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/TXLkw/",
-          "updatedAt": "2026-10-28T15:58:23.000Z",
+          "updatedAt": "2026-11-09T20:51:44.000Z",
           "width": 1600,
           "height": 658
         }
@@ -780,7 +780,7 @@
       "label": "Investors backing the NatSec50",
       "categoryId": "investors",
       "category": "Investors",
-      "revision": "330ce626f4ca1425",
+      "revision": "ac982d59f6c64f53",
       "variants": [
         {
           "id": "QvbtE",
@@ -788,15 +788,15 @@
           "title": "Two repeat backers stand out across the NatSec50",
           "takeaway": "Main Sequence Ventures and In-Q-Tel each back more than a quarter of the NatSec50, while no other investor backs more than seven companies. Counts combine related entities, such as a firm and its venture arm, and exclude government grant programmes.",
           "descriptor": "Top 10 investors by number of NatSec50 companies backed",
-          "image": "/charts/QvbtE-1ec8c0120fab7f23.png",
+          "image": "/charts/QvbtE-9b88bc9a2a5e7c5c.png",
           "editor": "https://app.datawrapper.de/chart/QvbtE/visualize",
           "preview": "https://app.datawrapper.de/preview/QvbtE",
           "source": "https://docs.google.com/spreadsheets/d/1eO4s35phha_WwV3ZwTEAP2_tKidQnsE25OOFC9zuC20/edit",
           "published": true,
           "publishedUrl": "https://datawrapper.dwcdn.net/QvbtE/",
-          "updatedAt": "2026-11-03T20:28:39.000Z",
+          "updatedAt": "2026-11-09T20:51:46.000Z",
           "width": 1600,
-          "height": 598
+          "height": 662
         }
       ],
       "order": 1
