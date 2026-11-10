@@ -1,6 +1,6 @@
 {
   "title": "Australian NatSec50",
-  "capturedAt": "2026-11-10T16:50:58.625319+00:00",
+  "capturedAt": "2026-11-10T16:58:52.087224+00:00",
   "chartCount": 33,
   "analysisCount": 24,
   "pairCount": 9,
@@ -512,13 +512,13 @@
           "title": "NatSec50 Companies with a US Office Command Higher Valuations",
           "takeaway": "The median company with a US office is valued at about twice one without, although some of the 48 valuations on record are estimates rather than reported figures.",
           "descriptor": "Median Last Known Valuation by US Office Presence (A$ Millions)",
-          "image": "/charts/mtZmA-b38c5a45e6bd0bf4.png",
+          "image": "/charts/mtZmA-11b73b5338886a8d.png",
           "editor": "https://app.datawrapper.de/chart/mtZmA/visualize",
           "preview": "https://app.datawrapper.de/preview/mtZmA",
           "source": "https://docs.google.com/spreadsheets/d/1-pglM6wn91LFFsXiEZ050ne237bV1sGtD92L-xvq4gM/edit",
-          "published": false,
-          "publishedUrl": null,
-          "updatedAt": "2026-11-10T16:45:42.000Z",
+          "published": true,
+          "publishedUrl": "https://datawrapper.dwcdn.net/mtZmA/",
+          "updatedAt": "2026-11-10T16:58:26.000Z",
           "width": 1600,
           "height": 102
         }
