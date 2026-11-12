@@ -2,15 +2,16 @@
 begin;
 update public.review_catalog set is_current=false;
 insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current) values
-('85B2M','b0a86e5c7ffc4364','Private capital versus federal awards',array['85B2M','vYJSR'],true),
+('85B2M','9b33bc97dc5a03af','Private capital versus federal awards',array['85B2M','vYJSR'],true),
 ('7feFF','1eb49898d8945685','Contracts versus grants',array['B8Q58','7feFF'],true),
 ('QKQgp','25c712710586029a','Federal awards by agency',array['KIDgZ','QKQgp'],true),
 ('PqCEz','78325c94e35555fe','Government procurement categories',array['FgKYq','PqCEz'],true),
-('FPVa0','b906801d21793cd6','AUKUS capability shares',array['oq1YG'],true),
-('gTBY5','965a3d389c665b39','Critical technologies · capital & federal awards',array['P1tcx','gTBY5'],true),
-('Riion','1900f0649edd51de','Critical technology shares',array['PxOMC','Riion'],true),
-('t3Rvy','99fdc32f9249d798','Technology verticals · companies, capital & federal awards',array['WWR98','t3Rvy'],true),
-('u9QBA','f3979e9c1a8916c2','Capital and contract concentration',array['4ScBj','u9QBA'],true),
+('FPVa0','4f2323491785eac1','AUKUS capability shares',array['oq1YG'],true),
+('gTBY5','345e2591b58ab44c','Critical technologies · capital & federal awards',array['P1tcx','gTBY5'],true),
+('Riion','5e800de002d06ec3','Critical technology shares',array['PxOMC','Riion'],true),
+('t3Rvy','f2a40f2409053d1f','Technology verticals · companies, capital & federal awards',array['WWR98','t3Rvy'],true),
+('u9QBA','a16bad139aee558b','Capital and contract concentration',array['4ScBj','u9QBA'],true),
+('pG0vz','52e3f5a72f8ff1d6','Private capital raised by year',array['YI3i1','pG0vz'],true),
 ('gRm6y','776df31f76cdc21d','Selected Australian defence IPOs',array['gRm6y'],true),
 ('mEeZT','cc41a2a68d361b8d','Global office presence',array['mEeZT'],true),
 ('GQJqP','0aff75b7acd2d299','Headquarters by state',array['GQJqP'],true),
@@ -22,9 +23,9 @@ insert into public.review_catalog(chart_id,revision,label,variant_ids,is_current
 ('TXLkw','83efa4abff6669fe','Total headcount growth',array['TXLkw'],true),
 ('hUwiI','c9208716369f4e1d','Companies with recorded US government work',array['hUwiI'],true),
 ('5xplP','d50b22af63d54464','US prime obligations by agency',array['5xplP'],true),
-('UT7ui','8ad55771ab4ac5c4','Cohort statistics',array['YaKjd','UT7ui'],true),
-('Lkxki','8dde6c42682959ce','Ranking sensitivity to excluding grants',array['Lkxki'],true),
-('aaKIA','81204ced7713318b','The Australian NatSec50 companies',array['aaKIA'],true),
+('UT7ui','4c306462bb8c93f7','Cohort statistics',array['YaKjd','UT7ui'],true),
+('Lkxki','909c8b6a3693abee','Ranking sensitivity to excluding grants',array['Lkxki'],true),
+('aaKIA','4684c2724a740247','The Australian NatSec50 companies',array['aaKIA'],true),
 ('QvbtE','5dca556ffd6bd273','Investors backing the NatSec50',array['QvbtE'],true)
 on conflict(chart_id,revision) do update set label=excluded.label,variant_ids=excluded.variant_ids,is_current=true;
 commit;
